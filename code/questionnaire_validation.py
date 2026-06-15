@@ -68,7 +68,7 @@ def main():
         rec_r = {
             "recall@1": mean("recall@1", seeds),
             "f1": mean("f1", seeds),
-            "citation": mean("citation", seeds),
+            "citation_when_answered": mean("citation_when_answered", seeds),
             "refusal_correct_unans": mean("refusal_correct_unans", seeds),
             "latency_mean_ms": mean("latency_mean_ms", seeds),
         }
@@ -76,15 +76,15 @@ def main():
         out[ds] = {
             "questionnaire_selected": {
                 "config": "adaptive (questionnaire route)",
-                **{k: rec_q[k] for k in ["recall@1","f1","citation","refusal_correct_unans","latency_mean_ms"]},
+                **{k: rec_q[k] for k in ["recall@1","f1","citation_when_answered","refusal_correct_unans","latency_mean_ms"]},
             },
             "oracle": {
                 "config": f"oracle over chunking ({oracle_key})",
-                **{k: rec_o[k] for k in ["recall@1","f1","citation","refusal_correct_unans","latency_mean_ms"]},
+                **{k: rec_o[k] for k in ["recall@1","f1","citation_when_answered","refusal_correct_unans","latency_mean_ms"]},
             },
             "fixed_default": {
                 "config": "paragraph + dense + no rerank + no abstain",
-                **{k: rec_d[k] for k in ["recall@1","f1","citation","refusal_correct_unans","latency_mean_ms"]},
+                **{k: rec_d[k] for k in ["recall@1","f1","citation_when_answered","refusal_correct_unans","latency_mean_ms"]},
             },
             "random_valid": {
                 "config": "random non-adaptive chunking (5-seed mean)",
@@ -99,7 +99,7 @@ def main():
         for kind in ["questionnaire_selected", "oracle", "fixed_default", "random_valid"]:
             p = payload[kind]
             print(f"{ds:12}{kind+':'+p['config'][:30]:40}{p['recall@1']:>7.3f}"
-                  f"{p['f1']:>7.3f}{p['citation']:>7.3f}{p['refusal_correct_unans']:>8.3f}"
+                  f"{p['f1']:>7.3f}{p['citation_when_answered']:>7.3f}{p['refusal_correct_unans']:>8.3f}"
                   f"{p['latency_mean_ms']:>9.1f}")
 
 

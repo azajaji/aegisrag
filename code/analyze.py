@@ -184,6 +184,7 @@ def summarize_ablation(path: Path, kind: str):
         rows = [p for p in info["per_question"] if not p["in_calibration"]]
         ans = [p for p in rows if p["answerable"]]
         una = [p for p in rows if not p["answerable"]]
+        cited = [p for p in ans if (p.get("prediction") or "").strip()]
         lats = [p.get(LATENCY, 0.0) for p in rows]
         out["variants"][vname] = {
             "n_chunks": info["n_chunks"],
@@ -195,6 +196,7 @@ def summarize_ablation(path: Path, kind: str):
             "ndcg@5": _avg(ans, "ndcg@5"),
             "f1": _avg(ans, "f1"),
             "citation": _avg(ans, "citation"),
+            "citation_when_answered": _avg(cited, "citation") if cited else float("nan"),
             "faithfulness": _avg(ans, "faithfulness"),
             "refusal_correct_unans": _avg(una, "refusal_correct"),
             "hallucination_unans": _avg(una, "hallucination"),
