@@ -1,0 +1,6097 @@
+{
+  "enterprise": {
+    "dataset": "enterprise",
+    "sample_size": 60,
+    "per_system": {
+      "BM25": {
+        "n": 47,
+        "mean_usefulness": 1.7659574468085106,
+        "pct_usefulness_ge2": 0.6382978723404256,
+        "pct_usefulness_3": 0.44680851063829785,
+        "pct_citation_ok": 0.723404255319149,
+        "ratings": [
+          {
+            "qid": "ent-3",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "automatic course failure and academic probation for one semester.",
+            "gold": [
+              "automatic course failure and academic probation for one semester"
+            ]
+          },
+          {
+            "qid": "ent-7",
+            "answerable": true,
+            "f1": 0.8571428571428571,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "within five business days",
+            "gold": [
+              "five business days"
+            ]
+          },
+          {
+            "qid": "ent-8",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "registrar portal",
+            "gold": [
+              "the registrar portal"
+            ]
+          },
+          {
+            "qid": "ent-9",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "[3]",
+            "gold": [
+              "90"
+            ]
+          },
+          {
+            "qid": "ent-21",
+            "answerable": true,
+            "f1": 0.2608695652173913,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 1,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "18 credit hours per semester for undergraduates and 12 credit hours for graduate students.",
+            "gold": [
+              "may not enroll in more than 12 credit hours"
+            ]
+          },
+          {
+            "qid": "ent-43",
+            "answerable": true,
+            "f1": 0.4,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "six weeks",
+            "gold": [
+              "at least six weeks before the planned start date"
+            ]
+          },
+          {
+            "qid": "ent-47",
+            "answerable": true,
+            "f1": 0.5,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "10,000 SAR in annual value",
+            "gold": [
+              "exceeding 10,000 SAR"
+            ]
+          },
+          {
+            "qid": "ent-50",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "April 15",
+            "gold": [
+              "April 15"
+            ]
+          },
+          {
+            "qid": "ent-54",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "at least sixty days before the conference.",
+            "gold": [
+              "at least sixty days before the conference"
+            ]
+          },
+          {
+            "qid": "ent-55",
+            "answerable": true,
+            "f1": 0.4,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "twenty awards per year",
+            "gold": [
+              "twenty"
+            ]
+          },
+          {
+            "qid": "ent-67",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "June 15",
+            "gold": [
+              "June 15"
+            ]
+          },
+          {
+            "qid": "ent-78",
+            "answerable": true,
+            "f1": 0.6666666666666666,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "250 SAR processing fee.",
+            "gold": [
+              "250 SAR"
+            ]
+          },
+          {
+            "qid": "ent-88",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "a course-by-course evaluation from an approved credential evaluation service",
+            "gold": [
+              "a course-by-course evaluation from an approved credential evaluation service"
+            ]
+          },
+          {
+            "qid": "ent-107",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "[3] The Merit Excellence Scholarship.",
+            "gold": []
+          },
+          {
+            "qid": "ent-108",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "April 15",
+            "gold": []
+          },
+          {
+            "qid": "ent-110",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "[2]",
+            "gold": []
+          },
+          {
+            "qid": "ent-112",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "ent-113",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "ent-141",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "five",
+            "gold": [
+              "five"
+            ]
+          },
+          {
+            "qid": "ent-153",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "four hours",
+            "gold": [
+              "four hours"
+            ]
+          },
+          {
+            "qid": "ent-154",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "24 hours",
+            "gold": [
+              "24 hours"
+            ]
+          },
+          {
+            "qid": "ent-156",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "quarterly",
+            "gold": [
+              "quarterly"
+            ]
+          },
+          {
+            "qid": "ent-162",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "Microsoft Office, Adobe Creative Cloud, and MATLAB",
+            "gold": [
+              "Microsoft Office, Adobe Creative Cloud, and MATLAB"
+            ]
+          },
+          {
+            "qid": "ent-177",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "seven calendar days",
+            "gold": [
+              "seven calendar days"
+            ]
+          },
+          {
+            "qid": "ent-185",
+            "answerable": true,
+            "f1": 0.5,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "discouraged.",
+            "gold": [
+              "available but discouraged"
+            ]
+          },
+          {
+            "qid": "ent-196",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "ent-197",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Wi-Fi",
+            "gold": []
+          },
+          {
+            "qid": "ent-198",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "[2]",
+            "gold": []
+          },
+          {
+            "qid": "ent-202",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "[1]",
+            "gold": []
+          },
+          {
+            "qid": "ent-203",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Offer letters are valid for ten business days from the date of signing by the Provost or Chief Operating Officer.",
+            "gold": []
+          },
+          {
+            "qid": "ent-204",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "ent-205",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "[1]",
+            "gold": []
+          },
+          {
+            "qid": "ent-208",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "do not accrue annual leave",
+            "gold": [
+              "do not accrue annual leave"
+            ]
+          },
+          {
+            "qid": "ent-213",
+            "answerable": true,
+            "f1": 0.5,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "forty days.",
+            "gold": [
+              "up to a maximum of forty days"
+            ]
+          },
+          {
+            "qid": "ent-223",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "1 or 2",
+            "gold": [
+              "1 or 2"
+            ]
+          },
+          {
+            "qid": "ent-224",
+            "answerable": true,
+            "f1": 0.2222222222222222,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 1,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "30 days for hourly backups, 90 days for daily backups, and 1 year for monthly backups.",
+            "gold": [
+              "90 days"
+            ]
+          },
+          {
+            "qid": "ent-231",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "up to eight weeks",
+            "gold": [
+              "up to eight weeks"
+            ]
+          },
+          {
+            "qid": "ent-234",
+            "answerable": true,
+            "f1": 0.7000000000000001,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "the same paid leave entitlements as biological parenthood, subject to documentation of the adoption.",
+            "gold": [
+              "Yes; same paid leave entitlements as biological parenthood"
+            ]
+          },
+          {
+            "qid": "ent-255",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "data protection, anti-harassment, and information security",
+            "gold": [
+              "data protection, anti-harassment, and information security"
+            ]
+          },
+          {
+            "qid": "ent-263",
+            "answerable": true,
+            "f1": 0.5714285714285715,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "six months",
+            "gold": [
+              "six months of prior service"
+            ]
+          },
+          {
+            "qid": "ent-278",
+            "answerable": true,
+            "f1": 0.7272727272727273,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "five or more years",
+            "gold": [
+              "five or more years of continuous service"
+            ]
+          },
+          {
+            "qid": "ent-284",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "[1]",
+            "gold": [
+              "does not retaliate against employees who file grievances in good faith"
+            ]
+          },
+          {
+            "qid": "ent-296",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "[1]",
+            "gold": []
+          },
+          {
+            "qid": "ent-298",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "[3]",
+            "gold": []
+          },
+          {
+            "qid": "ent-302",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "[3]",
+            "gold": []
+          },
+          {
+            "qid": "ent-303",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "based on individual performance ratings and overall university financial performance.",
+            "gold": []
+          },
+          {
+            "qid": "ent-305",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "[3]",
+            "gold": []
+          }
+        ]
+      },
+      "NaiveRAG": {
+        "n": 47,
+        "mean_usefulness": 1.446808510638298,
+        "pct_usefulness_ge2": 0.5319148936170213,
+        "pct_usefulness_3": 0.3617021276595745,
+        "pct_citation_ok": 0.6382978723404256,
+        "ratings": [
+          {
+            "qid": "ent-3",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "automatic course failure and academic probation for one semester.",
+            "gold": [
+              "automatic course failure and academic probation for one semester"
+            ]
+          },
+          {
+            "qid": "ent-7",
+            "answerable": true,
+            "f1": 0.8571428571428571,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "within five business days",
+            "gold": [
+              "five business days"
+            ]
+          },
+          {
+            "qid": "ent-8",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "registrar portal",
+            "gold": [
+              "the registrar portal"
+            ]
+          },
+          {
+            "qid": "ent-9",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "90-100.",
+            "gold": [
+              "90"
+            ]
+          },
+          {
+            "qid": "ent-21",
+            "answerable": true,
+            "f1": 0.2608695652173913,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 1,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "18 credit hours per semester for undergraduates and 12 credit hours for graduate students.",
+            "gold": [
+              "may not enroll in more than 12 credit hours"
+            ]
+          },
+          {
+            "qid": "ent-43",
+            "answerable": true,
+            "f1": 0.6666666666666666,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "at least six weeks",
+            "gold": [
+              "at least six weeks before the planned start date"
+            ]
+          },
+          {
+            "qid": "ent-47",
+            "answerable": true,
+            "f1": 0.5,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "10,000 SAR in annual value",
+            "gold": [
+              "exceeding 10,000 SAR"
+            ]
+          },
+          {
+            "qid": "ent-50",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "April 15",
+            "gold": [
+              "April 15"
+            ]
+          },
+          {
+            "qid": "ent-54",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "at least sixty days before the conference.",
+            "gold": [
+              "at least sixty days before the conference"
+            ]
+          },
+          {
+            "qid": "ent-55",
+            "answerable": true,
+            "f1": 0.4,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "twenty awards per year",
+            "gold": [
+              "twenty"
+            ]
+          },
+          {
+            "qid": "ent-67",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "June 15",
+            "gold": [
+              "June 15"
+            ]
+          },
+          {
+            "qid": "ent-78",
+            "answerable": true,
+            "f1": 0.6666666666666666,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "250 SAR processing fee.",
+            "gold": [
+              "250 SAR"
+            ]
+          },
+          {
+            "qid": "ent-88",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "a course-by-course evaluation from an approved credential evaluation service",
+            "gold": [
+              "a course-by-course evaluation from an approved credential evaluation service"
+            ]
+          },
+          {
+            "qid": "ent-107",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "[3] The Faculty Sponsored Travel Award.",
+            "gold": []
+          },
+          {
+            "qid": "ent-108",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "[1]",
+            "gold": []
+          },
+          {
+            "qid": "ent-110",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "[3]",
+            "gold": []
+          },
+          {
+            "qid": "ent-112",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "[1]",
+            "gold": []
+          },
+          {
+            "qid": "ent-113",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "an approved credential evaluation service.",
+            "gold": []
+          },
+          {
+            "qid": "ent-141",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "five",
+            "gold": [
+              "five"
+            ]
+          },
+          {
+            "qid": "ent-153",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "four hours",
+            "gold": [
+              "four hours"
+            ]
+          },
+          {
+            "qid": "ent-154",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "24 hours",
+            "gold": [
+              "24 hours"
+            ]
+          },
+          {
+            "qid": "ent-156",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "quarterly",
+            "gold": [
+              "quarterly"
+            ]
+          },
+          {
+            "qid": "ent-162",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "Microsoft Office, Adobe Creative Cloud, and MATLAB",
+            "gold": [
+              "Microsoft Office, Adobe Creative Cloud, and MATLAB"
+            ]
+          },
+          {
+            "qid": "ent-177",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "seven calendar days",
+            "gold": [
+              "seven calendar days"
+            ]
+          },
+          {
+            "qid": "ent-185",
+            "answerable": true,
+            "f1": 0.5,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "discouraged.",
+            "gold": [
+              "available but discouraged"
+            ]
+          },
+          {
+            "qid": "ent-196",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "vpn.university.edu",
+            "gold": []
+          },
+          {
+            "qid": "ent-197",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Wi-Fi",
+            "gold": []
+          },
+          {
+            "qid": "ent-198",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "[2]",
+            "gold": []
+          },
+          {
+            "qid": "ent-202",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "incrementally every hour and fully every night.",
+            "gold": []
+          },
+          {
+            "qid": "ent-203",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "[3]",
+            "gold": []
+          },
+          {
+            "qid": "ent-204",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Eduroam",
+            "gold": []
+          },
+          {
+            "qid": "ent-205",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "5 Mbps per device",
+            "gold": []
+          },
+          {
+            "qid": "ent-208",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "do not accrue annual leave",
+            "gold": [
+              "do not accrue annual leave"
+            ]
+          },
+          {
+            "qid": "ent-213",
+            "answerable": true,
+            "f1": 0.5,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "forty days.",
+            "gold": [
+              "up to a maximum of forty days"
+            ]
+          },
+          {
+            "qid": "ent-223",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "1 or 2",
+            "gold": [
+              "1 or 2"
+            ]
+          },
+          {
+            "qid": "ent-224",
+            "answerable": true,
+            "f1": 0.4,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "ten business days.",
+            "gold": [
+              "90 days"
+            ]
+          },
+          {
+            "qid": "ent-231",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "up to eight weeks",
+            "gold": [
+              "up to eight weeks"
+            ]
+          },
+          {
+            "qid": "ent-234",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "[1]",
+            "gold": [
+              "Yes; same paid leave entitlements as biological parenthood"
+            ]
+          },
+          {
+            "qid": "ent-255",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "data protection, anti-harassment, and information security",
+            "gold": [
+              "data protection, anti-harassment, and information security"
+            ]
+          },
+          {
+            "qid": "ent-263",
+            "answerable": true,
+            "f1": 0.5714285714285715,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "six months",
+            "gold": [
+              "six months of prior service"
+            ]
+          },
+          {
+            "qid": "ent-278",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "[1]",
+            "gold": [
+              "five or more years of continuous service"
+            ]
+          },
+          {
+            "qid": "ent-284",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "[2]",
+            "gold": [
+              "does not retaliate against employees who file grievances in good faith"
+            ]
+          },
+          {
+            "qid": "ent-296",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "[3]",
+            "gold": []
+          },
+          {
+            "qid": "ent-298",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "7:00 AM to 11:00 PM",
+            "gold": []
+          },
+          {
+            "qid": "ent-302",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "[3]",
+            "gold": []
+          },
+          {
+            "qid": "ent-303",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "based on individual performance ratings and overall university financial performance",
+            "gold": []
+          },
+          {
+            "qid": "ent-305",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "[1]",
+            "gold": []
+          }
+        ]
+      },
+      "RAG+Rerank": {
+        "n": 47,
+        "mean_usefulness": 1.4042553191489362,
+        "pct_usefulness_ge2": 0.5106382978723404,
+        "pct_usefulness_3": 0.3617021276595745,
+        "pct_citation_ok": 0.6382978723404256,
+        "ratings": [
+          {
+            "qid": "ent-3",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "automatic course failure and academic probation for one semester.",
+            "gold": [
+              "automatic course failure and academic probation for one semester"
+            ]
+          },
+          {
+            "qid": "ent-7",
+            "answerable": true,
+            "f1": 0.8571428571428571,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "within five business days",
+            "gold": [
+              "five business days"
+            ]
+          },
+          {
+            "qid": "ent-8",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "registrar portal",
+            "gold": [
+              "the registrar portal"
+            ]
+          },
+          {
+            "qid": "ent-9",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "[3]",
+            "gold": [
+              "90"
+            ]
+          },
+          {
+            "qid": "ent-21",
+            "answerable": true,
+            "f1": 0.2608695652173913,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 1,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "18 credit hours per semester for undergraduates and 12 credit hours for graduate students.",
+            "gold": [
+              "may not enroll in more than 12 credit hours"
+            ]
+          },
+          {
+            "qid": "ent-43",
+            "answerable": true,
+            "f1": 0.8421052631578948,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "at least six weeks before the planned start date of data collection",
+            "gold": [
+              "at least six weeks before the planned start date"
+            ]
+          },
+          {
+            "qid": "ent-47",
+            "answerable": true,
+            "f1": 0.5,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "10,000 SAR in annual value",
+            "gold": [
+              "exceeding 10,000 SAR"
+            ]
+          },
+          {
+            "qid": "ent-50",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "April 15",
+            "gold": [
+              "April 15"
+            ]
+          },
+          {
+            "qid": "ent-54",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "at least sixty days before the conference.",
+            "gold": [
+              "at least sixty days before the conference"
+            ]
+          },
+          {
+            "qid": "ent-55",
+            "answerable": true,
+            "f1": 0.4,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "twenty awards per year.",
+            "gold": [
+              "twenty"
+            ]
+          },
+          {
+            "qid": "ent-67",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "June 15",
+            "gold": [
+              "June 15"
+            ]
+          },
+          {
+            "qid": "ent-78",
+            "answerable": true,
+            "f1": 0.6666666666666666,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "250 SAR processing fee.",
+            "gold": [
+              "250 SAR"
+            ]
+          },
+          {
+            "qid": "ent-88",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "[1]",
+            "gold": [
+              "a course-by-course evaluation from an approved credential evaluation service"
+            ]
+          },
+          {
+            "qid": "ent-107",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "[2]",
+            "gold": []
+          },
+          {
+            "qid": "ent-108",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "[3]",
+            "gold": []
+          },
+          {
+            "qid": "ent-110",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "[3] Harassment based on race, religion, gender, nationality, disability, or other protected characteristics is strictly prohibited and grounds for",
+            "gold": []
+          },
+          {
+            "qid": "ent-112",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 0.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "not_included",
+            "gold": []
+          },
+          {
+            "qid": "ent-113",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "CLEP",
+            "gold": []
+          },
+          {
+            "qid": "ent-141",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "five",
+            "gold": [
+              "five"
+            ]
+          },
+          {
+            "qid": "ent-153",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "four hours",
+            "gold": [
+              "four hours"
+            ]
+          },
+          {
+            "qid": "ent-154",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "24 hours",
+            "gold": [
+              "24 hours"
+            ]
+          },
+          {
+            "qid": "ent-156",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "quarterly",
+            "gold": [
+              "quarterly"
+            ]
+          },
+          {
+            "qid": "ent-162",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "Microsoft Office, Adobe Creative Cloud, and MATLAB",
+            "gold": [
+              "Microsoft Office, Adobe Creative Cloud, and MATLAB"
+            ]
+          },
+          {
+            "qid": "ent-177",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "seven calendar days",
+            "gold": [
+              "seven calendar days"
+            ]
+          },
+          {
+            "qid": "ent-185",
+            "answerable": true,
+            "f1": 0.5,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "discouraged.",
+            "gold": [
+              "available but discouraged"
+            ]
+          },
+          {
+            "qid": "ent-196",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Remote Workstation Gateway",
+            "gold": []
+          },
+          {
+            "qid": "ent-197",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Remote work arrangement",
+            "gold": []
+          },
+          {
+            "qid": "ent-198",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "'VPN Access' ticket.",
+            "gold": []
+          },
+          {
+            "qid": "ent-202",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "every hour and fully every night.",
+            "gold": []
+          },
+          {
+            "qid": "ent-203",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "[3]",
+            "gold": []
+          },
+          {
+            "qid": "ent-204",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Eduroam",
+            "gold": []
+          },
+          {
+            "qid": "ent-205",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "[3]",
+            "gold": []
+          },
+          {
+            "qid": "ent-208",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "do not accrue annual leave",
+            "gold": [
+              "do not accrue annual leave"
+            ]
+          },
+          {
+            "qid": "ent-213",
+            "answerable": true,
+            "f1": 0.5,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "forty days.",
+            "gold": [
+              "up to a maximum of forty days"
+            ]
+          },
+          {
+            "qid": "ent-223",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "1 or 2",
+            "gold": [
+              "1 or 2"
+            ]
+          },
+          {
+            "qid": "ent-224",
+            "answerable": true,
+            "f1": 0.4,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "ten business days.",
+            "gold": [
+              "90 days"
+            ]
+          },
+          {
+            "qid": "ent-231",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "up to eight weeks",
+            "gold": [
+              "up to eight weeks"
+            ]
+          },
+          {
+            "qid": "ent-234",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "[1]",
+            "gold": [
+              "Yes; same paid leave entitlements as biological parenthood"
+            ]
+          },
+          {
+            "qid": "ent-255",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "data protection, anti-harassment, and information security",
+            "gold": [
+              "data protection, anti-harassment, and information security"
+            ]
+          },
+          {
+            "qid": "ent-263",
+            "answerable": true,
+            "f1": 0.5714285714285715,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "six months",
+            "gold": [
+              "six months of prior service"
+            ]
+          },
+          {
+            "qid": "ent-278",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "[1]",
+            "gold": [
+              "five or more years of continuous service"
+            ]
+          },
+          {
+            "qid": "ent-284",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "[1]",
+            "gold": [
+              "does not retaliate against employees who file grievances in good faith"
+            ]
+          },
+          {
+            "qid": "ent-296",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "[3]",
+            "gold": []
+          },
+          {
+            "qid": "ent-298",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "7:00 AM to 11:00 PM",
+            "gold": []
+          },
+          {
+            "qid": "ent-302",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "[2]",
+            "gold": []
+          },
+          {
+            "qid": "ent-303",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "based on individual performance ratings and overall university financial performance",
+            "gold": []
+          },
+          {
+            "qid": "ent-305",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "[3]",
+            "gold": []
+          }
+        ]
+      },
+      "AutoRAG": {
+        "n": 47,
+        "mean_usefulness": 2.382978723404255,
+        "pct_usefulness_ge2": 0.8297872340425532,
+        "pct_usefulness_3": 0.7021276595744681,
+        "pct_citation_ok": 0.9787234042553191,
+        "ratings": [
+          {
+            "qid": "ent-3",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "automatic course failure and academic probation for one semester.",
+            "gold": [
+              "automatic course failure and academic probation for one semester"
+            ]
+          },
+          {
+            "qid": "ent-7",
+            "answerable": true,
+            "f1": 0.8571428571428571,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "within five business days",
+            "gold": [
+              "five business days"
+            ]
+          },
+          {
+            "qid": "ent-8",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "registrar portal",
+            "gold": [
+              "the registrar portal"
+            ]
+          },
+          {
+            "qid": "ent-9",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": [
+              "90"
+            ]
+          },
+          {
+            "qid": "ent-21",
+            "answerable": true,
+            "f1": 0.2608695652173913,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 1,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "18 credit hours per semester for undergraduates and 12 credit hours for graduate students.",
+            "gold": [
+              "may not enroll in more than 12 credit hours"
+            ]
+          },
+          {
+            "qid": "ent-43",
+            "answerable": true,
+            "f1": 0.8421052631578948,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "at least six weeks before the planned start date of data collection",
+            "gold": [
+              "at least six weeks before the planned start date"
+            ]
+          },
+          {
+            "qid": "ent-47",
+            "answerable": true,
+            "f1": 0.5,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "10,000 SAR in annual value",
+            "gold": [
+              "exceeding 10,000 SAR"
+            ]
+          },
+          {
+            "qid": "ent-50",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "April 15",
+            "gold": [
+              "April 15"
+            ]
+          },
+          {
+            "qid": "ent-54",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "at least sixty days before the conference.",
+            "gold": [
+              "at least sixty days before the conference"
+            ]
+          },
+          {
+            "qid": "ent-55",
+            "answerable": true,
+            "f1": 0.4,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "twenty awards per year.",
+            "gold": [
+              "twenty"
+            ]
+          },
+          {
+            "qid": "ent-67",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "June 15",
+            "gold": [
+              "June 15"
+            ]
+          },
+          {
+            "qid": "ent-78",
+            "answerable": true,
+            "f1": 0.6666666666666666,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "250 SAR processing fee.",
+            "gold": [
+              "250 SAR"
+            ]
+          },
+          {
+            "qid": "ent-88",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "[1]",
+            "gold": [
+              "a course-by-course evaluation from an approved credential evaluation service"
+            ]
+          },
+          {
+            "qid": "ent-107",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "ent-108",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "ent-110",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "ent-112",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "ent-113",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "ent-141",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "five",
+            "gold": [
+              "five"
+            ]
+          },
+          {
+            "qid": "ent-153",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "four hours",
+            "gold": [
+              "four hours"
+            ]
+          },
+          {
+            "qid": "ent-154",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "24 hours",
+            "gold": [
+              "24 hours"
+            ]
+          },
+          {
+            "qid": "ent-156",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "quarterly",
+            "gold": [
+              "quarterly"
+            ]
+          },
+          {
+            "qid": "ent-162",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "Microsoft Office, Adobe Creative Cloud, and MATLAB",
+            "gold": [
+              "Microsoft Office, Adobe Creative Cloud, and MATLAB"
+            ]
+          },
+          {
+            "qid": "ent-177",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "seven calendar days",
+            "gold": [
+              "seven calendar days"
+            ]
+          },
+          {
+            "qid": "ent-185",
+            "answerable": true,
+            "f1": 0.5,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "discouraged.",
+            "gold": [
+              "available but discouraged"
+            ]
+          },
+          {
+            "qid": "ent-196",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "ent-197",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "ent-198",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "ent-202",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "ent-203",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "ent-204",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "ent-205",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "ent-208",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "do not accrue annual leave",
+            "gold": [
+              "do not accrue annual leave"
+            ]
+          },
+          {
+            "qid": "ent-213",
+            "answerable": true,
+            "f1": 0.5,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "forty days.",
+            "gold": [
+              "up to a maximum of forty days"
+            ]
+          },
+          {
+            "qid": "ent-223",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "1 or 2",
+            "gold": [
+              "1 or 2"
+            ]
+          },
+          {
+            "qid": "ent-224",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": [
+              "90 days"
+            ]
+          },
+          {
+            "qid": "ent-231",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "up to eight weeks",
+            "gold": [
+              "up to eight weeks"
+            ]
+          },
+          {
+            "qid": "ent-234",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "[1]",
+            "gold": [
+              "Yes; same paid leave entitlements as biological parenthood"
+            ]
+          },
+          {
+            "qid": "ent-255",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "data protection, anti-harassment, and information security",
+            "gold": [
+              "data protection, anti-harassment, and information security"
+            ]
+          },
+          {
+            "qid": "ent-263",
+            "answerable": true,
+            "f1": 0.5714285714285715,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "six months",
+            "gold": [
+              "six months of prior service"
+            ]
+          },
+          {
+            "qid": "ent-278",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "[1]",
+            "gold": [
+              "five or more years of continuous service"
+            ]
+          },
+          {
+            "qid": "ent-284",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "[1]",
+            "gold": [
+              "does not retaliate against employees who file grievances in good faith"
+            ]
+          },
+          {
+            "qid": "ent-296",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "[2]",
+            "gold": []
+          },
+          {
+            "qid": "ent-298",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "ent-302",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "ent-303",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "ent-305",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          }
+        ]
+      }
+    },
+    "sampled_qids": [
+      "ent-107",
+      "ent-108",
+      "ent-110",
+      "ent-112",
+      "ent-113",
+      "ent-141",
+      "ent-153",
+      "ent-154",
+      "ent-156",
+      "ent-162",
+      "ent-177",
+      "ent-185",
+      "ent-196",
+      "ent-197",
+      "ent-198",
+      "ent-202",
+      "ent-203",
+      "ent-204",
+      "ent-205",
+      "ent-208",
+      "ent-21",
+      "ent-213",
+      "ent-223",
+      "ent-224",
+      "ent-231",
+      "ent-234",
+      "ent-255",
+      "ent-263",
+      "ent-278",
+      "ent-284",
+      "ent-296",
+      "ent-298",
+      "ent-3",
+      "ent-302",
+      "ent-303",
+      "ent-305",
+      "ent-43",
+      "ent-47",
+      "ent-50",
+      "ent-54",
+      "ent-55",
+      "ent-67",
+      "ent-7",
+      "ent-78",
+      "ent-8",
+      "ent-88",
+      "ent-9"
+    ]
+  },
+  "squad": {
+    "dataset": "squad",
+    "sample_size": 60,
+    "per_system": {
+      "BM25": {
+        "n": 60,
+        "mean_usefulness": 1.1333333333333333,
+        "pct_usefulness_ge2": 0.38333333333333336,
+        "pct_usefulness_3": 0.31666666666666665,
+        "pct_citation_ok": 0.5333333333333333,
+        "ratings": [
+          {
+            "qid": "5737a4511c456719005744e1",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "Newton's Second Law of Motion",
+            "gold": [
+              "Newton's Second Law of Motion",
+              "Newton's Second Law of Motion",
+              "Newton's Second Law of Motion",
+              "Newton's Second Law of Motion"
+            ]
+          },
+          {
+            "qid": "5727526cdd62a815002e9b0f",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": [
+              "Public-Private Partnering",
+              "Public-Private Partnering",
+              "Public-Private Partnering"
+            ]
+          },
+          {
+            "qid": "572881d34b864d1900164a5b",
+            "answerable": true,
+            "f1": 0.6666666666666666,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "The Nestorian physician Jesus the Interpreter",
+            "gold": [
+              "Jesus the Interpreter",
+              "Jesus the Interpreter",
+              "Jesus the Interpreter"
+            ]
+          },
+          {
+            "qid": "572758e0f1498d1400e8f6b0",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "Blaine Amendments.",
+            "gold": [
+              "Blaine",
+              "Blaine Amendments",
+              "Blaine Amendments"
+            ]
+          },
+          {
+            "qid": "57107c24a58dae1900cd69ea",
+            "answerable": true,
+            "f1": 0.28571428571428575,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 1,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "William III of Orange",
+            "gold": [
+              "League of Augsburg",
+              "League of Augsburg",
+              "League of Augsburg"
+            ]
+          },
+          {
+            "qid": "571155ae2419e31400955594",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "biomass",
+            "gold": [
+              "biomass",
+              "biomass",
+              "biomass"
+            ]
+          },
+          {
+            "qid": "572f64ccb2c2fd14005680b9",
+            "answerable": true,
+            "f1": 0.7499999999999999,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "The ground water level fell significantly.",
+            "gold": [
+              "fell significantly",
+              "fell significantly",
+              "level fell significantly"
+            ]
+          },
+          {
+            "qid": "5727cebc2ca10214002d96f1",
+            "answerable": true,
+            "f1": 0.2857142857142857,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 1,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "7,200 undergraduates and 14,000 graduate students.",
+            "gold": [
+              "7,200",
+              "7,200",
+              "7,200"
+            ]
+          },
+          {
+            "qid": "57265e455951b619008f70bb",
+            "answerable": true,
+            "f1": 0.5454545454545454,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "EU law takes primacy over national law.",
+            "gold": [
+              "EU law",
+              "EU law has primacy",
+              "EU law has primacy",
+              "EU law"
+            ]
+          },
+          {
+            "qid": "572683075951b619008f7517",
+            "answerable": true,
+            "f1": 0.1111111111111111,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 1,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "Fertilization is external in most species, but platyctenids use internal fertilization and keep the eggs in brood chambers",
+            "gold": [
+              "external",
+              "external",
+              "external"
+            ]
+          },
+          {
+            "qid": "570d29c2b3d812140066d4c1",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "20%.",
+            "gold": [
+              "20%",
+              "20%",
+              "20%"
+            ]
+          },
+          {
+            "qid": "572fd1c4947a6a140053cd05",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "\"wrecking amendments\"",
+            "gold": [
+              "wrecking",
+              "wrecking",
+              "\"wrecking amendments\""
+            ]
+          },
+          {
+            "qid": "572754fff1498d1400e8f661",
+            "answerable": true,
+            "f1": 0.9090909090909091,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "damage to the existing electrical, water, sewage, phone, and cable facilities",
+            "gold": [
+              "damage",
+              "the likelihood of damage",
+              "the likelihood of damage to the existing electrical, water, sewage, phone, and cable facilities"
+            ]
+          },
+          {
+            "qid": "572754fff1498d1400e8f663",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "municipal building inspector",
+            "gold": [
+              "the municipal building inspector",
+              "municipal building inspector",
+              "the municipal building inspector"
+            ]
+          },
+          {
+            "qid": "573776eec3c5551400e51eeb",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "Aristotelian",
+            "gold": [
+              "Galileo",
+              "Aristotle's",
+              "Aristotle",
+              "Aristotle",
+              "Aristotle's"
+            ]
+          },
+          {
+            "qid": "5710e8c8a58dae1900cd6b28",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "Huguenots",
+            "gold": [
+              "Camisards",
+              "Camisards",
+              "the Camisards"
+            ]
+          },
+          {
+            "qid": "570d2af0fed7b91900d45c95",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "second-most populous",
+            "gold": [
+              "second",
+              "second-most",
+              "second-most populous"
+            ]
+          },
+          {
+            "qid": "56e1fc57e3433e1400423230",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "NP-complete problems.",
+            "gold": [
+              "NP-complete problems",
+              "NP-complete",
+              "NP-complete",
+              "NP-complete"
+            ]
+          },
+          {
+            "qid": "57264586f1498d1400e8dac6",
+            "answerable": true,
+            "f1": 0.8181818181818181,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "the public switched data network operated by the Dutch PTT Telecom (now known as KPN).",
+            "gold": [
+              "was the public switched data network operated by the Dutch PTT Telecom",
+              "the public switched data network operated by the Dutch PTT Telecom",
+              "public switched data network"
+            ]
+          },
+          {
+            "qid": "571c3a685efbb31900334db4",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "oxide compounds",
+            "gold": [
+              "oxides",
+              "oxides",
+              "oxides",
+              "oxide compounds",
+              "oxide"
+            ]
+          },
+          {
+            "qid": "5729ea263f37b319004785be",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "NASA",
+            "gold": [
+              "NASA",
+              "NASA",
+              "NASA's"
+            ]
+          },
+          {
+            "qid": "572ff7ab04bcaa1900d76f53",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "Waal",
+            "gold": [
+              "Waal",
+              "Waal",
+              "Waal"
+            ]
+          },
+          {
+            "qid": "571090abb654c5140001f996",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "The Weavers",
+            "gold": [
+              "The Weavers",
+              "The Weavers",
+              "The Weavers"
+            ]
+          },
+          {
+            "qid": "57096505ed30961900e84083",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "Sky Q Silver set top boxes",
+            "gold": [
+              "Sky Q Silver set top boxes",
+              "the Sky Q Silver set top boxes",
+              "Sky Q Silver"
+            ]
+          },
+          {
+            "qid": "5725fb8138643c19005acf43",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "KGPE",
+            "gold": [
+              "KGPE",
+              "KGPE",
+              "KGPE"
+            ]
+          },
+          {
+            "qid": "5733f5f24776f419006615c3",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "45,000 pounds of gunpowder.",
+            "gold": [
+              "Approximately 1,000 British soldiers were killed or injured.",
+              "Approximately 1,000",
+              "1,000 British soldiers",
+              "1,000",
+              "1,000 British soldiers"
+            ]
+          },
+          {
+            "qid": "57332f81d058e614000b5777",
+            "answerable": true,
+            "f1": 0.6666666666666666,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "prefabricated housing",
+            "gold": [
+              "prefabricated",
+              "prefabricated",
+              "prefabricated"
+            ]
+          },
+          {
+            "qid": "5733d2dbd058e614000b633b",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "the economic and administrative incorporation of local elites was also of crucial significance\" for the establishment of control over the subcontinent's resources, markets, and",
+            "gold": [
+              "confirming Britain's position as the dominant colonial power in eastern North America",
+              "confirming Britain's position as the dominant colonial power in eastern North America",
+              "confirming Britain's position as the dominant colonial power in eastern North America",
+              "dominant colonial power",
+              "confirming Britain's position as the dominant colonial power in eastern North America"
+            ]
+          },
+          {
+            "qid": "57300e2604bcaa1900d770ba",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "2006",
+            "gold": [
+              "During the 2006 Israel-Lebanon conflict",
+              "the 2006 Israel-Lebanon conflict",
+              "2006"
+            ]
+          },
+          {
+            "qid": "5727de862ca10214002d9860",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": [
+              "General Ban Ki-moon",
+              "Ban Ki-moon",
+              "Ban Ki-moon"
+            ]
+          },
+          {
+            "qid": "5ad3ae4f604f3c001a3fec49",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Warraghiggey.",
+            "gold": []
+          },
+          {
+            "qid": "5a8257efe60761001a2eb1cf",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Schuenemann et al.",
+            "gold": []
+          },
+          {
+            "qid": "5a57fb62770dc0001aeeff12",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 0.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "unanswerable",
+            "gold": []
+          },
+          {
+            "qid": "5a89150d3b2508001a72a4ac",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "prime elements and prime ideals.",
+            "gold": []
+          },
+          {
+            "qid": "5ad0206677cf76001a686afb",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "The motion picture, television, and music industry",
+            "gold": []
+          },
+          {
+            "qid": "5ad4f4d95b96ef001a10a793",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "60",
+            "gold": []
+          },
+          {
+            "qid": "5acfe84677cf76001a686408",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Wahhabist interpretation of Islam",
+            "gold": []
+          },
+          {
+            "qid": "5a8205d131013a001a3350fb",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "the dignity and worth of human nature, the right and ability of each person to perceive truth, and the indwelling God in each person.",
+            "gold": []
+          },
+          {
+            "qid": "5ad02de677cf76001a686d1f",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "mace",
+            "gold": []
+          },
+          {
+            "qid": "5a638b3668151a001a92235b",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "489.",
+            "gold": []
+          },
+          {
+            "qid": "5a2c36c4bfd06b001a5aea67",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "monthly subscription",
+            "gold": []
+          },
+          {
+            "qid": "5ad11288645df0001a2d0c30",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "The European Court of Justice is the supreme judicial body which interprets EU law, and develops it through precedent.",
+            "gold": []
+          },
+          {
+            "qid": "5ad25f82d7d075001a428f85",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "5a58d33e3e1742001a15ce3e",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "X.25 and Frame Relay",
+            "gold": []
+          },
+          {
+            "qid": "5a1c8bb4b4fb5d00187146aa",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Riverplace Tower",
+            "gold": []
+          },
+          {
+            "qid": "5a638d2768151a001a922371",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Victoria is ranked fourth in terms of GSP per capita because of its limited mining activity.",
+            "gold": []
+          },
+          {
+            "qid": "5a3e3de4378766001a002517",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Robert Watson",
+            "gold": []
+          },
+          {
+            "qid": "5ad2a58bd7d075001a429dcc",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "11,700 years ago",
+            "gold": []
+          },
+          {
+            "qid": "5ad14573645df0001a2d14b3",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Article 102",
+            "gold": []
+          },
+          {
+            "qid": "5ad3ed37604f3c001a3ff7a5",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "the pistons worked in the same phase driving a common crosshead and crank, again set at 90° as for a two-cylinder engine.",
+            "gold": []
+          },
+          {
+            "qid": "5ad0316177cf76001a686ddc",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "5a38d6e6a4b263001a8c1955",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Chrysler ended production of their full-sized luxury sedans at the end of the 1981 model year, moving instead to a full front-wheel drive lineup for",
+            "gold": []
+          },
+          {
+            "qid": "5ad40955604f3c001a3fff2f",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Temür",
+            "gold": []
+          },
+          {
+            "qid": "5ad404a6604f3c001a3ffde1",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Beroids.",
+            "gold": []
+          },
+          {
+            "qid": "5ad543c05b96ef001a10ac00",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Turing machines",
+            "gold": []
+          },
+          {
+            "qid": "5a1c539bb4fb5d00187145fa",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Victoria",
+            "gold": []
+          },
+          {
+            "qid": "5ad3b9cd604f3c001a3fee8b",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Two",
+            "gold": []
+          },
+          {
+            "qid": "5a2c16e3bfd06b001a5ae9eb",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Sky+ Box",
+            "gold": []
+          },
+          {
+            "qid": "5ad26257d7d075001a42909e",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "the outside world that is at rest",
+            "gold": []
+          },
+          {
+            "qid": "5a7b402121c2de001afe9e0d",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "97,915 families",
+            "gold": []
+          }
+        ]
+      },
+      "NaiveRAG": {
+        "n": 60,
+        "mean_usefulness": 1.3166666666666667,
+        "pct_usefulness_ge2": 0.43333333333333335,
+        "pct_usefulness_3": 0.4,
+        "pct_citation_ok": 0.55,
+        "ratings": [
+          {
+            "qid": "5737a4511c456719005744e1",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "Newton's Second Law of Motion",
+            "gold": [
+              "Newton's Second Law of Motion",
+              "Newton's Second Law of Motion",
+              "Newton's Second Law of Motion",
+              "Newton's Second Law of Motion"
+            ]
+          },
+          {
+            "qid": "5727526cdd62a815002e9b0f",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "Public-Private Partnering",
+            "gold": [
+              "Public-Private Partnering",
+              "Public-Private Partnering",
+              "Public-Private Partnering"
+            ]
+          },
+          {
+            "qid": "572881d34b864d1900164a5b",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "Jesus the Interpreter",
+            "gold": [
+              "Jesus the Interpreter",
+              "Jesus the Interpreter",
+              "Jesus the Interpreter"
+            ]
+          },
+          {
+            "qid": "572758e0f1498d1400e8f6b0",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "Blaine Amendments.",
+            "gold": [
+              "Blaine",
+              "Blaine Amendments",
+              "Blaine Amendments"
+            ]
+          },
+          {
+            "qid": "57107c24a58dae1900cd69ea",
+            "answerable": true,
+            "f1": 0.28571428571428575,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 1,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "William III of Orange",
+            "gold": [
+              "League of Augsburg",
+              "League of Augsburg",
+              "League of Augsburg"
+            ]
+          },
+          {
+            "qid": "571155ae2419e31400955594",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "biomass",
+            "gold": [
+              "biomass",
+              "biomass",
+              "biomass"
+            ]
+          },
+          {
+            "qid": "572f64ccb2c2fd14005680b9",
+            "answerable": true,
+            "f1": 0.7499999999999999,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "The ground water level fell significantly.",
+            "gold": [
+              "fell significantly",
+              "fell significantly",
+              "level fell significantly"
+            ]
+          },
+          {
+            "qid": "5727cebc2ca10214002d96f1",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "four-year, full-time undergraduate program comprises a minority of enrollments at the university",
+            "gold": [
+              "7,200",
+              "7,200",
+              "7,200"
+            ]
+          },
+          {
+            "qid": "57265e455951b619008f70bb",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "EU law",
+            "gold": [
+              "EU law",
+              "EU law has primacy",
+              "EU law has primacy",
+              "EU law"
+            ]
+          },
+          {
+            "qid": "572683075951b619008f7517",
+            "answerable": true,
+            "f1": 0.1111111111111111,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 1,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "Fertilization is external in most species, but platyctenids use internal fertilization and keep the eggs in brood chambers",
+            "gold": [
+              "external",
+              "external",
+              "external"
+            ]
+          },
+          {
+            "qid": "570d29c2b3d812140066d4c1",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "20%.",
+            "gold": [
+              "20%",
+              "20%",
+              "20%"
+            ]
+          },
+          {
+            "qid": "572fd1c4947a6a140053cd05",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "\"wrecking amendments\"",
+            "gold": [
+              "wrecking",
+              "wrecking",
+              "\"wrecking amendments\""
+            ]
+          },
+          {
+            "qid": "572754fff1498d1400e8f661",
+            "answerable": true,
+            "f1": 0.9090909090909091,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "damage to the existing electrical, water, sewage, phone, and cable facilities",
+            "gold": [
+              "damage",
+              "the likelihood of damage",
+              "the likelihood of damage to the existing electrical, water, sewage, phone, and cable facilities"
+            ]
+          },
+          {
+            "qid": "572754fff1498d1400e8f663",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "municipal building inspector",
+            "gold": [
+              "the municipal building inspector",
+              "municipal building inspector",
+              "the municipal building inspector"
+            ]
+          },
+          {
+            "qid": "573776eec3c5551400e51eeb",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "Aristotle",
+            "gold": [
+              "Galileo",
+              "Aristotle's",
+              "Aristotle",
+              "Aristotle",
+              "Aristotle's"
+            ]
+          },
+          {
+            "qid": "5710e8c8a58dae1900cd6b28",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 0.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "not_included",
+            "gold": [
+              "Camisards",
+              "Camisards",
+              "the Camisards"
+            ]
+          },
+          {
+            "qid": "570d2af0fed7b91900d45c95",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "second-most populous",
+            "gold": [
+              "second",
+              "second-most",
+              "second-most populous"
+            ]
+          },
+          {
+            "qid": "56e1fc57e3433e1400423230",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "NP-complete problems.",
+            "gold": [
+              "NP-complete problems",
+              "NP-complete",
+              "NP-complete",
+              "NP-complete"
+            ]
+          },
+          {
+            "qid": "57264586f1498d1400e8dac6",
+            "answerable": true,
+            "f1": 0.8181818181818181,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "the public switched data network operated by the Dutch PTT Telecom (now known as KPN).",
+            "gold": [
+              "was the public switched data network operated by the Dutch PTT Telecom",
+              "the public switched data network operated by the Dutch PTT Telecom",
+              "public switched data network"
+            ]
+          },
+          {
+            "qid": "571c3a685efbb31900334db4",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "oxide compounds",
+            "gold": [
+              "oxides",
+              "oxides",
+              "oxides",
+              "oxide compounds",
+              "oxide"
+            ]
+          },
+          {
+            "qid": "5729ea263f37b319004785be",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "NASA",
+            "gold": [
+              "NASA",
+              "NASA",
+              "NASA's"
+            ]
+          },
+          {
+            "qid": "572ff7ab04bcaa1900d76f53",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "The Neckar",
+            "gold": [
+              "Waal",
+              "Waal",
+              "Waal"
+            ]
+          },
+          {
+            "qid": "571090abb654c5140001f996",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "The Weavers",
+            "gold": [
+              "The Weavers",
+              "The Weavers",
+              "The Weavers"
+            ]
+          },
+          {
+            "qid": "57096505ed30961900e84083",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "Sky Q Silver set top boxes",
+            "gold": [
+              "Sky Q Silver set top boxes",
+              "the Sky Q Silver set top boxes",
+              "Sky Q Silver"
+            ]
+          },
+          {
+            "qid": "5725fb8138643c19005acf43",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "KGPE",
+            "gold": [
+              "KGPE",
+              "KGPE",
+              "KGPE"
+            ]
+          },
+          {
+            "qid": "5733f5f24776f419006615c3",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "Approximately 1,000 British soldiers were killed or injured.",
+            "gold": [
+              "Approximately 1,000 British soldiers were killed or injured.",
+              "Approximately 1,000",
+              "1,000 British soldiers",
+              "1,000",
+              "1,000 British soldiers"
+            ]
+          },
+          {
+            "qid": "57332f81d058e614000b5777",
+            "answerable": true,
+            "f1": 0.6666666666666666,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "prefabricated housing",
+            "gold": [
+              "prefabricated",
+              "prefabricated",
+              "prefabricated"
+            ]
+          },
+          {
+            "qid": "5733d2dbd058e614000b633b",
+            "answerable": true,
+            "f1": 0.1176470588235294,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 1,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "The British Empire was the largest Empire that the world has ever seen both in terms of landmass and population. Its power, both military and economic,",
+            "gold": [
+              "confirming Britain's position as the dominant colonial power in eastern North America",
+              "confirming Britain's position as the dominant colonial power in eastern North America",
+              "confirming Britain's position as the dominant colonial power in eastern North America",
+              "dominant colonial power",
+              "confirming Britain's position as the dominant colonial power in eastern North America"
+            ]
+          },
+          {
+            "qid": "57300e2604bcaa1900d770ba",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "2006",
+            "gold": [
+              "During the 2006 Israel-Lebanon conflict",
+              "the 2006 Israel-Lebanon conflict",
+              "2006"
+            ]
+          },
+          {
+            "qid": "5727de862ca10214002d9860",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": [
+              "General Ban Ki-moon",
+              "Ban Ki-moon",
+              "Ban Ki-moon"
+            ]
+          },
+          {
+            "qid": "5ad3ae4f604f3c001a3fec49",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Warraghiggey",
+            "gold": []
+          },
+          {
+            "qid": "5a8257efe60761001a2eb1cf",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Steven Pinker.",
+            "gold": []
+          },
+          {
+            "qid": "5a57fb62770dc0001aeeff12",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "older rocks moving on top of younger ones.",
+            "gold": []
+          },
+          {
+            "qid": "5a89150d3b2508001a72a4ac",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "prime ideals.",
+            "gold": []
+          },
+          {
+            "qid": "5ad0206677cf76001a686afb",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "The motion picture, television, and music industry",
+            "gold": []
+          },
+          {
+            "qid": "5ad4f4d95b96ef001a10a793",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "60",
+            "gold": []
+          },
+          {
+            "qid": "5acfe84677cf76001a686408",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Wahhabist interpretation of Islam",
+            "gold": []
+          },
+          {
+            "qid": "5a8205d131013a001a3350fb",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "the dignity and worth of human nature, the right and ability of each person to perceive truth, and the indwelling God in each person",
+            "gold": []
+          },
+          {
+            "qid": "5ad02de677cf76001a686d1f",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "mace",
+            "gold": []
+          },
+          {
+            "qid": "5a638b3668151a001a92235b",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "489",
+            "gold": []
+          },
+          {
+            "qid": "5a2c36c4bfd06b001a5aea67",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "monthly subscription",
+            "gold": []
+          },
+          {
+            "qid": "5ad11288645df0001a2d0c30",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "The European Court of Justice is the supreme judicial body which interprets EU law, and develops it through precedent.",
+            "gold": []
+          },
+          {
+            "qid": "5ad25f82d7d075001a428f85",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "5a58d33e3e1742001a15ce3e",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 0.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "unanswerable",
+            "gold": []
+          },
+          {
+            "qid": "5a1c8bb4b4fb5d00187146aa",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "28 floor Riverplace Tower",
+            "gold": []
+          },
+          {
+            "qid": "5a638d2768151a001a922371",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "90%",
+            "gold": []
+          },
+          {
+            "qid": "5a3e3de4378766001a002517",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Michael Oppenheimer.",
+            "gold": []
+          },
+          {
+            "qid": "5ad2a58bd7d075001a429dcc",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "11,700 years ago",
+            "gold": []
+          },
+          {
+            "qid": "5ad14573645df0001a2d14b3",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Article 5",
+            "gold": []
+          },
+          {
+            "qid": "5ad3ed37604f3c001a3ff7a5",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "the pistons worked in the same phase driving a common crosshead and crank, again set at 90° as for a two-cylinder engine.",
+            "gold": []
+          },
+          {
+            "qid": "5ad0316177cf76001a686ddc",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "5a38d6e6a4b263001a8c1955",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Chrysler ended production of their full-sized luxury sedans at the end of the 1981 model year, moving instead to a full front-wheel drive lineup for",
+            "gold": []
+          },
+          {
+            "qid": "5ad40955604f3c001a3fff2f",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Emperor Wenzong",
+            "gold": []
+          },
+          {
+            "qid": "5ad404a6604f3c001a3ffde1",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "5ad543c05b96ef001a10ac00",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Turing machines.",
+            "gold": []
+          },
+          {
+            "qid": "5a1c539bb4fb5d00187145fa",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "San Bernardino",
+            "gold": []
+          },
+          {
+            "qid": "5ad3b9cd604f3c001a3fee8b",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Two",
+            "gold": []
+          },
+          {
+            "qid": "5a2c16e3bfd06b001a5ae9eb",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Sky+",
+            "gold": []
+          },
+          {
+            "qid": "5ad26257d7d075001a42909e",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "the outside world that is at rest",
+            "gold": []
+          },
+          {
+            "qid": "5a7b402121c2de001afe9e0d",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "4,404.5 people per square mile",
+            "gold": []
+          }
+        ]
+      },
+      "RAG+Rerank": {
+        "n": 60,
+        "mean_usefulness": 1.3,
+        "pct_usefulness_ge2": 0.43333333333333335,
+        "pct_usefulness_3": 0.38333333333333336,
+        "pct_citation_ok": 0.55,
+        "ratings": [
+          {
+            "qid": "5737a4511c456719005744e1",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "Newton's Second Law of Motion",
+            "gold": [
+              "Newton's Second Law of Motion",
+              "Newton's Second Law of Motion",
+              "Newton's Second Law of Motion",
+              "Newton's Second Law of Motion"
+            ]
+          },
+          {
+            "qid": "5727526cdd62a815002e9b0f",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "Public-Private Partnering",
+            "gold": [
+              "Public-Private Partnering",
+              "Public-Private Partnering",
+              "Public-Private Partnering"
+            ]
+          },
+          {
+            "qid": "572881d34b864d1900164a5b",
+            "answerable": true,
+            "f1": 0.6666666666666666,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "The Nestorian physician Jesus the Interpreter",
+            "gold": [
+              "Jesus the Interpreter",
+              "Jesus the Interpreter",
+              "Jesus the Interpreter"
+            ]
+          },
+          {
+            "qid": "572758e0f1498d1400e8f6b0",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "Blaine Amendments.",
+            "gold": [
+              "Blaine",
+              "Blaine Amendments",
+              "Blaine Amendments"
+            ]
+          },
+          {
+            "qid": "57107c24a58dae1900cd69ea",
+            "answerable": true,
+            "f1": 0.28571428571428575,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 1,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "William III of Orange",
+            "gold": [
+              "League of Augsburg",
+              "League of Augsburg",
+              "League of Augsburg"
+            ]
+          },
+          {
+            "qid": "571155ae2419e31400955594",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "biomass",
+            "gold": [
+              "biomass",
+              "biomass",
+              "biomass"
+            ]
+          },
+          {
+            "qid": "572f64ccb2c2fd14005680b9",
+            "answerable": true,
+            "f1": 0.42857142857142855,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "The rate of flow was increased and the ground water level fell significantly.",
+            "gold": [
+              "fell significantly",
+              "fell significantly",
+              "level fell significantly"
+            ]
+          },
+          {
+            "qid": "5727cebc2ca10214002d96f1",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "a minority of enrollments",
+            "gold": [
+              "7,200",
+              "7,200",
+              "7,200"
+            ]
+          },
+          {
+            "qid": "57265e455951b619008f70bb",
+            "answerable": true,
+            "f1": 0.33333333333333337,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 1,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "The Court of Justice's view is that if EU law conflicts with a provision of national law, then EU law has primacy.",
+            "gold": [
+              "EU law",
+              "EU law has primacy",
+              "EU law has primacy",
+              "EU law"
+            ]
+          },
+          {
+            "qid": "572683075951b619008f7517",
+            "answerable": true,
+            "f1": 0.1111111111111111,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 1,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "Fertilization is external in most species, but platyctenids use internal fertilization and keep the eggs in brood chambers",
+            "gold": [
+              "external",
+              "external",
+              "external"
+            ]
+          },
+          {
+            "qid": "570d29c2b3d812140066d4c1",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "20%.",
+            "gold": [
+              "20%",
+              "20%",
+              "20%"
+            ]
+          },
+          {
+            "qid": "572fd1c4947a6a140053cd05",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "\"wrecking amendments\"",
+            "gold": [
+              "wrecking",
+              "wrecking",
+              "\"wrecking amendments\""
+            ]
+          },
+          {
+            "qid": "572754fff1498d1400e8f661",
+            "answerable": true,
+            "f1": 0.9090909090909091,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "damage to the existing electrical, water, sewage, phone, and cable facilities",
+            "gold": [
+              "damage",
+              "the likelihood of damage",
+              "the likelihood of damage to the existing electrical, water, sewage, phone, and cable facilities"
+            ]
+          },
+          {
+            "qid": "572754fff1498d1400e8f663",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "municipal building inspector",
+            "gold": [
+              "the municipal building inspector",
+              "municipal building inspector",
+              "the municipal building inspector"
+            ]
+          },
+          {
+            "qid": "573776eec3c5551400e51eeb",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "Aristotelian",
+            "gold": [
+              "Galileo",
+              "Aristotle's",
+              "Aristotle",
+              "Aristotle",
+              "Aristotle's"
+            ]
+          },
+          {
+            "qid": "5710e8c8a58dae1900cd6b28",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "Camisards",
+            "gold": [
+              "Camisards",
+              "Camisards",
+              "the Camisards"
+            ]
+          },
+          {
+            "qid": "570d2af0fed7b91900d45c95",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "second-most populous",
+            "gold": [
+              "second",
+              "second-most",
+              "second-most populous"
+            ]
+          },
+          {
+            "qid": "56e1fc57e3433e1400423230",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "NP-complete problems.",
+            "gold": [
+              "NP-complete problems",
+              "NP-complete",
+              "NP-complete",
+              "NP-complete"
+            ]
+          },
+          {
+            "qid": "57264586f1498d1400e8dac6",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "the public switched data network operated by the Dutch PTT Telecom",
+            "gold": [
+              "was the public switched data network operated by the Dutch PTT Telecom",
+              "the public switched data network operated by the Dutch PTT Telecom",
+              "public switched data network"
+            ]
+          },
+          {
+            "qid": "571c3a685efbb31900334db4",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "oxide compounds",
+            "gold": [
+              "oxides",
+              "oxides",
+              "oxides",
+              "oxide compounds",
+              "oxide"
+            ]
+          },
+          {
+            "qid": "5729ea263f37b319004785be",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "NASA",
+            "gold": [
+              "NASA",
+              "NASA",
+              "NASA's"
+            ]
+          },
+          {
+            "qid": "572ff7ab04bcaa1900d76f53",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "Waal",
+            "gold": [
+              "Waal",
+              "Waal",
+              "Waal"
+            ]
+          },
+          {
+            "qid": "571090abb654c5140001f996",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "The Weavers",
+            "gold": [
+              "The Weavers",
+              "The Weavers",
+              "The Weavers"
+            ]
+          },
+          {
+            "qid": "57096505ed30961900e84083",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "Sky Q Silver set top boxes",
+            "gold": [
+              "Sky Q Silver set top boxes",
+              "the Sky Q Silver set top boxes",
+              "Sky Q Silver"
+            ]
+          },
+          {
+            "qid": "5725fb8138643c19005acf43",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "KGPE",
+            "gold": [
+              "KGPE",
+              "KGPE",
+              "KGPE"
+            ]
+          },
+          {
+            "qid": "5733f5f24776f419006615c3",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "Approximately 1,000 British soldiers were killed or injured.",
+            "gold": [
+              "Approximately 1,000 British soldiers were killed or injured.",
+              "Approximately 1,000",
+              "1,000 British soldiers",
+              "1,000",
+              "1,000 British soldiers"
+            ]
+          },
+          {
+            "qid": "57332f81d058e614000b5777",
+            "answerable": true,
+            "f1": 0.6666666666666666,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "prefabricated housing",
+            "gold": [
+              "prefabricated",
+              "prefabricated",
+              "prefabricated"
+            ]
+          },
+          {
+            "qid": "5733d2dbd058e614000b633b",
+            "answerable": true,
+            "f1": 0.08695652173913043,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "The outcome was one of the most significant developments in a century of Anglo-French conflict.",
+            "gold": [
+              "confirming Britain's position as the dominant colonial power in eastern North America",
+              "confirming Britain's position as the dominant colonial power in eastern North America",
+              "confirming Britain's position as the dominant colonial power in eastern North America",
+              "dominant colonial power",
+              "confirming Britain's position as the dominant colonial power in eastern North America"
+            ]
+          },
+          {
+            "qid": "57300e2604bcaa1900d770ba",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "2006",
+            "gold": [
+              "During the 2006 Israel-Lebanon conflict",
+              "the 2006 Israel-Lebanon conflict",
+              "2006"
+            ]
+          },
+          {
+            "qid": "5727de862ca10214002d9860",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "Duke Kent-Brown.",
+            "gold": [
+              "General Ban Ki-moon",
+              "Ban Ki-moon",
+              "Ban Ki-moon"
+            ]
+          },
+          {
+            "qid": "5ad3ae4f604f3c001a3fec49",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Warraghiggey.",
+            "gold": []
+          },
+          {
+            "qid": "5a8257efe60761001a2eb1cf",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Alyssa A. Goodman.",
+            "gold": []
+          },
+          {
+            "qid": "5a57fb62770dc0001aeeff12",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 0.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "unanswerable",
+            "gold": []
+          },
+          {
+            "qid": "5a89150d3b2508001a72a4ac",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "prime elements and prime ideals.",
+            "gold": []
+          },
+          {
+            "qid": "5ad0206677cf76001a686afb",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "The motion picture, television, and music industry",
+            "gold": []
+          },
+          {
+            "qid": "5ad4f4d95b96ef001a10a793",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "60",
+            "gold": []
+          },
+          {
+            "qid": "5acfe84677cf76001a686408",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Wahhabist interpretation of Islam",
+            "gold": []
+          },
+          {
+            "qid": "5a8205d131013a001a3350fb",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "the dignity and worth of human nature, the right and ability of each person to perceive truth, and the indwelling God in each person.",
+            "gold": []
+          },
+          {
+            "qid": "5ad02de677cf76001a686d1f",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "mace",
+            "gold": []
+          },
+          {
+            "qid": "5a638b3668151a001a92235b",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "489",
+            "gold": []
+          },
+          {
+            "qid": "5a2c36c4bfd06b001a5aea67",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "monthly subscription",
+            "gold": []
+          },
+          {
+            "qid": "5ad11288645df0001a2d0c30",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "The European Commission is the main executive body of the European Union.",
+            "gold": []
+          },
+          {
+            "qid": "5ad25f82d7d075001a428f85",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "5a58d33e3e1742001a15ce3e",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 0.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "unanswerable",
+            "gold": []
+          },
+          {
+            "qid": "5a1c8bb4b4fb5d00187146aa",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "28 floor Riverplace Tower",
+            "gold": []
+          },
+          {
+            "qid": "5a638d2768151a001a922371",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "90%",
+            "gold": []
+          },
+          {
+            "qid": "5a3e3de4378766001a002517",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Michael Oppenheimer.",
+            "gold": []
+          },
+          {
+            "qid": "5ad2a58bd7d075001a429dcc",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "11,700 years ago",
+            "gold": []
+          },
+          {
+            "qid": "5ad14573645df0001a2d14b3",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Article 101(1), including price fixing.",
+            "gold": []
+          },
+          {
+            "qid": "5ad3ed37604f3c001a3ff7a5",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "the pistons worked in the same phase driving a common crosshead and crank, again set at 90° as for a two-cylinder engine.",
+            "gold": []
+          },
+          {
+            "qid": "5ad0316177cf76001a686ddc",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "5a38d6e6a4b263001a8c1955",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Chrysler ended production of their full-sized luxury sedans at the end of the 1981 model year, moving instead to a full front-wheel drive lineup for",
+            "gold": []
+          },
+          {
+            "qid": "5ad40955604f3c001a3fff2f",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Emperor Wenzong",
+            "gold": []
+          },
+          {
+            "qid": "5ad404a6604f3c001a3ffde1",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "5ad543c05b96ef001a10ac00",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Turing machines",
+            "gold": []
+          },
+          {
+            "qid": "5a1c539bb4fb5d00187145fa",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Baldwin.",
+            "gold": []
+          },
+          {
+            "qid": "5ad3b9cd604f3c001a3fee8b",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Two",
+            "gold": []
+          },
+          {
+            "qid": "5a2c16e3bfd06b001a5ae9eb",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Sky+ Box",
+            "gold": []
+          },
+          {
+            "qid": "5ad26257d7d075001a42909e",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "the outside world that is at rest",
+            "gold": []
+          },
+          {
+            "qid": "5a7b402121c2de001afe9e0d",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "97,915 families.",
+            "gold": []
+          }
+        ]
+      },
+      "AutoRAG": {
+        "n": 60,
+        "mean_usefulness": 1.7333333333333334,
+        "pct_usefulness_ge2": 0.5833333333333334,
+        "pct_usefulness_3": 0.55,
+        "pct_citation_ok": 0.8333333333333334,
+        "ratings": [
+          {
+            "qid": "5737a4511c456719005744e1",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": [
+              "Newton's Second Law of Motion",
+              "Newton's Second Law of Motion",
+              "Newton's Second Law of Motion",
+              "Newton's Second Law of Motion"
+            ]
+          },
+          {
+            "qid": "5727526cdd62a815002e9b0f",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": [
+              "Public-Private Partnering",
+              "Public-Private Partnering",
+              "Public-Private Partnering"
+            ]
+          },
+          {
+            "qid": "572881d34b864d1900164a5b",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "Jesus the Interpreter",
+            "gold": [
+              "Jesus the Interpreter",
+              "Jesus the Interpreter",
+              "Jesus the Interpreter"
+            ]
+          },
+          {
+            "qid": "572758e0f1498d1400e8f6b0",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "Blaine Amendments.",
+            "gold": [
+              "Blaine",
+              "Blaine Amendments",
+              "Blaine Amendments"
+            ]
+          },
+          {
+            "qid": "57107c24a58dae1900cd69ea",
+            "answerable": true,
+            "f1": 0.28571428571428575,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 1,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "William III of Orange",
+            "gold": [
+              "League of Augsburg",
+              "League of Augsburg",
+              "League of Augsburg"
+            ]
+          },
+          {
+            "qid": "571155ae2419e31400955594",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": [
+              "biomass",
+              "biomass",
+              "biomass"
+            ]
+          },
+          {
+            "qid": "572f64ccb2c2fd14005680b9",
+            "answerable": true,
+            "f1": 0.42857142857142855,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "The rate of flow was increased and the ground water level fell significantly.",
+            "gold": [
+              "fell significantly",
+              "fell significantly",
+              "level fell significantly"
+            ]
+          },
+          {
+            "qid": "5727cebc2ca10214002d96f1",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "a minority of enrollments",
+            "gold": [
+              "7,200",
+              "7,200",
+              "7,200"
+            ]
+          },
+          {
+            "qid": "57265e455951b619008f70bb",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "EU law",
+            "gold": [
+              "EU law",
+              "EU law has primacy",
+              "EU law has primacy",
+              "EU law"
+            ]
+          },
+          {
+            "qid": "572683075951b619008f7517",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": [
+              "external",
+              "external",
+              "external"
+            ]
+          },
+          {
+            "qid": "570d29c2b3d812140066d4c1",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "20%.",
+            "gold": [
+              "20%",
+              "20%",
+              "20%"
+            ]
+          },
+          {
+            "qid": "572fd1c4947a6a140053cd05",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": [
+              "wrecking",
+              "wrecking",
+              "\"wrecking amendments\""
+            ]
+          },
+          {
+            "qid": "572754fff1498d1400e8f661",
+            "answerable": true,
+            "f1": 0.9090909090909091,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "damage to the existing electrical, water, sewage, phone, and cable facilities",
+            "gold": [
+              "damage",
+              "the likelihood of damage",
+              "the likelihood of damage to the existing electrical, water, sewage, phone, and cable facilities"
+            ]
+          },
+          {
+            "qid": "572754fff1498d1400e8f663",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "municipal building inspector",
+            "gold": [
+              "the municipal building inspector",
+              "municipal building inspector",
+              "the municipal building inspector"
+            ]
+          },
+          {
+            "qid": "573776eec3c5551400e51eeb",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": [
+              "Galileo",
+              "Aristotle's",
+              "Aristotle",
+              "Aristotle",
+              "Aristotle's"
+            ]
+          },
+          {
+            "qid": "5710e8c8a58dae1900cd6b28",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": [
+              "Camisards",
+              "Camisards",
+              "the Camisards"
+            ]
+          },
+          {
+            "qid": "570d2af0fed7b91900d45c95",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "second-most populous",
+            "gold": [
+              "second",
+              "second-most",
+              "second-most populous"
+            ]
+          },
+          {
+            "qid": "56e1fc57e3433e1400423230",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "NP-complete problems.",
+            "gold": [
+              "NP-complete problems",
+              "NP-complete",
+              "NP-complete",
+              "NP-complete"
+            ]
+          },
+          {
+            "qid": "57264586f1498d1400e8dac6",
+            "answerable": true,
+            "f1": 0.8181818181818181,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "the public switched data network operated by the Dutch PTT Telecom (now known as KPN).",
+            "gold": [
+              "was the public switched data network operated by the Dutch PTT Telecom",
+              "the public switched data network operated by the Dutch PTT Telecom",
+              "public switched data network"
+            ]
+          },
+          {
+            "qid": "571c3a685efbb31900334db4",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": [
+              "oxides",
+              "oxides",
+              "oxides",
+              "oxide compounds",
+              "oxide"
+            ]
+          },
+          {
+            "qid": "5729ea263f37b319004785be",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": [
+              "NASA",
+              "NASA",
+              "NASA's"
+            ]
+          },
+          {
+            "qid": "572ff7ab04bcaa1900d76f53",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": [
+              "Waal",
+              "Waal",
+              "Waal"
+            ]
+          },
+          {
+            "qid": "571090abb654c5140001f996",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "The Weavers",
+            "gold": [
+              "The Weavers",
+              "The Weavers",
+              "The Weavers"
+            ]
+          },
+          {
+            "qid": "57096505ed30961900e84083",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "Sky Q Silver set top boxes",
+            "gold": [
+              "Sky Q Silver set top boxes",
+              "the Sky Q Silver set top boxes",
+              "Sky Q Silver"
+            ]
+          },
+          {
+            "qid": "5725fb8138643c19005acf43",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "KGPE",
+            "gold": [
+              "KGPE",
+              "KGPE",
+              "KGPE"
+            ]
+          },
+          {
+            "qid": "5733f5f24776f419006615c3",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": [
+              "Approximately 1,000 British soldiers were killed or injured.",
+              "Approximately 1,000",
+              "1,000 British soldiers",
+              "1,000",
+              "1,000 British soldiers"
+            ]
+          },
+          {
+            "qid": "57332f81d058e614000b5777",
+            "answerable": true,
+            "f1": 0.6666666666666666,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 2,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "prefabricated housing",
+            "gold": [
+              "prefabricated",
+              "prefabricated",
+              "prefabricated"
+            ]
+          },
+          {
+            "qid": "5733d2dbd058e614000b633b",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": [
+              "confirming Britain's position as the dominant colonial power in eastern North America",
+              "confirming Britain's position as the dominant colonial power in eastern North America",
+              "confirming Britain's position as the dominant colonial power in eastern North America",
+              "dominant colonial power",
+              "confirming Britain's position as the dominant colonial power in eastern North America"
+            ]
+          },
+          {
+            "qid": "57300e2604bcaa1900d770ba",
+            "answerable": true,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": false,
+            "pred": "2006",
+            "gold": [
+              "During the 2006 Israel-Lebanon conflict",
+              "the 2006 Israel-Lebanon conflict",
+              "2006"
+            ]
+          },
+          {
+            "qid": "5727de862ca10214002d9860",
+            "answerable": true,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": [
+              "General Ban Ki-moon",
+              "Ban Ki-moon",
+              "Ban Ki-moon"
+            ]
+          },
+          {
+            "qid": "5ad3ae4f604f3c001a3fec49",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "5a8257efe60761001a2eb1cf",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "5a57fb62770dc0001aeeff12",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "5a89150d3b2508001a72a4ac",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "5ad0206677cf76001a686afb",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "The motion picture, television, and music industry",
+            "gold": []
+          },
+          {
+            "qid": "5ad4f4d95b96ef001a10a793",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "60",
+            "gold": []
+          },
+          {
+            "qid": "5acfe84677cf76001a686408",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Wahhabist interpretation of Islam",
+            "gold": []
+          },
+          {
+            "qid": "5a8205d131013a001a3350fb",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "5ad02de677cf76001a686d1f",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "mace",
+            "gold": []
+          },
+          {
+            "qid": "5a638b3668151a001a92235b",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "5a2c36c4bfd06b001a5aea67",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "5ad11288645df0001a2d0c30",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "5ad25f82d7d075001a428f85",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 0.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "not_included",
+            "gold": []
+          },
+          {
+            "qid": "5a58d33e3e1742001a15ce3e",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "5a1c8bb4b4fb5d00187146aa",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "5a638d2768151a001a922371",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "5a3e3de4378766001a002517",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "5ad2a58bd7d075001a429dcc",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "5ad14573645df0001a2d14b3",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Article 101(1), including price fixing.",
+            "gold": []
+          },
+          {
+            "qid": "5ad3ed37604f3c001a3ff7a5",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "5ad0316177cf76001a686ddc",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "The Portuguese.",
+            "gold": []
+          },
+          {
+            "qid": "5a38d6e6a4b263001a8c1955",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "5ad40955604f3c001a3fff2f",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "5ad404a6604f3c001a3ffde1",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "5ad543c05b96ef001a10ac00",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Turing machines",
+            "gold": []
+          },
+          {
+            "qid": "5a1c539bb4fb5d00187145fa",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "5ad3b9cd604f3c001a3fee8b",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          },
+          {
+            "qid": "5a2c16e3bfd06b001a5ae9eb",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "Sky+",
+            "gold": []
+          },
+          {
+            "qid": "5ad26257d7d075001a42909e",
+            "answerable": false,
+            "f1": 0.0,
+            "faithfulness": 1.0,
+            "citation": 0.0,
+            "usefulness": 0,
+            "citation_ok": 0,
+            "refused": false,
+            "pred": "the outside world that is at rest",
+            "gold": []
+          },
+          {
+            "qid": "5a7b402121c2de001afe9e0d",
+            "answerable": false,
+            "f1": 1.0,
+            "faithfulness": 1.0,
+            "citation": 1.0,
+            "usefulness": 3,
+            "citation_ok": 1,
+            "refused": true,
+            "pred": "",
+            "gold": []
+          }
+        ]
+      }
+    },
+    "sampled_qids": [
+      "56e1fc57e3433e1400423230",
+      "57096505ed30961900e84083",
+      "570d29c2b3d812140066d4c1",
+      "570d2af0fed7b91900d45c95",
+      "57107c24a58dae1900cd69ea",
+      "571090abb654c5140001f996",
+      "5710e8c8a58dae1900cd6b28",
+      "571155ae2419e31400955594",
+      "571c3a685efbb31900334db4",
+      "5725fb8138643c19005acf43",
+      "57264586f1498d1400e8dac6",
+      "57265e455951b619008f70bb",
+      "572683075951b619008f7517",
+      "5727526cdd62a815002e9b0f",
+      "572754fff1498d1400e8f661",
+      "572754fff1498d1400e8f663",
+      "572758e0f1498d1400e8f6b0",
+      "5727cebc2ca10214002d96f1",
+      "5727de862ca10214002d9860",
+      "572881d34b864d1900164a5b",
+      "5729ea263f37b319004785be",
+      "572f64ccb2c2fd14005680b9",
+      "572fd1c4947a6a140053cd05",
+      "572ff7ab04bcaa1900d76f53",
+      "57300e2604bcaa1900d770ba",
+      "57332f81d058e614000b5777",
+      "5733d2dbd058e614000b633b",
+      "5733f5f24776f419006615c3",
+      "573776eec3c5551400e51eeb",
+      "5737a4511c456719005744e1",
+      "5a1c539bb4fb5d00187145fa",
+      "5a1c8bb4b4fb5d00187146aa",
+      "5a2c16e3bfd06b001a5ae9eb",
+      "5a2c36c4bfd06b001a5aea67",
+      "5a38d6e6a4b263001a8c1955",
+      "5a3e3de4378766001a002517",
+      "5a57fb62770dc0001aeeff12",
+      "5a58d33e3e1742001a15ce3e",
+      "5a638b3668151a001a92235b",
+      "5a638d2768151a001a922371",
+      "5a7b402121c2de001afe9e0d",
+      "5a8205d131013a001a3350fb",
+      "5a8257efe60761001a2eb1cf",
+      "5a89150d3b2508001a72a4ac",
+      "5acfe84677cf76001a686408",
+      "5ad0206677cf76001a686afb",
+      "5ad02de677cf76001a686d1f",
+      "5ad0316177cf76001a686ddc",
+      "5ad11288645df0001a2d0c30",
+      "5ad14573645df0001a2d14b3",
+      "5ad25f82d7d075001a428f85",
+      "5ad26257d7d075001a42909e",
+      "5ad2a58bd7d075001a429dcc",
+      "5ad3ae4f604f3c001a3fec49",
+      "5ad3b9cd604f3c001a3fee8b",
+      "5ad3ed37604f3c001a3ff7a5",
+      "5ad404a6604f3c001a3ffde1",
+      "5ad40955604f3c001a3fff2f",
+      "5ad4f4d95b96ef001a10a793",
+      "5ad543c05b96ef001a10ac00"
+    ]
+  }
+}

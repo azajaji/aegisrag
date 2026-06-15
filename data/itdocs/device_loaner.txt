@@ -1,0 +1,9 @@
+The IT helpdesk maintains a pool of loaner laptops for short-term use by students and staff. Reservations may be made up to 14 days in advance via the IT portal.
+
+Loaner duration is limited to seven calendar days; extensions require helpdesk approval and are normally granted only once per loan.
+
+Late returns accrue a 25 SAR per day fee; loaners more than ten days overdue may be reported as lost and billed at the device replacement cost.
+
+Loaner devices are wiped and reimaged between loans; any user data left on the device is erased and not recoverable.
+
+International travel with a loaner device requires written approval from the IT director and a security briefing before departure.

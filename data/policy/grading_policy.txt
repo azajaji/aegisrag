@@ -1,0 +1,13 @@
+The university uses a letter grading system: A (90-100), B (80-89), C (70-79), D (60-69), and F (below 60). Grade boundaries are inclusive on the lower bound.
+
+A grade of W (Withdrawal) may be assigned if a student officially withdraws from a course before the end of the tenth week of the semester. Withdrawal after this deadline results in a grade of F.
+
+Incomplete grades (I) are assigned only when a student has completed at least 70 percent of coursework but cannot finish due to documented medical or family emergency. Incomplete coursework must be submitted within six weeks of the start of the following semester.
+
+Grade appeals must be initiated by contacting the course instructor within ten business days of the grade being posted. If unresolved, the student may escalate to the department chair within an additional ten business days.
+
+Cumulative grade point average is calculated using all attempts of all courses. When a course is retaken, only the highest grade contributes to GPA, but all attempts remain on the transcript.
+
+A minimum cumulative GPA of 2.0 is required to remain in good academic standing. Students whose GPA falls below 2.0 are placed on academic probation for one semester.
+
+Students placed on academic probation must meet with their academic advisor within the first two weeks of the probationary semester and may not enroll in more than 12 credit hours.

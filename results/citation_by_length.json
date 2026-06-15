@@ -1,0 +1,150 @@
+{
+  "squad": {
+    "BM25": {
+      "1-2": {
+        "n": 5,
+        "citation_precision": 0.8
+      },
+      "3-5": {
+        "n": 10,
+        "citation_precision": 1.0
+      },
+      "6-10": {
+        "n": 38,
+        "citation_precision": 0.8157894736842105
+      },
+      "11+": {
+        "n": 162,
+        "citation_precision": 0.7345679012345679
+      }
+    },
+    "NaiveRAG": {
+      "1-2": {
+        "n": 5,
+        "citation_precision": 0.8
+      },
+      "3-5": {
+        "n": 10,
+        "citation_precision": 0.8
+      },
+      "6-10": {
+        "n": 49,
+        "citation_precision": 0.5714285714285714
+      },
+      "11+": {
+        "n": 151,
+        "citation_precision": 0.7086092715231788
+      }
+    },
+    "RAG+Rerank": {
+      "1-2": {
+        "n": 4,
+        "citation_precision": 1.0
+      },
+      "3-5": {
+        "n": 14,
+        "citation_precision": 0.9285714285714286
+      },
+      "6-10": {
+        "n": 40,
+        "citation_precision": 0.9
+      },
+      "11+": {
+        "n": 157,
+        "citation_precision": 0.8471337579617835
+      }
+    },
+    "AutoRAG": {
+      "1-2": {
+        "n": 4,
+        "citation_precision": 1.0
+      },
+      "3-5": {
+        "n": 12,
+        "citation_precision": 1.0
+      },
+      "6-10": {
+        "n": 24,
+        "citation_precision": 0.9583333333333334
+      },
+      "11+": {
+        "n": 91,
+        "citation_precision": 0.9560439560439561
+      }
+    }
+  },
+  "enterprise": {
+    "BM25": {
+      "1-2": {
+        "n": 0,
+        "citation_precision": 0.0
+      },
+      "3-5": {
+        "n": 7,
+        "citation_precision": 1.0
+      },
+      "6-10": {
+        "n": 33,
+        "citation_precision": 0.7878787878787878
+      },
+      "11+": {
+        "n": 124,
+        "citation_precision": 0.8951612903225806
+      }
+    },
+    "NaiveRAG": {
+      "1-2": {
+        "n": 0,
+        "citation_precision": 0.0
+      },
+      "3-5": {
+        "n": 6,
+        "citation_precision": 1.0
+      },
+      "6-10": {
+        "n": 31,
+        "citation_precision": 0.967741935483871
+      },
+      "11+": {
+        "n": 127,
+        "citation_precision": 0.952755905511811
+      }
+    },
+    "RAG+Rerank": {
+      "1-2": {
+        "n": 0,
+        "citation_precision": 0.0
+      },
+      "3-5": {
+        "n": 8,
+        "citation_precision": 1.0
+      },
+      "6-10": {
+        "n": 29,
+        "citation_precision": 1.0
+      },
+      "11+": {
+        "n": 127,
+        "citation_precision": 0.9606299212598425
+      }
+    },
+    "AutoRAG": {
+      "1-2": {
+        "n": 0,
+        "citation_precision": 0.0
+      },
+      "3-5": {
+        "n": 8,
+        "citation_precision": 1.0
+      },
+      "6-10": {
+        "n": 27,
+        "citation_precision": 1.0
+      },
+      "11+": {
+        "n": 124,
+        "citation_precision": 0.9758064516129032
+      }
+    }
+  }
+}

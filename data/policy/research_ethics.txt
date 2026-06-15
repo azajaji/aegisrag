@@ -1,0 +1,11 @@
+All research involving human participants must receive approval from the Institutional Review Board before any data collection begins. Retroactive approval is not permitted.
+
+IRB applications must be submitted at least six weeks before the planned start date of data collection. Expedited review is available for minimal-risk studies and typically takes two weeks.
+
+Informed consent forms must include the purpose of the research, voluntary nature of participation, expected duration, potential risks, expected benefits, and contact information of the principal investigator.
+
+Research data collected from human participants must be stored on encrypted university servers for a minimum of five years after publication. Cloud storage outside the kingdom requires explicit IRB authorization.
+
+Conflicts of interest exceeding 10,000 SAR in annual value must be disclosed in the Annual Conflict of Interest report submitted by January 31 each year.
+
+Authorship on research publications requires substantial contribution to design, execution, or interpretation; mere provision of funding or facilities does not qualify for authorship.

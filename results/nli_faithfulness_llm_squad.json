@@ -1,0 +1,3628 @@
+{
+  "source": "llm_squad.json",
+  "dataset": "squad",
+  "model": "google/flan-t5-base",
+  "nli_model": "cross-encoder/nli-deberta-v3-base",
+  "threshold": 0.5,
+  "systems": {
+    "BM25": {
+      "n_scored": 113,
+      "n_skipped_no_premise": 0,
+      "entail_prob_mean": 0.9345141199306148,
+      "entail_prob_ci95": [
+        0.8926709576889016,
+        0.9695963431917753
+      ],
+      "supported_rate_mean": 0.9557522123893806,
+      "supported_rate_ci95": [
+        0.9201327433628319,
+        0.9911504424778761
+      ],
+      "per_question": [
+        {
+          "qid": "5728827b2ca10214002da42b",
+          "answerable": true,
+          "pred": "bark of mulberry trees",
+          "cite_doc": "Yuan_dynasty",
+          "cite_para": 39,
+          "entail_prob": 0.9952238202095032,
+          "supported": true
+        },
+        {
+          "qid": "5737a4511c456719005744e1",
+          "answerable": true,
+          "pred": "Newton's Second Law of Motion",
+          "cite_doc": "Force",
+          "cite_para": 38,
+          "entail_prob": 0.9983569979667664,
+          "supported": true
+        },
+        {
+          "qid": "5725b81b271a42140099d097",
+          "answerable": true,
+          "pred": "Amazonia or the Amazon Jungle",
+          "cite_doc": "Amazon_rainforest",
+          "cite_para": 0,
+          "entail_prob": 0.9986578226089478,
+          "supported": true
+        },
+        {
+          "qid": "56de1645cffd8e1900b4b5d2",
+          "answerable": true,
+          "pred": "Robert of Jumi\u00e8ges",
+          "cite_doc": "Normans",
+          "cite_para": 15,
+          "entail_prob": 0.9989128112792969,
+          "supported": true
+        },
+        {
+          "qid": "5729d878af94a219006aa66b",
+          "answerable": true,
+          "pred": "the market",
+          "cite_doc": "Economic_inequality",
+          "cite_para": 4,
+          "entail_prob": 0.9819704294204712,
+          "supported": true
+        },
+        {
+          "qid": "572881d34b864d1900164a5b",
+          "answerable": true,
+          "pred": "The Nestorian physician Jesus the Interpreter",
+          "cite_doc": "Yuan_dynasty",
+          "cite_para": 37,
+          "entail_prob": 0.9991419315338135,
+          "supported": true
+        },
+        {
+          "qid": "570963a5200fba1400367f35",
+          "answerable": true,
+          "pred": "11 million customers",
+          "cite_doc": "Sky_(United_Kingdom)",
+          "cite_para": 8,
+          "entail_prob": 0.9972409009933472,
+          "supported": true
+        },
+        {
+          "qid": "5728455bff5b5019007da078",
+          "answerable": true,
+          "pred": "NASA's CALIPSO satellite",
+          "cite_doc": "Amazon_rainforest",
+          "cite_para": 4,
+          "entail_prob": 0.9974924325942993,
+          "supported": true
+        },
+        {
+          "qid": "5726701add62a815002e84cb",
+          "answerable": true,
+          "pred": "\"synforms\"",
+          "cite_doc": "Geology",
+          "cite_para": 10,
+          "entail_prob": 0.6467085480690002,
+          "supported": true
+        },
+        {
+          "qid": "57107a3ea58dae1900cd69de",
+          "answerable": true,
+          "pred": "Staten Island",
+          "cite_doc": "Huguenot",
+          "cite_para": 12,
+          "entail_prob": 0.9977715015411377,
+          "supported": true
+        },
+        {
+          "qid": "572758e0f1498d1400e8f6b0",
+          "answerable": true,
+          "pred": "Blaine Amendments.",
+          "cite_doc": "Private_school",
+          "cite_para": 23,
+          "entail_prob": 0.9986590147018433,
+          "supported": true
+        },
+        {
+          "qid": "573314e3d058e614000b56f3",
+          "answerable": true,
+          "pred": "architectural",
+          "cite_doc": "Warsaw",
+          "cite_para": 3,
+          "entail_prob": 0.9703184962272644,
+          "supported": true
+        },
+        {
+          "qid": "57107c24a58dae1900cd69ea",
+          "answerable": true,
+          "pred": "William III of Orange",
+          "cite_doc": "Huguenot",
+          "cite_para": 7,
+          "entail_prob": 0.996432900428772,
+          "supported": true
+        },
+        {
+          "qid": "571155ae2419e31400955594",
+          "answerable": true,
+          "pred": "biomass",
+          "cite_doc": "Steam_engine",
+          "cite_para": 23,
+          "entail_prob": 0.9972866773605347,
+          "supported": true
+        },
+        {
+          "qid": "572f64ccb2c2fd14005680b9",
+          "answerable": true,
+          "pred": "The ground water level fell significantly.",
+          "cite_doc": "Rhine",
+          "cite_para": 10,
+          "entail_prob": 0.9974606037139893,
+          "supported": true
+        },
+        {
+          "qid": "5729f60caf94a219006aa6f2",
+          "answerable": true,
+          "pred": "inequality",
+          "cite_doc": "Economic_inequality",
+          "cite_para": 19,
+          "entail_prob": 0.9994840621948242,
+          "supported": true
+        },
+        {
+          "qid": "5727cebc2ca10214002d96f1",
+          "answerable": true,
+          "pred": "7,200 undergraduates and 14,000 graduate students.",
+          "cite_doc": "Harvard_University",
+          "cite_para": 10,
+          "entail_prob": 0.9994838237762451,
+          "supported": true
+        },
+        {
+          "qid": "57265e455951b619008f70bb",
+          "answerable": true,
+          "pred": "EU law takes primacy over national law.",
+          "cite_doc": "European_Union_law",
+          "cite_para": 11,
+          "entail_prob": 0.9977503418922424,
+          "supported": true
+        },
+        {
+          "qid": "57265642f1498d1400e8dc68",
+          "answerable": true,
+          "pred": "40,000",
+          "cite_doc": "Black_Death",
+          "cite_para": 20,
+          "entail_prob": 0.9979150891304016,
+          "supported": true
+        },
+        {
+          "qid": "572683075951b619008f7517",
+          "answerable": true,
+          "pred": "Fertilization is external in most species, but platyctenids use internal fertilization and keep the eggs in brood chambers",
+          "cite_doc": "Ctenophora",
+          "cite_para": 21,
+          "entail_prob": 0.9814547896385193,
+          "supported": true
+        },
+        {
+          "qid": "5706143575f01819005e7950",
+          "answerable": true,
+          "pred": "NFL",
+          "cite_doc": "Southern_California",
+          "cite_para": 35,
+          "entail_prob": 0.9968039989471436,
+          "supported": true
+        },
+        {
+          "qid": "572a1c943f37b319004786e2",
+          "answerable": true,
+          "pred": "quality rental units",
+          "cite_doc": "Economic_inequality",
+          "cite_para": 37,
+          "entail_prob": 0.5827640295028687,
+          "supported": true
+        },
+        {
+          "qid": "570d29c2b3d812140066d4c1",
+          "answerable": true,
+          "pred": "20%.",
+          "cite_doc": "Victoria_(Australia)",
+          "cite_para": 4,
+          "entail_prob": 0.9965984225273132,
+          "supported": true
+        },
+        {
+          "qid": "5726eb4b5951b619008f826b",
+          "answerable": true,
+          "pred": "2000",
+          "cite_doc": "Pharmacy",
+          "cite_para": 14,
+          "entail_prob": 0.9996956586837769,
+          "supported": true
+        },
+        {
+          "qid": "572fd1c4947a6a140053cd05",
+          "answerable": true,
+          "pred": "\"wrecking amendments\"",
+          "cite_doc": "Scottish_Parliament",
+          "cite_para": 27,
+          "entail_prob": 0.998584508895874,
+          "supported": true
+        },
+        {
+          "qid": "57298ef11d0469140077952d",
+          "answerable": true,
+          "pred": "1859",
+          "cite_doc": "Prime_number",
+          "cite_para": 17,
+          "entail_prob": 0.9992380142211914,
+          "supported": true
+        },
+        {
+          "qid": "572754fff1498d1400e8f661",
+          "answerable": true,
+          "pred": "damage to the existing electrical, water, sewage, phone, and cable facilities",
+          "cite_doc": "Construction",
+          "cite_para": 18,
+          "entail_prob": 0.999092698097229,
+          "supported": true
+        },
+        {
+          "qid": "572754fff1498d1400e8f663",
+          "answerable": true,
+          "pred": "municipal building inspector",
+          "cite_doc": "Construction",
+          "cite_para": 18,
+          "entail_prob": 0.9993689656257629,
+          "supported": true
+        },
+        {
+          "qid": "57274b35f1498d1400e8f5d4",
+          "answerable": true,
+          "pred": "Ersatzschulen",
+          "cite_doc": "Private_school",
+          "cite_para": 7,
+          "entail_prob": 0.001984135014936328,
+          "supported": false
+        },
+        {
+          "qid": "573776eec3c5551400e51eeb",
+          "answerable": true,
+          "pred": "Aristotelian",
+          "cite_doc": "Force",
+          "cite_para": 4,
+          "entail_prob": 0.020829420536756516,
+          "supported": false
+        },
+        {
+          "qid": "57264a74708984140094c18e",
+          "answerable": true,
+          "pred": "1823",
+          "cite_doc": "Black_Death",
+          "cite_para": 5,
+          "entail_prob": 0.9994223117828369,
+          "supported": true
+        },
+        {
+          "qid": "5710e8c8a58dae1900cd6b28",
+          "answerable": true,
+          "pred": "Huguenots",
+          "cite_doc": "Huguenot",
+          "cite_para": 23,
+          "entail_prob": 0.9843437671661377,
+          "supported": true
+        },
+        {
+          "qid": "570d2af0fed7b91900d45c95",
+          "answerable": true,
+          "pred": "second-most populous",
+          "cite_doc": "Victoria_(Australia)",
+          "cite_para": 5,
+          "entail_prob": 0.9980834722518921,
+          "supported": true
+        },
+        {
+          "qid": "56e1fc57e3433e1400423230",
+          "answerable": true,
+          "pred": "NP-complete problems.",
+          "cite_doc": "Computational_complexity_theory",
+          "cite_para": 41,
+          "entail_prob": 0.9897918701171875,
+          "supported": true
+        },
+        {
+          "qid": "57264586f1498d1400e8dac6",
+          "answerable": true,
+          "pred": "the public switched data network operated by the Dutch PTT Telecom (now known as KPN).",
+          "cite_doc": "Packet_switching",
+          "cite_para": 18,
+          "entail_prob": 0.9961613416671753,
+          "supported": true
+        },
+        {
+          "qid": "571c3a685efbb31900334db4",
+          "answerable": true,
+          "pred": "oxide compounds",
+          "cite_doc": "Oxygen",
+          "cite_para": 0,
+          "entail_prob": 0.9992620348930359,
+          "supported": true
+        },
+        {
+          "qid": "57097c8fed30961900e841f3",
+          "answerable": true,
+          "pred": "essentials.",
+          "cite_doc": "Sky_(United_Kingdom)",
+          "cite_para": 20,
+          "entail_prob": 0.9978444576263428,
+          "supported": true
+        },
+        {
+          "qid": "57265642f1498d1400e8dc6c",
+          "answerable": true,
+          "pred": "1654.",
+          "cite_doc": "Black_Death",
+          "cite_para": 20,
+          "entail_prob": 0.9943227767944336,
+          "supported": true
+        },
+        {
+          "qid": "57274f49f1498d1400e8f61e",
+          "answerable": true,
+          "pred": "Anglican.",
+          "cite_doc": "Private_school",
+          "cite_para": 15,
+          "entail_prob": 0.9967648983001709,
+          "supported": true
+        },
+        {
+          "qid": "5729ea263f37b319004785be",
+          "answerable": true,
+          "pred": "NASA",
+          "cite_doc": "Amazon_rainforest",
+          "cite_para": 4,
+          "entail_prob": 0.9967058300971985,
+          "supported": true
+        },
+        {
+          "qid": "572ff7ab04bcaa1900d76f53",
+          "answerable": true,
+          "pred": "Waal",
+          "cite_doc": "Rhine",
+          "cite_para": 20,
+          "entail_prob": 0.9763200283050537,
+          "supported": true
+        },
+        {
+          "qid": "571090abb654c5140001f996",
+          "answerable": true,
+          "pred": "The Weavers",
+          "cite_doc": "Huguenot",
+          "cite_para": 15,
+          "entail_prob": 0.9971206784248352,
+          "supported": true
+        },
+        {
+          "qid": "57267947f1498d1400e8e0ed",
+          "answerable": true,
+          "pred": "birefringence, pleochroism, twinning, and interference",
+          "cite_doc": "Geology",
+          "cite_para": 15,
+          "entail_prob": 0.9995416402816772,
+          "supported": true
+        },
+        {
+          "qid": "57108198b654c5140001f93b",
+          "answerable": true,
+          "pred": "France",
+          "cite_doc": "Huguenot",
+          "cite_para": 25,
+          "entail_prob": 0.0505325011909008,
+          "supported": false
+        },
+        {
+          "qid": "572970c11d04691400779463",
+          "answerable": true,
+          "pred": "infinitely many pairs of primes whose difference is 2).",
+          "cite_doc": "Prime_number",
+          "cite_para": 3,
+          "entail_prob": 0.9993114471435547,
+          "supported": true
+        },
+        {
+          "qid": "5730a0778ab72b1400f9c60e",
+          "answerable": true,
+          "pred": "orientalism and tropicality.",
+          "cite_doc": "Imperialism",
+          "cite_para": 20,
+          "entail_prob": 0.9953534603118896,
+          "supported": true
+        },
+        {
+          "qid": "57268b43dd62a815002e88f2",
+          "answerable": true,
+          "pred": "European Parliament and the Council of the European Union",
+          "cite_doc": "European_Union_law",
+          "cite_para": 0,
+          "entail_prob": 0.9979056119918823,
+          "supported": true
+        },
+        {
+          "qid": "572751b4708984140094dc1d",
+          "answerable": true,
+          "pred": "that a delay costs money",
+          "cite_doc": "Construction",
+          "cite_para": 14,
+          "entail_prob": 0.9987530708312988,
+          "supported": true
+        },
+        {
+          "qid": "570614ff52bb89140068988d",
+          "answerable": true,
+          "pred": "Pac-12 Conference.",
+          "cite_doc": "Southern_California",
+          "cite_para": 37,
+          "entail_prob": 0.9996562004089355,
+          "supported": true
+        },
+        {
+          "qid": "57096505ed30961900e84083",
+          "answerable": true,
+          "pred": "Sky Q Silver set top boxes",
+          "cite_doc": "Sky_(United_Kingdom)",
+          "cite_para": 9,
+          "entail_prob": 0.5280901193618774,
+          "supported": true
+        },
+        {
+          "qid": "57269aa65951b619008f77ae",
+          "answerable": true,
+          "pred": "The view of the German Constitutional Court from the Solange I and Solange II decisions is that if the EU does not comply with its basic constitutional rights",
+          "cite_doc": "European_Union_law",
+          "cite_para": 13,
+          "entail_prob": 0.9986253976821899,
+          "supported": true
+        },
+        {
+          "qid": "572a0ce11d04691400779701",
+          "answerable": true,
+          "pred": "protein A.",
+          "cite_doc": "Immune_system",
+          "cite_para": 42,
+          "entail_prob": 0.9992510676383972,
+          "supported": true
+        },
+        {
+          "qid": "5725fb8138643c19005acf43",
+          "answerable": true,
+          "pred": "KGPE",
+          "cite_doc": "Fresno,_California",
+          "cite_para": 24,
+          "entail_prob": 0.9979326725006104,
+          "supported": true
+        },
+        {
+          "qid": "5733f5f24776f419006615c3",
+          "answerable": true,
+          "pred": "45,000 pounds of gunpowder.",
+          "cite_doc": "Huguenot",
+          "cite_para": 17,
+          "entail_prob": 0.9970484375953674,
+          "supported": true
+        },
+        {
+          "qid": "5725ff8238643c19005acf4c",
+          "answerable": true,
+          "pred": "San Joaquin Valley Railroad",
+          "cite_doc": "Fresno,_California",
+          "cite_para": 27,
+          "entail_prob": 0.9988604784011841,
+          "supported": true
+        },
+        {
+          "qid": "56e1ec83cd28a01900c67c0a",
+          "answerable": true,
+          "pred": "The integer factorization problem",
+          "cite_doc": "Computational_complexity_theory",
+          "cite_para": 37,
+          "entail_prob": 0.9973229765892029,
+          "supported": true
+        },
+        {
+          "qid": "57332f81d058e614000b5777",
+          "answerable": true,
+          "pred": "prefabricated housing",
+          "cite_doc": "Warsaw",
+          "cite_para": 11,
+          "entail_prob": 0.9937667846679688,
+          "supported": true
+        },
+        {
+          "qid": "5733d2dbd058e614000b633b",
+          "answerable": true,
+          "pred": "the economic and administrative incorporation of local elites was also of crucial significance\" for the establishment of control over the subcontinent's resources, markets, and",
+          "cite_doc": "Prime_number",
+          "cite_para": 20,
+          "entail_prob": 0.999626874923706,
+          "supported": true
+        },
+        {
+          "qid": "572faec7b2c2fd1400568333",
+          "answerable": true,
+          "pred": "Holyrood area of Edinburgh",
+          "cite_doc": "Scottish_Parliament",
+          "cite_para": 5,
+          "entail_prob": 0.9942449927330017,
+          "supported": true
+        },
+        {
+          "qid": "57300e2604bcaa1900d770ba",
+          "answerable": true,
+          "pred": "2006",
+          "cite_doc": "Islamism",
+          "cite_para": 18,
+          "entail_prob": 0.9908438920974731,
+          "supported": true
+        },
+        {
+          "qid": "572648d1708984140094c15d",
+          "answerable": true,
+          "pred": "Very high-speed Backbone Network Service",
+          "cite_doc": "Packet_switching",
+          "cite_para": 22,
+          "entail_prob": 0.999160647392273,
+          "supported": true
+        },
+        {
+          "qid": "5ad24e50d7d075001a428c3a",
+          "answerable": false,
+          "pred": "union membership",
+          "cite_doc": "Economic_inequality",
+          "cite_para": 19,
+          "entail_prob": 0.9979196190834045,
+          "supported": true
+        },
+        {
+          "qid": "5ad3ae4f604f3c001a3fec49",
+          "answerable": false,
+          "pred": "Warraghiggey.",
+          "cite_doc": "French_and_Indian_War",
+          "cite_para": 28,
+          "entail_prob": 0.9977060556411743,
+          "supported": true
+        },
+        {
+          "qid": "5a8257efe60761001a2eb1cf",
+          "answerable": false,
+          "pred": "Schuenemann et al.",
+          "cite_doc": "Black_Death",
+          "cite_para": 12,
+          "entail_prob": 0.9970032572746277,
+          "supported": true
+        },
+        {
+          "qid": "5a25fa34c93d92001a40036f",
+          "answerable": false,
+          "pred": "Construction",
+          "cite_doc": "Construction",
+          "cite_para": 21,
+          "entail_prob": 0.9994176626205444,
+          "supported": true
+        },
+        {
+          "qid": "5ad53e615b96ef001a10abda",
+          "answerable": false,
+          "pred": "A function problem.",
+          "cite_doc": "Computational_complexity_theory",
+          "cite_para": 8,
+          "entail_prob": 0.5170434713363647,
+          "supported": true
+        },
+        {
+          "qid": "5a57fb62770dc0001aeeff12",
+          "answerable": false,
+          "pred": "unanswerable",
+          "cite_doc": "Geology",
+          "cite_para": 10,
+          "entail_prob": 0.8066269159317017,
+          "supported": true
+        },
+        {
+          "qid": "5a89150d3b2508001a72a4ac",
+          "answerable": false,
+          "pred": "prime elements and prime ideals.",
+          "cite_doc": "Prime_number",
+          "cite_para": 3,
+          "entail_prob": 0.9989728927612305,
+          "supported": true
+        },
+        {
+          "qid": "5ad0206677cf76001a686afb",
+          "answerable": false,
+          "pred": "The motion picture, television, and music industry",
+          "cite_doc": "Southern_California",
+          "cite_para": 6,
+          "entail_prob": 0.9974566102027893,
+          "supported": true
+        },
+        {
+          "qid": "5ad02e3377cf76001a686d33",
+          "answerable": false,
+          "pred": "historians",
+          "cite_doc": "Imperialism",
+          "cite_para": 15,
+          "entail_prob": 0.9820952415466309,
+          "supported": true
+        },
+        {
+          "qid": "5ad0415577cf76001a686f07",
+          "answerable": false,
+          "pred": "the Monarch",
+          "cite_doc": "Scottish_Parliament",
+          "cite_para": 30,
+          "entail_prob": 0.9979470372200012,
+          "supported": true
+        },
+        {
+          "qid": "5ad4f4d95b96ef001a10a793",
+          "answerable": false,
+          "pred": "60",
+          "cite_doc": "Warsaw",
+          "cite_para": 29,
+          "entail_prob": 0.9977739453315735,
+          "supported": true
+        },
+        {
+          "qid": "5ad2660dd7d075001a4291db",
+          "answerable": false,
+          "pred": "86 km long.",
+          "cite_doc": "Rhine",
+          "cite_para": 3,
+          "entail_prob": 0.9990096092224121,
+          "supported": true
+        },
+        {
+          "qid": "5acfe84677cf76001a686408",
+          "answerable": false,
+          "pred": "Wahhabist interpretation of Islam",
+          "cite_doc": "Islamism",
+          "cite_para": 7,
+          "entail_prob": 0.9991344809532166,
+          "supported": true
+        },
+        {
+          "qid": "5a8205d131013a001a3350fb",
+          "answerable": false,
+          "pred": "the dignity and worth of human nature, the right and ability of each person to perceive truth, and the indwelling God in each person.",
+          "cite_doc": "Harvard_University",
+          "cite_para": 7,
+          "entail_prob": 0.9994176626205444,
+          "supported": true
+        },
+        {
+          "qid": "5ad02de677cf76001a686d1f",
+          "answerable": false,
+          "pred": "mace",
+          "cite_doc": "Scottish_Parliament",
+          "cite_para": 11,
+          "entail_prob": 0.9993320107460022,
+          "supported": true
+        },
+        {
+          "qid": "5a638b3668151a001a92235b",
+          "answerable": false,
+          "pred": "489.",
+          "cite_doc": "Private_school",
+          "cite_para": 17,
+          "entail_prob": 0.9975799322128296,
+          "supported": true
+        },
+        {
+          "qid": "5a2c36c4bfd06b001a5aea67",
+          "answerable": false,
+          "pred": "monthly subscription",
+          "cite_doc": "Sky_(United_Kingdom)",
+          "cite_para": 14,
+          "entail_prob": 0.9933218359947205,
+          "supported": true
+        },
+        {
+          "qid": "5ad11288645df0001a2d0c30",
+          "answerable": false,
+          "pred": "The European Court of Justice is the supreme judicial body which interprets EU law, and develops it through precedent.",
+          "cite_doc": "European_Union_law",
+          "cite_para": 2,
+          "entail_prob": 0.9984443783760071,
+          "supported": true
+        },
+        {
+          "qid": "5a58d33e3e1742001a15ce3e",
+          "answerable": false,
+          "pred": "X.25 and Frame Relay",
+          "cite_doc": "Geology",
+          "cite_para": 1,
+          "entail_prob": 0.9904029369354248,
+          "supported": true
+        },
+        {
+          "qid": "5a83894de60761001a2eb78d",
+          "answerable": false,
+          "pred": "\"zip\" the mouth shut",
+          "cite_doc": "Ctenophora",
+          "cite_para": 18,
+          "entail_prob": 0.9986451268196106,
+          "supported": true
+        },
+        {
+          "qid": "5ad02cde77cf76001a686cc7",
+          "answerable": false,
+          "pred": "Californios of Monterey",
+          "cite_doc": "Southern_California",
+          "cite_para": 10,
+          "entail_prob": 0.9989323019981384,
+          "supported": true
+        },
+        {
+          "qid": "5ad28098d7d075001a4297ba",
+          "answerable": false,
+          "pred": "Warsaw's historic Old Town",
+          "cite_doc": "Warsaw",
+          "cite_para": 11,
+          "entail_prob": 0.9915048480033875,
+          "supported": true
+        },
+        {
+          "qid": "5a1c861fb4fb5d0018714657",
+          "answerable": false,
+          "pred": "Great Fire of 1901",
+          "cite_doc": "Jacksonville,_Florida",
+          "cite_para": 8,
+          "entail_prob": 0.9995848536491394,
+          "supported": true
+        },
+        {
+          "qid": "5a1c8bb4b4fb5d00187146aa",
+          "answerable": false,
+          "pred": "Riverplace Tower",
+          "cite_doc": "Jacksonville,_Florida",
+          "cite_para": 15,
+          "entail_prob": 0.999390721321106,
+          "supported": true
+        },
+        {
+          "qid": "5a638d2768151a001a922371",
+          "answerable": false,
+          "pred": "Victoria is ranked fourth in terms of GSP per capita because of its limited mining activity.",
+          "cite_doc": "Victoria_(Australia)",
+          "cite_para": 15,
+          "entail_prob": 0.9959017634391785,
+          "supported": true
+        },
+        {
+          "qid": "5ad261bad7d075001a429051",
+          "answerable": false,
+          "pred": "electronegativity",
+          "cite_doc": "Oxygen",
+          "cite_para": 35,
+          "entail_prob": 0.9996034502983093,
+          "supported": true
+        },
+        {
+          "qid": "5a3e3de4378766001a002517",
+          "answerable": false,
+          "pred": "Robert Watson",
+          "cite_doc": "Intergovernmental_Panel_on_Climate_Change",
+          "cite_para": 12,
+          "entail_prob": 0.9984623193740845,
+          "supported": true
+        },
+        {
+          "qid": "5ad2a58bd7d075001a429dcc",
+          "answerable": false,
+          "pred": "11,700 years ago",
+          "cite_doc": "Rhine",
+          "cite_para": 32,
+          "entail_prob": 0.9902855753898621,
+          "supported": true
+        },
+        {
+          "qid": "5ad0285977cf76001a686c0e",
+          "answerable": false,
+          "pred": "General Assembly Hall",
+          "cite_doc": "Scottish_Parliament",
+          "cite_para": 6,
+          "entail_prob": 0.9959549903869629,
+          "supported": true
+        },
+        {
+          "qid": "5ad14573645df0001a2d14b3",
+          "answerable": false,
+          "pred": "Article 102",
+          "cite_doc": "European_Union_law",
+          "cite_para": 19,
+          "entail_prob": 0.9979179501533508,
+          "supported": true
+        },
+        {
+          "qid": "5ad3ed37604f3c001a3ff7a5",
+          "answerable": false,
+          "pred": "the pistons worked in the same phase driving a common crosshead and crank, again set at 90\u00b0 as for a two-cylinder engine.",
+          "cite_doc": "Steam_engine",
+          "cite_para": 13,
+          "entail_prob": 0.9912497997283936,
+          "supported": true
+        },
+        {
+          "qid": "5a664447c2b11c001a425eef",
+          "answerable": false,
+          "pred": "Shelley's Masque of Anarchy.",
+          "cite_doc": "Civil_disobedience",
+          "cite_para": 2,
+          "entail_prob": 0.9992591738700867,
+          "supported": true
+        },
+        {
+          "qid": "5a8241e631013a001a335362",
+          "answerable": false,
+          "pred": "several varsity sports",
+          "cite_doc": "Harvard_University",
+          "cite_para": 25,
+          "entail_prob": 0.022279441356658936,
+          "supported": false
+        },
+        {
+          "qid": "5a38d6e6a4b263001a8c1955",
+          "answerable": false,
+          "pred": "Chrysler ended production of their full-sized luxury sedans at the end of the 1981 model year, moving instead to a full front-wheel drive lineup for",
+          "cite_doc": "1973_oil_crisis",
+          "cite_para": 22,
+          "entail_prob": 0.9977495074272156,
+          "supported": true
+        },
+        {
+          "qid": "5a582cfa770dc0001aef0014",
+          "answerable": false,
+          "pred": "not_included",
+          "cite_doc": "Geology",
+          "cite_para": 24,
+          "entail_prob": 0.9911553859710693,
+          "supported": true
+        },
+        {
+          "qid": "5ad03cd377cf76001a686ec4",
+          "answerable": false,
+          "pred": "unanswerable",
+          "cite_doc": "Scottish_Parliament",
+          "cite_para": 23,
+          "entail_prob": 0.9811597466468811,
+          "supported": true
+        },
+        {
+          "qid": "5ad40955604f3c001a3fff2f",
+          "answerable": false,
+          "pred": "Tem\u00fcr",
+          "cite_doc": "Fresno,_California",
+          "cite_para": 2,
+          "entail_prob": 0.9924766421318054,
+          "supported": true
+        },
+        {
+          "qid": "5ad404a6604f3c001a3ffde1",
+          "answerable": false,
+          "pred": "Beroids.",
+          "cite_doc": "Pharmacy",
+          "cite_para": 5,
+          "entail_prob": 0.998802661895752,
+          "supported": true
+        },
+        {
+          "qid": "5ad3bd30604f3c001a3fef13",
+          "answerable": false,
+          "pred": "west of the Rhine.",
+          "cite_doc": "Private_school",
+          "cite_para": 19,
+          "entail_prob": 0.9527710676193237,
+          "supported": true
+        },
+        {
+          "qid": "5ad543c05b96ef001a10ac00",
+          "answerable": false,
+          "pred": "Turing machines",
+          "cite_doc": "Computational_complexity_theory",
+          "cite_para": 12,
+          "entail_prob": 0.9983709454536438,
+          "supported": true
+        },
+        {
+          "qid": "5a669ee5f038b7001ab0c06c",
+          "answerable": false,
+          "pred": "if it is necessary to disobey rules that conflict with morality",
+          "cite_doc": "European_Union_law",
+          "cite_para": 1,
+          "entail_prob": 0.9989292025566101,
+          "supported": true
+        },
+        {
+          "qid": "5a1c539bb4fb5d00187145fa",
+          "answerable": false,
+          "pred": "Victoria",
+          "cite_doc": "Jacksonville,_Florida",
+          "cite_para": 19,
+          "entail_prob": 0.9591892957687378,
+          "supported": true
+        },
+        {
+          "qid": "5ad3b9cd604f3c001a3fee8b",
+          "answerable": false,
+          "pred": "Two",
+          "cite_doc": "French_and_Indian_War",
+          "cite_para": 37,
+          "entail_prob": 0.9863108396530151,
+          "supported": true
+        },
+        {
+          "qid": "5acfe84677cf76001a686405",
+          "answerable": false,
+          "pred": "hate them for their religion ... for Allah's sake",
+          "cite_doc": "Islamism",
+          "cite_para": 7,
+          "entail_prob": 0.9993946552276611,
+          "supported": true
+        },
+        {
+          "qid": "5a2c16e3bfd06b001a5ae9eb",
+          "answerable": false,
+          "pred": "Sky+ Box",
+          "cite_doc": "Sky_(United_Kingdom)",
+          "cite_para": 3,
+          "entail_prob": 0.9556107521057129,
+          "supported": true
+        },
+        {
+          "qid": "5ad26257d7d075001a42909e",
+          "answerable": false,
+          "pred": "the outside world that is at rest",
+          "cite_doc": "Force",
+          "cite_para": 5,
+          "entail_prob": 0.9963155388832092,
+          "supported": true
+        },
+        {
+          "qid": "5ad40d50604f3c001a4000cb",
+          "answerable": false,
+          "pred": "the Korean King",
+          "cite_doc": "Yuan_dynasty",
+          "cite_para": 45,
+          "entail_prob": 0.9987336993217468,
+          "supported": true
+        },
+        {
+          "qid": "5ad3c75a604f3c001a3ff047",
+          "answerable": false,
+          "pred": "half as much coal",
+          "cite_doc": "Steam_engine",
+          "cite_para": 37,
+          "entail_prob": 0.9990357160568237,
+          "supported": true
+        },
+        {
+          "qid": "5ad4f3a25b96ef001a10a75c",
+          "answerable": false,
+          "pred": "not_included",
+          "cite_doc": "Immune_system",
+          "cite_para": 45,
+          "entail_prob": 0.9991674423217773,
+          "supported": true
+        },
+        {
+          "qid": "5a7b402121c2de001afe9e0d",
+          "answerable": false,
+          "pred": "97,915 families",
+          "cite_doc": "Fresno,_California",
+          "cite_para": 23,
+          "entail_prob": 0.9187121391296387,
+          "supported": true
+        },
+        {
+          "qid": "5a668d4ef038b7001ab0bfc1",
+          "answerable": false,
+          "pred": "not_included",
+          "cite_doc": "Huguenot",
+          "cite_para": 23,
+          "entail_prob": 0.02651006355881691,
+          "supported": false
+        },
+        {
+          "qid": "5a1c8c34b4fb5d00187146b7",
+          "answerable": false,
+          "pred": "coastal location",
+          "cite_doc": "Jacksonville,_Florida",
+          "cite_para": 16,
+          "entail_prob": 0.9994677901268005,
+          "supported": true
+        }
+      ]
+    },
+    "NaiveRAG": {
+      "n_scored": 113,
+      "n_skipped_no_premise": 0,
+      "entail_prob_mean": 0.9535989822877522,
+      "entail_prob_ci95": [
+        0.9197798188378111,
+        0.9839044828066783
+      ],
+      "supported_rate_mean": 0.9557522123893806,
+      "supported_rate_ci95": [
+        0.9203539823008849,
+        0.9911504424778761
+      ],
+      "per_question": [
+        {
+          "qid": "5728827b2ca10214002da42b",
+          "answerable": true,
+          "pred": "bark of mulberry trees",
+          "cite_doc": "Yuan_dynasty",
+          "cite_para": 39,
+          "entail_prob": 0.9984502792358398,
+          "supported": true
+        },
+        {
+          "qid": "5737a4511c456719005744e1",
+          "answerable": true,
+          "pred": "Newton's Second Law of Motion",
+          "cite_doc": "Force",
+          "cite_para": 38,
+          "entail_prob": 0.9946063160896301,
+          "supported": true
+        },
+        {
+          "qid": "5725b81b271a42140099d097",
+          "answerable": true,
+          "pred": "Amazonia or the Amazon Jungle",
+          "cite_doc": "Amazon_rainforest",
+          "cite_para": 0,
+          "entail_prob": 0.9994214773178101,
+          "supported": true
+        },
+        {
+          "qid": "56de1645cffd8e1900b4b5d2",
+          "answerable": true,
+          "pred": "Robert of Jumi\u00e8ges",
+          "cite_doc": "Normans",
+          "cite_para": 15,
+          "entail_prob": 0.9987560510635376,
+          "supported": true
+        },
+        {
+          "qid": "5729d878af94a219006aa66b",
+          "answerable": true,
+          "pred": "the market",
+          "cite_doc": "Economic_inequality",
+          "cite_para": 4,
+          "entail_prob": 0.9942777752876282,
+          "supported": true
+        },
+        {
+          "qid": "5727526cdd62a815002e9b0f",
+          "answerable": true,
+          "pred": "Public-Private Partnering",
+          "cite_doc": "Construction",
+          "cite_para": 15,
+          "entail_prob": 0.9989340901374817,
+          "supported": true
+        },
+        {
+          "qid": "572881d34b864d1900164a5b",
+          "answerable": true,
+          "pred": "Jesus the Interpreter",
+          "cite_doc": "Yuan_dynasty",
+          "cite_para": 37,
+          "entail_prob": 0.999040424823761,
+          "supported": true
+        },
+        {
+          "qid": "570963a5200fba1400367f35",
+          "answerable": true,
+          "pred": "11 million customers.",
+          "cite_doc": "Sky_(United_Kingdom)",
+          "cite_para": 8,
+          "entail_prob": 0.9984579086303711,
+          "supported": true
+        },
+        {
+          "qid": "5728455bff5b5019007da078",
+          "answerable": true,
+          "pred": "NASA's CALIPSO satellite",
+          "cite_doc": "Amazon_rainforest",
+          "cite_para": 4,
+          "entail_prob": 0.9993775486946106,
+          "supported": true
+        },
+        {
+          "qid": "5726701add62a815002e84cb",
+          "answerable": true,
+          "pred": "\"synforms\"",
+          "cite_doc": "Geology",
+          "cite_para": 10,
+          "entail_prob": 0.9939623475074768,
+          "supported": true
+        },
+        {
+          "qid": "57107a3ea58dae1900cd69de",
+          "answerable": true,
+          "pred": "Charleston",
+          "cite_doc": "Huguenot",
+          "cite_para": 28,
+          "entail_prob": 0.9979403614997864,
+          "supported": true
+        },
+        {
+          "qid": "572758e0f1498d1400e8f6b0",
+          "answerable": true,
+          "pred": "Blaine Amendments.",
+          "cite_doc": "Private_school",
+          "cite_para": 23,
+          "entail_prob": 0.998670220375061,
+          "supported": true
+        },
+        {
+          "qid": "573314e3d058e614000b56f3",
+          "answerable": true,
+          "pred": "architectural",
+          "cite_doc": "Warsaw",
+          "cite_para": 3,
+          "entail_prob": 0.9992166757583618,
+          "supported": true
+        },
+        {
+          "qid": "57107c24a58dae1900cd69ea",
+          "answerable": true,
+          "pred": "William III of Orange",
+          "cite_doc": "Huguenot",
+          "cite_para": 7,
+          "entail_prob": 0.9984784722328186,
+          "supported": true
+        },
+        {
+          "qid": "571155ae2419e31400955594",
+          "answerable": true,
+          "pred": "biomass",
+          "cite_doc": "Steam_engine",
+          "cite_para": 23,
+          "entail_prob": 0.9987188577651978,
+          "supported": true
+        },
+        {
+          "qid": "572f64ccb2c2fd14005680b9",
+          "answerable": true,
+          "pred": "The ground water level fell significantly.",
+          "cite_doc": "Rhine",
+          "cite_para": 10,
+          "entail_prob": 0.9974606037139893,
+          "supported": true
+        },
+        {
+          "qid": "5729f60caf94a219006aa6f2",
+          "answerable": true,
+          "pred": "inequality",
+          "cite_doc": "Economic_inequality",
+          "cite_para": 19,
+          "entail_prob": 0.9992382526397705,
+          "supported": true
+        },
+        {
+          "qid": "5727cebc2ca10214002d96f1",
+          "answerable": true,
+          "pred": "four-year, full-time undergraduate program comprises a minority of enrollments at the university",
+          "cite_doc": "Harvard_University",
+          "cite_para": 17,
+          "entail_prob": 0.07329672574996948,
+          "supported": false
+        },
+        {
+          "qid": "57265e455951b619008f70bb",
+          "answerable": true,
+          "pred": "EU law",
+          "cite_doc": "European_Union_law",
+          "cite_para": 1,
+          "entail_prob": 0.9990369081497192,
+          "supported": true
+        },
+        {
+          "qid": "57265642f1498d1400e8dc68",
+          "answerable": true,
+          "pred": "40,000",
+          "cite_doc": "Black_Death",
+          "cite_para": 20,
+          "entail_prob": 0.9931455850601196,
+          "supported": true
+        },
+        {
+          "qid": "572683075951b619008f7517",
+          "answerable": true,
+          "pred": "Fertilization is external in most species, but platyctenids use internal fertilization and keep the eggs in brood chambers",
+          "cite_doc": "Ctenophora",
+          "cite_para": 21,
+          "entail_prob": 0.9736902117729187,
+          "supported": true
+        },
+        {
+          "qid": "5706143575f01819005e7950",
+          "answerable": true,
+          "pred": "NFL",
+          "cite_doc": "Southern_California",
+          "cite_para": 35,
+          "entail_prob": 0.9996032118797302,
+          "supported": true
+        },
+        {
+          "qid": "572a1c943f37b319004786e2",
+          "answerable": true,
+          "pred": "The world price, which had peaked during the 1979 energy crisis at nearly $40 per barrel, decreased during the 1980s to less than $10 per barrel.",
+          "cite_doc": "1973_oil_crisis",
+          "cite_para": 23,
+          "entail_prob": 0.9989249110221863,
+          "supported": true
+        },
+        {
+          "qid": "570d29c2b3d812140066d4c1",
+          "answerable": true,
+          "pred": "20%.",
+          "cite_doc": "Victoria_(Australia)",
+          "cite_para": 4,
+          "entail_prob": 0.9906726479530334,
+          "supported": true
+        },
+        {
+          "qid": "5726eb4b5951b619008f826b",
+          "answerable": true,
+          "pred": "2000",
+          "cite_doc": "Pharmacy",
+          "cite_para": 14,
+          "entail_prob": 0.9996956586837769,
+          "supported": true
+        },
+        {
+          "qid": "572fd1c4947a6a140053cd05",
+          "answerable": true,
+          "pred": "\"wrecking amendments\"",
+          "cite_doc": "Scottish_Parliament",
+          "cite_para": 27,
+          "entail_prob": 0.9986762404441833,
+          "supported": true
+        },
+        {
+          "qid": "57298ef11d0469140077952d",
+          "answerable": true,
+          "pred": "1859",
+          "cite_doc": "Prime_number",
+          "cite_para": 17,
+          "entail_prob": 0.9995527863502502,
+          "supported": true
+        },
+        {
+          "qid": "572754fff1498d1400e8f661",
+          "answerable": true,
+          "pred": "damage to the existing electrical, water, sewage, phone, and cable facilities",
+          "cite_doc": "Construction",
+          "cite_para": 18,
+          "entail_prob": 0.9978756904602051,
+          "supported": true
+        },
+        {
+          "qid": "572754fff1498d1400e8f663",
+          "answerable": true,
+          "pred": "municipal building inspector",
+          "cite_doc": "Construction",
+          "cite_para": 18,
+          "entail_prob": 0.9986732006072998,
+          "supported": true
+        },
+        {
+          "qid": "57274b35f1498d1400e8f5d4",
+          "answerable": true,
+          "pred": "Ersatzschulen.",
+          "cite_doc": "Private_school",
+          "cite_para": 6,
+          "entail_prob": 0.007029159460216761,
+          "supported": false
+        },
+        {
+          "qid": "573776eec3c5551400e51eeb",
+          "answerable": true,
+          "pred": "Aristotle",
+          "cite_doc": "Force",
+          "cite_para": 2,
+          "entail_prob": 0.313555508852005,
+          "supported": false
+        },
+        {
+          "qid": "57264a74708984140094c18e",
+          "answerable": true,
+          "pred": "1823",
+          "cite_doc": "Black_Death",
+          "cite_para": 5,
+          "entail_prob": 0.9989226460456848,
+          "supported": true
+        },
+        {
+          "qid": "5710e8c8a58dae1900cd6b28",
+          "answerable": true,
+          "pred": "not_included",
+          "cite_doc": "Huguenot",
+          "cite_para": 11,
+          "entail_prob": 0.9984548091888428,
+          "supported": true
+        },
+        {
+          "qid": "570d2af0fed7b91900d45c95",
+          "answerable": true,
+          "pred": "second-most populous",
+          "cite_doc": "Victoria_(Australia)",
+          "cite_para": 5,
+          "entail_prob": 0.9271984100341797,
+          "supported": true
+        },
+        {
+          "qid": "56e1fc57e3433e1400423230",
+          "answerable": true,
+          "pred": "NP-complete problems.",
+          "cite_doc": "Computational_complexity_theory",
+          "cite_para": 41,
+          "entail_prob": 0.9983159303665161,
+          "supported": true
+        },
+        {
+          "qid": "57264586f1498d1400e8dac6",
+          "answerable": true,
+          "pred": "the public switched data network operated by the Dutch PTT Telecom (now known as KPN).",
+          "cite_doc": "Packet_switching",
+          "cite_para": 18,
+          "entail_prob": 0.9991686344146729,
+          "supported": true
+        },
+        {
+          "qid": "571c3a685efbb31900334db4",
+          "answerable": true,
+          "pred": "oxide compounds",
+          "cite_doc": "Oxygen",
+          "cite_para": 38,
+          "entail_prob": 0.9886102676391602,
+          "supported": true
+        },
+        {
+          "qid": "57097c8fed30961900e841f3",
+          "answerable": true,
+          "pred": "essentials.",
+          "cite_doc": "Sky_(United_Kingdom)",
+          "cite_para": 20,
+          "entail_prob": 0.9939979314804077,
+          "supported": true
+        },
+        {
+          "qid": "57265642f1498d1400e8dc6c",
+          "answerable": true,
+          "pred": "1665.",
+          "cite_doc": "Black_Death",
+          "cite_para": 18,
+          "entail_prob": 0.9934698343276978,
+          "supported": true
+        },
+        {
+          "qid": "57274f49f1498d1400e8f61e",
+          "answerable": true,
+          "pred": "Anglican.",
+          "cite_doc": "Private_school",
+          "cite_para": 15,
+          "entail_prob": 0.9963326454162598,
+          "supported": true
+        },
+        {
+          "qid": "5729ea263f37b319004785be",
+          "answerable": true,
+          "pred": "NASA",
+          "cite_doc": "Amazon_rainforest",
+          "cite_para": 4,
+          "entail_prob": 0.9980506896972656,
+          "supported": true
+        },
+        {
+          "qid": "572ff7ab04bcaa1900d76f53",
+          "answerable": true,
+          "pred": "The Neckar",
+          "cite_doc": "Rhine",
+          "cite_para": 9,
+          "entail_prob": 0.9974263310432434,
+          "supported": true
+        },
+        {
+          "qid": "571090abb654c5140001f996",
+          "answerable": true,
+          "pred": "The Weavers",
+          "cite_doc": "Huguenot",
+          "cite_para": 15,
+          "entail_prob": 0.937305212020874,
+          "supported": true
+        },
+        {
+          "qid": "57267947f1498d1400e8e0ed",
+          "answerable": true,
+          "pred": "birefringence, pleochroism, twinning, and interference",
+          "cite_doc": "Geology",
+          "cite_para": 15,
+          "entail_prob": 0.9988144636154175,
+          "supported": true
+        },
+        {
+          "qid": "57108198b654c5140001f93b",
+          "answerable": true,
+          "pred": "France",
+          "cite_doc": "Huguenot",
+          "cite_para": 11,
+          "entail_prob": 0.998484194278717,
+          "supported": true
+        },
+        {
+          "qid": "572970c11d04691400779463",
+          "answerable": true,
+          "pred": "infinitely many primes",
+          "cite_doc": "Prime_number",
+          "cite_para": 2,
+          "entail_prob": 0.9836038947105408,
+          "supported": true
+        },
+        {
+          "qid": "5730a0778ab72b1400f9c60e",
+          "answerable": true,
+          "pred": "orientalism and tropicality.",
+          "cite_doc": "Imperialism",
+          "cite_para": 20,
+          "entail_prob": 0.9720026254653931,
+          "supported": true
+        },
+        {
+          "qid": "57268b43dd62a815002e88f2",
+          "answerable": true,
+          "pred": "The European Commission is the main executive body of the European Union.",
+          "cite_doc": "European_Union_law",
+          "cite_para": 2,
+          "entail_prob": 0.9983190894126892,
+          "supported": true
+        },
+        {
+          "qid": "572751b4708984140094dc1d",
+          "answerable": true,
+          "pred": "a delay costs money.",
+          "cite_doc": "Construction",
+          "cite_para": 5,
+          "entail_prob": 0.9919068813323975,
+          "supported": true
+        },
+        {
+          "qid": "570614ff52bb89140068988d",
+          "answerable": true,
+          "pred": "Pac-12 Conference.",
+          "cite_doc": "Southern_California",
+          "cite_para": 37,
+          "entail_prob": 0.9984914064407349,
+          "supported": true
+        },
+        {
+          "qid": "57096505ed30961900e84083",
+          "answerable": true,
+          "pred": "Sky Q Silver set top boxes",
+          "cite_doc": "Sky_(United_Kingdom)",
+          "cite_para": 9,
+          "entail_prob": 0.9934617280960083,
+          "supported": true
+        },
+        {
+          "qid": "57269aa65951b619008f77ae",
+          "answerable": true,
+          "pred": "constitutional law",
+          "cite_doc": "European_Union_law",
+          "cite_para": 2,
+          "entail_prob": 0.9977518916130066,
+          "supported": true
+        },
+        {
+          "qid": "572a0ce11d04691400779701",
+          "answerable": true,
+          "pred": "protein A",
+          "cite_doc": "Immune_system",
+          "cite_para": 42,
+          "entail_prob": 0.9995051622390747,
+          "supported": true
+        },
+        {
+          "qid": "5725fb8138643c19005acf43",
+          "answerable": true,
+          "pred": "KGPE",
+          "cite_doc": "Fresno,_California",
+          "cite_para": 24,
+          "entail_prob": 0.9993892908096313,
+          "supported": true
+        },
+        {
+          "qid": "5733f5f24776f419006615c3",
+          "answerable": true,
+          "pred": "Approximately 1,000 British soldiers were killed or injured.",
+          "cite_doc": "Black_Death",
+          "cite_para": 17,
+          "entail_prob": 0.9985535740852356,
+          "supported": true
+        },
+        {
+          "qid": "5725ff8238643c19005acf4c",
+          "answerable": true,
+          "pred": "San Joaquin Valley Railroad",
+          "cite_doc": "Fresno,_California",
+          "cite_para": 27,
+          "entail_prob": 0.9870672821998596,
+          "supported": true
+        },
+        {
+          "qid": "56e1ec83cd28a01900c67c0a",
+          "answerable": true,
+          "pred": "integer factorization problem",
+          "cite_doc": "Computational_complexity_theory",
+          "cite_para": 37,
+          "entail_prob": 0.9990130662918091,
+          "supported": true
+        },
+        {
+          "qid": "57332f81d058e614000b5777",
+          "answerable": true,
+          "pred": "prefabricated housing",
+          "cite_doc": "Warsaw",
+          "cite_para": 16,
+          "entail_prob": 0.9990315437316895,
+          "supported": true
+        },
+        {
+          "qid": "5733d2dbd058e614000b633b",
+          "answerable": true,
+          "pred": "The British Empire was the largest Empire that the world has ever seen both in terms of landmass and population. Its power, both military and economic,",
+          "cite_doc": "French_and_Indian_War",
+          "cite_para": 3,
+          "entail_prob": 0.9762371778488159,
+          "supported": true
+        },
+        {
+          "qid": "572faec7b2c2fd1400568333",
+          "answerable": true,
+          "pred": "Holyrood area of Edinburgh",
+          "cite_doc": "Scottish_Parliament",
+          "cite_para": 5,
+          "entail_prob": 0.9931315779685974,
+          "supported": true
+        },
+        {
+          "qid": "57300e2604bcaa1900d770ba",
+          "answerable": true,
+          "pred": "2006",
+          "cite_doc": "Islamism",
+          "cite_para": 18,
+          "entail_prob": 0.9987871050834656,
+          "supported": true
+        },
+        {
+          "qid": "572648d1708984140094c15d",
+          "answerable": true,
+          "pred": "Very high-speed Backbone Network Service",
+          "cite_doc": "Packet_switching",
+          "cite_para": 22,
+          "entail_prob": 0.9988910555839539,
+          "supported": true
+        },
+        {
+          "qid": "5ad24e50d7d075001a428c3a",
+          "answerable": false,
+          "pred": "union membership",
+          "cite_doc": "Southern_California",
+          "cite_para": 25,
+          "entail_prob": 0.9995335340499878,
+          "supported": true
+        },
+        {
+          "qid": "5ad3ae4f604f3c001a3fec49",
+          "answerable": false,
+          "pred": "Warraghiggey",
+          "cite_doc": "French_and_Indian_War",
+          "cite_para": 19,
+          "entail_prob": 0.997925877571106,
+          "supported": true
+        },
+        {
+          "qid": "5a8257efe60761001a2eb1cf",
+          "answerable": false,
+          "pred": "Steven Pinker.",
+          "cite_doc": "University_of_Chicago",
+          "cite_para": 31,
+          "entail_prob": 0.7700748443603516,
+          "supported": true
+        },
+        {
+          "qid": "5a25fa34c93d92001a40036f",
+          "answerable": false,
+          "pred": "Construction",
+          "cite_doc": "Southern_California",
+          "cite_para": 25,
+          "entail_prob": 0.9996380805969238,
+          "supported": true
+        },
+        {
+          "qid": "5ad53e615b96ef001a10abda",
+          "answerable": false,
+          "pred": "infinite collection of instances together with a solution for every instance.",
+          "cite_doc": "Computational_complexity_theory",
+          "cite_para": 3,
+          "entail_prob": 0.998778760433197,
+          "supported": true
+        },
+        {
+          "qid": "5a57fb62770dc0001aeeff12",
+          "answerable": false,
+          "pred": "older rocks moving on top of younger ones.",
+          "cite_doc": "Geology",
+          "cite_para": 11,
+          "entail_prob": 0.9902545809745789,
+          "supported": true
+        },
+        {
+          "qid": "5a89150d3b2508001a72a4ac",
+          "answerable": false,
+          "pred": "prime ideals.",
+          "cite_doc": "Prime_number",
+          "cite_para": 18,
+          "entail_prob": 0.9979845285415649,
+          "supported": true
+        },
+        {
+          "qid": "5ad0206677cf76001a686afb",
+          "answerable": false,
+          "pred": "The motion picture, television, and music industry",
+          "cite_doc": "Southern_California",
+          "cite_para": 6,
+          "entail_prob": 0.9960176348686218,
+          "supported": true
+        },
+        {
+          "qid": "5ad02e3377cf76001a686d33",
+          "answerable": false,
+          "pred": "not_included",
+          "cite_doc": "Imperialism",
+          "cite_para": 15,
+          "entail_prob": 0.19463732838630676,
+          "supported": false
+        },
+        {
+          "qid": "5ad0415577cf76001a686f07",
+          "answerable": false,
+          "pred": "the Monarch",
+          "cite_doc": "Scottish_Parliament",
+          "cite_para": 30,
+          "entail_prob": 0.9977483153343201,
+          "supported": true
+        },
+        {
+          "qid": "5ad4f4d95b96ef001a10a793",
+          "answerable": false,
+          "pred": "60",
+          "cite_doc": "Warsaw",
+          "cite_para": 29,
+          "entail_prob": 0.9885988235473633,
+          "supported": true
+        },
+        {
+          "qid": "5ad2660dd7d075001a4291db",
+          "answerable": false,
+          "pred": "764 miles",
+          "cite_doc": "Rhine",
+          "cite_para": 43,
+          "entail_prob": 0.9899123311042786,
+          "supported": true
+        },
+        {
+          "qid": "5acfe84677cf76001a686408",
+          "answerable": false,
+          "pred": "Wahhabist interpretation of Islam",
+          "cite_doc": "Islamism",
+          "cite_para": 7,
+          "entail_prob": 0.9993506073951721,
+          "supported": true
+        },
+        {
+          "qid": "5a8205d131013a001a3350fb",
+          "answerable": false,
+          "pred": "the dignity and worth of human nature, the right and ability of each person to perceive truth, and the indwelling God in each person",
+          "cite_doc": "Harvard_University",
+          "cite_para": 7,
+          "entail_prob": 0.9986703395843506,
+          "supported": true
+        },
+        {
+          "qid": "5ad02de677cf76001a686d1f",
+          "answerable": false,
+          "pred": "mace",
+          "cite_doc": "Scottish_Parliament",
+          "cite_para": 11,
+          "entail_prob": 0.9479687809944153,
+          "supported": true
+        },
+        {
+          "qid": "5a638b3668151a001a92235b",
+          "answerable": false,
+          "pred": "489",
+          "cite_doc": "Victoria_(Australia)",
+          "cite_para": 17,
+          "entail_prob": 0.9983640313148499,
+          "supported": true
+        },
+        {
+          "qid": "5a2c36c4bfd06b001a5aea67",
+          "answerable": false,
+          "pred": "monthly subscription",
+          "cite_doc": "Sky_(United_Kingdom)",
+          "cite_para": 14,
+          "entail_prob": 0.9970766305923462,
+          "supported": true
+        },
+        {
+          "qid": "5ad11288645df0001a2d0c30",
+          "answerable": false,
+          "pred": "The European Court of Justice is the supreme judicial body which interprets EU law, and develops it through precedent.",
+          "cite_doc": "European_Union_law",
+          "cite_para": 6,
+          "entail_prob": 0.9946979284286499,
+          "supported": true
+        },
+        {
+          "qid": "5a58d33e3e1742001a15ce3e",
+          "answerable": false,
+          "pred": "unanswerable",
+          "cite_doc": "Geology",
+          "cite_para": 1,
+          "entail_prob": 0.9981813430786133,
+          "supported": true
+        },
+        {
+          "qid": "5a83894de60761001a2eb78d",
+          "answerable": false,
+          "pred": "\"zip\" the mouth shut",
+          "cite_doc": "Ctenophora",
+          "cite_para": 18,
+          "entail_prob": 0.9960171580314636,
+          "supported": true
+        },
+        {
+          "qid": "5ad02cde77cf76001a686cc7",
+          "answerable": false,
+          "pred": "the Californios of Monterey in the upper part and Los Angeles in the lower part of Alta California",
+          "cite_doc": "Southern_California",
+          "cite_para": 10,
+          "entail_prob": 0.9985424280166626,
+          "supported": true
+        },
+        {
+          "qid": "5ad28098d7d075001a4297ba",
+          "answerable": false,
+          "pred": "Leopold Kronenberg Palace.",
+          "cite_doc": "Warsaw",
+          "cite_para": 11,
+          "entail_prob": 0.9982208609580994,
+          "supported": true
+        },
+        {
+          "qid": "5a1c861fb4fb5d0018714657",
+          "answerable": false,
+          "pred": "Great Fire of 1901",
+          "cite_doc": "Jacksonville,_Florida",
+          "cite_para": 8,
+          "entail_prob": 0.999542236328125,
+          "supported": true
+        },
+        {
+          "qid": "5a1c8bb4b4fb5d00187146aa",
+          "answerable": false,
+          "pred": "28 floor Riverplace Tower",
+          "cite_doc": "Jacksonville,_Florida",
+          "cite_para": 15,
+          "entail_prob": 0.999439537525177,
+          "supported": true
+        },
+        {
+          "qid": "5a638d2768151a001a922371",
+          "answerable": false,
+          "pred": "90%",
+          "cite_doc": "Victoria_(Australia)",
+          "cite_para": 7,
+          "entail_prob": 0.9985162615776062,
+          "supported": true
+        },
+        {
+          "qid": "5ad261bad7d075001a429051",
+          "answerable": false,
+          "pred": "electronegativity.",
+          "cite_doc": "Oxygen",
+          "cite_para": 0,
+          "entail_prob": 0.999580442905426,
+          "supported": true
+        },
+        {
+          "qid": "5a3e3de4378766001a002517",
+          "answerable": false,
+          "pred": "Michael Oppenheimer.",
+          "cite_doc": "Intergovernmental_Panel_on_Climate_Change",
+          "cite_para": 15,
+          "entail_prob": 0.9972243309020996,
+          "supported": true
+        },
+        {
+          "qid": "5ad2a58bd7d075001a429dcc",
+          "answerable": false,
+          "pred": "11,700 years ago",
+          "cite_doc": "Geology",
+          "cite_para": 4,
+          "entail_prob": 0.9947993755340576,
+          "supported": true
+        },
+        {
+          "qid": "5ad0285977cf76001a686c0e",
+          "answerable": false,
+          "pred": "Assembly Hall",
+          "cite_doc": "Scottish_Parliament",
+          "cite_para": 6,
+          "entail_prob": 0.9958305954933167,
+          "supported": true
+        },
+        {
+          "qid": "5ad14573645df0001a2d14b3",
+          "answerable": false,
+          "pred": "Article 5",
+          "cite_doc": "European_Union_law",
+          "cite_para": 19,
+          "entail_prob": 0.9955446124076843,
+          "supported": true
+        },
+        {
+          "qid": "5ad3ed37604f3c001a3ff7a5",
+          "answerable": false,
+          "pred": "the pistons worked in the same phase driving a common crosshead and crank, again set at 90\u00b0 as for a two-cylinder engine.",
+          "cite_doc": "Steam_engine",
+          "cite_para": 31,
+          "entail_prob": 0.9996258020401001,
+          "supported": true
+        },
+        {
+          "qid": "5a664447c2b11c001a425eef",
+          "answerable": false,
+          "pred": "Shelley's Masque of Anarchy.",
+          "cite_doc": "Civil_disobedience",
+          "cite_para": 2,
+          "entail_prob": 0.995537281036377,
+          "supported": true
+        },
+        {
+          "qid": "5a8241e631013a001a335362",
+          "answerable": false,
+          "pred": "The Lavietes Pavillion serves as a satellite location for channels that broadcast to the United Kingdom.",
+          "cite_doc": "Amazon_rainforest",
+          "cite_para": 17,
+          "entail_prob": 0.9958683252334595,
+          "supported": true
+        },
+        {
+          "qid": "5a38d6e6a4b263001a8c1955",
+          "answerable": false,
+          "pred": "Chrysler ended production of their full-sized luxury sedans at the end of the 1981 model year, moving instead to a full front-wheel drive lineup for",
+          "cite_doc": "1973_oil_crisis",
+          "cite_para": 22,
+          "entail_prob": 0.9978258013725281,
+          "supported": true
+        },
+        {
+          "qid": "5a582cfa770dc0001aef0014",
+          "answerable": false,
+          "pred": "not_included",
+          "cite_doc": "Geology",
+          "cite_para": 24,
+          "entail_prob": 0.9981550574302673,
+          "supported": true
+        },
+        {
+          "qid": "5ad03cd377cf76001a686ec4",
+          "answerable": false,
+          "pred": "unanswerable",
+          "cite_doc": "Scottish_Parliament",
+          "cite_para": 24,
+          "entail_prob": 0.9986271858215332,
+          "supported": true
+        },
+        {
+          "qid": "5ad40955604f3c001a3fff2f",
+          "answerable": false,
+          "pred": "Emperor Wenzong",
+          "cite_doc": "Yuan_dynasty",
+          "cite_para": 17,
+          "entail_prob": 0.9987257122993469,
+          "supported": true
+        },
+        {
+          "qid": "5ad3bd30604f3c001a3fef13",
+          "answerable": false,
+          "pred": "between the river Epte and the Atlantic coast",
+          "cite_doc": "French_and_Indian_War",
+          "cite_para": 43,
+          "entail_prob": 0.9674707651138306,
+          "supported": true
+        },
+        {
+          "qid": "5ad543c05b96ef001a10ac00",
+          "answerable": false,
+          "pred": "Turing machines.",
+          "cite_doc": "Computational_complexity_theory",
+          "cite_para": 12,
+          "entail_prob": 0.9984849095344543,
+          "supported": true
+        },
+        {
+          "qid": "5a669ee5f038b7001ab0c06c",
+          "answerable": false,
+          "pred": "not_included",
+          "cite_doc": "Civil_disobedience",
+          "cite_para": 22,
+          "entail_prob": 0.9962894916534424,
+          "supported": true
+        },
+        {
+          "qid": "5a1c539bb4fb5d00187145fa",
+          "answerable": false,
+          "pred": "San Bernardino",
+          "cite_doc": "Jacksonville,_Florida",
+          "cite_para": 19,
+          "entail_prob": 0.9983918070793152,
+          "supported": true
+        },
+        {
+          "qid": "5ad3b9cd604f3c001a3fee8b",
+          "answerable": false,
+          "pred": "Two",
+          "cite_doc": "French_and_Indian_War",
+          "cite_para": 37,
+          "entail_prob": 0.041175540536642075,
+          "supported": false
+        },
+        {
+          "qid": "5acfe84677cf76001a686405",
+          "answerable": false,
+          "pred": "hate them for their religion ... for Allah's sake",
+          "cite_doc": "Islamism",
+          "cite_para": 7,
+          "entail_prob": 0.9974838495254517,
+          "supported": true
+        },
+        {
+          "qid": "5a2c16e3bfd06b001a5ae9eb",
+          "answerable": false,
+          "pred": "Sky+",
+          "cite_doc": "Sky_(United_Kingdom)",
+          "cite_para": 9,
+          "entail_prob": 0.9409708380699158,
+          "supported": true
+        },
+        {
+          "qid": "5ad26257d7d075001a42909e",
+          "answerable": false,
+          "pred": "the outside world that is at rest",
+          "cite_doc": "Force",
+          "cite_para": 5,
+          "entail_prob": 0.9994454979896545,
+          "supported": true
+        },
+        {
+          "qid": "5ad40d50604f3c001a4000cb",
+          "answerable": false,
+          "pred": "Uighur King of Qocho",
+          "cite_doc": "Yuan_dynasty",
+          "cite_para": 45,
+          "entail_prob": 0.9972144961357117,
+          "supported": true
+        },
+        {
+          "qid": "5ad3c75a604f3c001a3ff047",
+          "answerable": false,
+          "pred": "half as much coal",
+          "cite_doc": "Steam_engine",
+          "cite_para": 24,
+          "entail_prob": 0.9968510270118713,
+          "supported": true
+        },
+        {
+          "qid": "5ad4f3a25b96ef001a10a75c",
+          "answerable": false,
+          "pred": "not_included",
+          "cite_doc": "Immune_system",
+          "cite_para": 45,
+          "entail_prob": 0.9972671270370483,
+          "supported": true
+        },
+        {
+          "qid": "5a7b402121c2de001afe9e0d",
+          "answerable": false,
+          "pred": "4,404.5 people per square mile",
+          "cite_doc": "Fresno,_California",
+          "cite_para": 21,
+          "entail_prob": 0.9970393776893616,
+          "supported": true
+        },
+        {
+          "qid": "5a668d4ef038b7001ab0bfc1",
+          "answerable": false,
+          "pred": "The key point is that the spirit of protest should be maintained all the way, whether it is done by remaining in jail, or by evading it",
+          "cite_doc": "Civil_disobedience",
+          "cite_para": 19,
+          "entail_prob": 0.9984059929847717,
+          "supported": true
+        },
+        {
+          "qid": "5a1c8c34b4fb5d00187146b7",
+          "answerable": false,
+          "pred": "coastal location",
+          "cite_doc": "Jacksonville,_Florida",
+          "cite_para": 16,
+          "entail_prob": 0.999024510383606,
+          "supported": true
+        }
+      ]
+    },
+    "RAG+Rerank": {
+      "n_scored": 113,
+      "n_skipped_no_premise": 0,
+      "entail_prob_mean": 0.9169068374048787,
+      "entail_prob_ci95": [
+        0.8718787909177877,
+        0.9570813739109285
+      ],
+      "supported_rate_mean": 0.9380530973451328,
+      "supported_rate_ci95": [
+        0.8938053097345132,
+        0.9823008849557522
+      ],
+      "per_question": [
+        {
+          "qid": "5728827b2ca10214002da42b",
+          "answerable": true,
+          "pred": "bark of mulberry trees",
+          "cite_doc": "Yuan_dynasty",
+          "cite_para": 39,
+          "entail_prob": 0.9965746402740479,
+          "supported": true
+        },
+        {
+          "qid": "5737a4511c456719005744e1",
+          "answerable": true,
+          "pred": "Newton's Second Law of Motion",
+          "cite_doc": "Force",
+          "cite_para": 38,
+          "entail_prob": 0.9348022937774658,
+          "supported": true
+        },
+        {
+          "qid": "5725b81b271a42140099d097",
+          "answerable": true,
+          "pred": "Amazonia or the Amazon Jungle",
+          "cite_doc": "Amazon_rainforest",
+          "cite_para": 0,
+          "entail_prob": 0.9994812607765198,
+          "supported": true
+        },
+        {
+          "qid": "56de1645cffd8e1900b4b5d2",
+          "answerable": true,
+          "pred": "Robert of Jumi\u00e8ges",
+          "cite_doc": "Normans",
+          "cite_para": 15,
+          "entail_prob": 0.5632860064506531,
+          "supported": true
+        },
+        {
+          "qid": "5729d878af94a219006aa66b",
+          "answerable": true,
+          "pred": "the market",
+          "cite_doc": "Economic_inequality",
+          "cite_para": 4,
+          "entail_prob": 0.9942777752876282,
+          "supported": true
+        },
+        {
+          "qid": "5727526cdd62a815002e9b0f",
+          "answerable": true,
+          "pred": "Public-Private Partnering",
+          "cite_doc": "Construction",
+          "cite_para": 15,
+          "entail_prob": 0.9990131855010986,
+          "supported": true
+        },
+        {
+          "qid": "572881d34b864d1900164a5b",
+          "answerable": true,
+          "pred": "The Nestorian physician Jesus the Interpreter",
+          "cite_doc": "Yuan_dynasty",
+          "cite_para": 37,
+          "entail_prob": 0.9937451481819153,
+          "supported": true
+        },
+        {
+          "qid": "570963a5200fba1400367f35",
+          "answerable": true,
+          "pred": "11 million customers.",
+          "cite_doc": "Sky_(United_Kingdom)",
+          "cite_para": 8,
+          "entail_prob": 0.9981094598770142,
+          "supported": true
+        },
+        {
+          "qid": "5728455bff5b5019007da078",
+          "answerable": true,
+          "pred": "NASA's CALIPSO satellite",
+          "cite_doc": "Amazon_rainforest",
+          "cite_para": 4,
+          "entail_prob": 0.999035120010376,
+          "supported": true
+        },
+        {
+          "qid": "5726701add62a815002e84cb",
+          "answerable": true,
+          "pred": "\"synforms\"",
+          "cite_doc": "Geology",
+          "cite_para": 10,
+          "entail_prob": 0.9933171272277832,
+          "supported": true
+        },
+        {
+          "qid": "57107a3ea58dae1900cd69de",
+          "answerable": true,
+          "pred": "Charleston",
+          "cite_doc": "Huguenot",
+          "cite_para": 12,
+          "entail_prob": 0.9952124357223511,
+          "supported": true
+        },
+        {
+          "qid": "572758e0f1498d1400e8f6b0",
+          "answerable": true,
+          "pred": "Blaine Amendments.",
+          "cite_doc": "Private_school",
+          "cite_para": 23,
+          "entail_prob": 0.9968994855880737,
+          "supported": true
+        },
+        {
+          "qid": "573314e3d058e614000b56f3",
+          "answerable": true,
+          "pred": "architectural",
+          "cite_doc": "Warsaw",
+          "cite_para": 3,
+          "entail_prob": 0.998630940914154,
+          "supported": true
+        },
+        {
+          "qid": "57107c24a58dae1900cd69ea",
+          "answerable": true,
+          "pred": "William III of Orange",
+          "cite_doc": "Huguenot",
+          "cite_para": 7,
+          "entail_prob": 0.9980837106704712,
+          "supported": true
+        },
+        {
+          "qid": "571155ae2419e31400955594",
+          "answerable": true,
+          "pred": "biomass",
+          "cite_doc": "Steam_engine",
+          "cite_para": 23,
+          "entail_prob": 0.9976365566253662,
+          "supported": true
+        },
+        {
+          "qid": "572f64ccb2c2fd14005680b9",
+          "answerable": true,
+          "pred": "The rate of flow was increased and the ground water level fell significantly.",
+          "cite_doc": "Rhine",
+          "cite_para": 10,
+          "entail_prob": 0.9984538555145264,
+          "supported": true
+        },
+        {
+          "qid": "5729f60caf94a219006aa6f2",
+          "answerable": true,
+          "pred": "inequality",
+          "cite_doc": "Economic_inequality",
+          "cite_para": 19,
+          "entail_prob": 0.999242901802063,
+          "supported": true
+        },
+        {
+          "qid": "5727cebc2ca10214002d96f1",
+          "answerable": true,
+          "pred": "a minority of enrollments",
+          "cite_doc": "Harvard_University",
+          "cite_para": 16,
+          "entail_prob": 0.016018105670809746,
+          "supported": false
+        },
+        {
+          "qid": "57265e455951b619008f70bb",
+          "answerable": true,
+          "pred": "The Court of Justice's view is that if EU law conflicts with a provision of national law, then EU law has primacy.",
+          "cite_doc": "European_Union_law",
+          "cite_para": 11,
+          "entail_prob": 0.7790558934211731,
+          "supported": true
+        },
+        {
+          "qid": "57265642f1498d1400e8dc68",
+          "answerable": true,
+          "pred": "40,000",
+          "cite_doc": "Black_Death",
+          "cite_para": 20,
+          "entail_prob": 0.9927737712860107,
+          "supported": true
+        },
+        {
+          "qid": "572683075951b619008f7517",
+          "answerable": true,
+          "pred": "Fertilization is external in most species, but platyctenids use internal fertilization and keep the eggs in brood chambers",
+          "cite_doc": "Ctenophora",
+          "cite_para": 21,
+          "entail_prob": 0.9736902117729187,
+          "supported": true
+        },
+        {
+          "qid": "5706143575f01819005e7950",
+          "answerable": true,
+          "pred": "NFL",
+          "cite_doc": "Southern_California",
+          "cite_para": 35,
+          "entail_prob": 0.9996032118797302,
+          "supported": true
+        },
+        {
+          "qid": "572a1c943f37b319004786e2",
+          "answerable": true,
+          "pred": "quality rental units",
+          "cite_doc": "Economic_inequality",
+          "cite_para": 37,
+          "entail_prob": 0.9992974996566772,
+          "supported": true
+        },
+        {
+          "qid": "570d29c2b3d812140066d4c1",
+          "answerable": true,
+          "pred": "20%.",
+          "cite_doc": "Victoria_(Australia)",
+          "cite_para": 4,
+          "entail_prob": 0.9918681979179382,
+          "supported": true
+        },
+        {
+          "qid": "5726eb4b5951b619008f826b",
+          "answerable": true,
+          "pred": "2000",
+          "cite_doc": "Pharmacy",
+          "cite_para": 14,
+          "entail_prob": 0.9993977546691895,
+          "supported": true
+        },
+        {
+          "qid": "572fd1c4947a6a140053cd05",
+          "answerable": true,
+          "pred": "\"wrecking amendments\"",
+          "cite_doc": "Scottish_Parliament",
+          "cite_para": 27,
+          "entail_prob": 0.9985756874084473,
+          "supported": true
+        },
+        {
+          "qid": "57298ef11d0469140077952d",
+          "answerable": true,
+          "pred": "1859",
+          "cite_doc": "Prime_number",
+          "cite_para": 17,
+          "entail_prob": 0.9992788434028625,
+          "supported": true
+        },
+        {
+          "qid": "572754fff1498d1400e8f661",
+          "answerable": true,
+          "pred": "damage to the existing electrical, water, sewage, phone, and cable facilities",
+          "cite_doc": "Construction",
+          "cite_para": 18,
+          "entail_prob": 0.999092698097229,
+          "supported": true
+        },
+        {
+          "qid": "572754fff1498d1400e8f663",
+          "answerable": true,
+          "pred": "municipal building inspector",
+          "cite_doc": "Construction",
+          "cite_para": 18,
+          "entail_prob": 0.9990713596343994,
+          "supported": true
+        },
+        {
+          "qid": "57274b35f1498d1400e8f5d4",
+          "answerable": true,
+          "pred": "Ersatzschulen.",
+          "cite_doc": "Private_school",
+          "cite_para": 8,
+          "entail_prob": 0.00204542838037014,
+          "supported": false
+        },
+        {
+          "qid": "573776eec3c5551400e51eeb",
+          "answerable": true,
+          "pred": "Aristotelian",
+          "cite_doc": "Force",
+          "cite_para": 4,
+          "entail_prob": 0.9972752928733826,
+          "supported": true
+        },
+        {
+          "qid": "57264a74708984140094c18e",
+          "answerable": true,
+          "pred": "1823",
+          "cite_doc": "Black_Death",
+          "cite_para": 5,
+          "entail_prob": 0.9882083535194397,
+          "supported": true
+        },
+        {
+          "qid": "5710e8c8a58dae1900cd6b28",
+          "answerable": true,
+          "pred": "Camisards",
+          "cite_doc": "Huguenot",
+          "cite_para": 25,
+          "entail_prob": 0.9979932308197021,
+          "supported": true
+        },
+        {
+          "qid": "570d2af0fed7b91900d45c95",
+          "answerable": true,
+          "pred": "second-most populous",
+          "cite_doc": "Victoria_(Australia)",
+          "cite_para": 5,
+          "entail_prob": 0.9980834722518921,
+          "supported": true
+        },
+        {
+          "qid": "56e1fc57e3433e1400423230",
+          "answerable": true,
+          "pred": "NP-complete problems.",
+          "cite_doc": "Computational_complexity_theory",
+          "cite_para": 41,
+          "entail_prob": 0.9972881078720093,
+          "supported": true
+        },
+        {
+          "qid": "57264586f1498d1400e8dac6",
+          "answerable": true,
+          "pred": "the public switched data network operated by the Dutch PTT Telecom",
+          "cite_doc": "Packet_switching",
+          "cite_para": 18,
+          "entail_prob": 0.9991733431816101,
+          "supported": true
+        },
+        {
+          "qid": "571c3a685efbb31900334db4",
+          "answerable": true,
+          "pred": "oxide compounds",
+          "cite_doc": "Oxygen",
+          "cite_para": 0,
+          "entail_prob": 0.9993922710418701,
+          "supported": true
+        },
+        {
+          "qid": "57097c8fed30961900e841f3",
+          "answerable": true,
+          "pred": "essentials.",
+          "cite_doc": "Sky_(United_Kingdom)",
+          "cite_para": 20,
+          "entail_prob": 0.9983832836151123,
+          "supported": true
+        },
+        {
+          "qid": "57265642f1498d1400e8dc6c",
+          "answerable": true,
+          "pred": "1720",
+          "cite_doc": "Black_Death",
+          "cite_para": 19,
+          "entail_prob": 0.9972348809242249,
+          "supported": true
+        },
+        {
+          "qid": "57274f49f1498d1400e8f61e",
+          "answerable": true,
+          "pred": "Anglican.",
+          "cite_doc": "Private_school",
+          "cite_para": 15,
+          "entail_prob": 0.9994761347770691,
+          "supported": true
+        },
+        {
+          "qid": "5729ea263f37b319004785be",
+          "answerable": true,
+          "pred": "NASA",
+          "cite_doc": "Amazon_rainforest",
+          "cite_para": 4,
+          "entail_prob": 0.9967784285545349,
+          "supported": true
+        },
+        {
+          "qid": "572ff7ab04bcaa1900d76f53",
+          "answerable": true,
+          "pred": "Waal",
+          "cite_doc": "Rhine",
+          "cite_para": 20,
+          "entail_prob": 0.9956430196762085,
+          "supported": true
+        },
+        {
+          "qid": "571090abb654c5140001f996",
+          "answerable": true,
+          "pred": "The Weavers",
+          "cite_doc": "Huguenot",
+          "cite_para": 15,
+          "entail_prob": 0.7464724183082581,
+          "supported": true
+        },
+        {
+          "qid": "57267947f1498d1400e8e0ed",
+          "answerable": true,
+          "pred": "birefringence, pleochroism, twinning, and interference",
+          "cite_doc": "Geology",
+          "cite_para": 15,
+          "entail_prob": 0.9990779161453247,
+          "supported": true
+        },
+        {
+          "qid": "57108198b654c5140001f93b",
+          "answerable": true,
+          "pred": "France",
+          "cite_doc": "Huguenot",
+          "cite_para": 11,
+          "entail_prob": 0.003285198239609599,
+          "supported": false
+        },
+        {
+          "qid": "572970c11d04691400779463",
+          "answerable": true,
+          "pred": "infinitely many primes.",
+          "cite_doc": "Prime_number",
+          "cite_para": 14,
+          "entail_prob": 0.9966691136360168,
+          "supported": true
+        },
+        {
+          "qid": "5730a0778ab72b1400f9c60e",
+          "answerable": true,
+          "pred": "orientalism and tropicality.",
+          "cite_doc": "Imperialism",
+          "cite_para": 20,
+          "entail_prob": 0.9720026254653931,
+          "supported": true
+        },
+        {
+          "qid": "57268b43dd62a815002e88f2",
+          "answerable": true,
+          "pred": "European Parliament and the Council of the European Union",
+          "cite_doc": "European_Union_law",
+          "cite_para": 0,
+          "entail_prob": 0.9973662495613098,
+          "supported": true
+        },
+        {
+          "qid": "572751b4708984140094dc1d",
+          "answerable": true,
+          "pred": "that a delay costs money.",
+          "cite_doc": "Construction",
+          "cite_para": 14,
+          "entail_prob": 0.9962520003318787,
+          "supported": true
+        },
+        {
+          "qid": "570614ff52bb89140068988d",
+          "answerable": true,
+          "pred": "Pac-12 Conference.",
+          "cite_doc": "Southern_California",
+          "cite_para": 37,
+          "entail_prob": 0.9984914064407349,
+          "supported": true
+        },
+        {
+          "qid": "57096505ed30961900e84083",
+          "answerable": true,
+          "pred": "Sky Q Silver set top boxes",
+          "cite_doc": "Sky_(United_Kingdom)",
+          "cite_para": 9,
+          "entail_prob": 0.5280901193618774,
+          "supported": true
+        },
+        {
+          "qid": "57269aa65951b619008f77ae",
+          "answerable": true,
+          "pred": "constitutional law",
+          "cite_doc": "European_Union_law",
+          "cite_para": 13,
+          "entail_prob": 0.9989390969276428,
+          "supported": true
+        },
+        {
+          "qid": "572a0ce11d04691400779701",
+          "answerable": true,
+          "pred": "protein A",
+          "cite_doc": "Immune_system",
+          "cite_para": 42,
+          "entail_prob": 0.9995051622390747,
+          "supported": true
+        },
+        {
+          "qid": "5725fb8138643c19005acf43",
+          "answerable": true,
+          "pred": "KGPE",
+          "cite_doc": "Fresno,_California",
+          "cite_para": 24,
+          "entail_prob": 0.9993892908096313,
+          "supported": true
+        },
+        {
+          "qid": "5733f5f24776f419006615c3",
+          "answerable": true,
+          "pred": "Approximately 1,000 British soldiers were killed or injured.",
+          "cite_doc": "French_and_Indian_War",
+          "cite_para": 26,
+          "entail_prob": 0.9983094930648804,
+          "supported": true
+        },
+        {
+          "qid": "5725ff8238643c19005acf4c",
+          "answerable": true,
+          "pred": "San Joaquin Valley Railroad",
+          "cite_doc": "Fresno,_California",
+          "cite_para": 27,
+          "entail_prob": 0.9991631507873535,
+          "supported": true
+        },
+        {
+          "qid": "56e1ec83cd28a01900c67c0a",
+          "answerable": true,
+          "pred": "The integer factorization problem",
+          "cite_doc": "Computational_complexity_theory",
+          "cite_para": 37,
+          "entail_prob": 0.9941425919532776,
+          "supported": true
+        },
+        {
+          "qid": "57332f81d058e614000b5777",
+          "answerable": true,
+          "pred": "prefabricated housing",
+          "cite_doc": "Warsaw",
+          "cite_para": 11,
+          "entail_prob": 0.9975060820579529,
+          "supported": true
+        },
+        {
+          "qid": "5733d2dbd058e614000b633b",
+          "answerable": true,
+          "pred": "The outcome was one of the most significant developments in a century of Anglo-French conflict.",
+          "cite_doc": "French_and_Indian_War",
+          "cite_para": 40,
+          "entail_prob": 0.9986314177513123,
+          "supported": true
+        },
+        {
+          "qid": "572faec7b2c2fd1400568333",
+          "answerable": true,
+          "pred": "Holyrood area of Edinburgh",
+          "cite_doc": "Scottish_Parliament",
+          "cite_para": 5,
+          "entail_prob": 0.9941419959068298,
+          "supported": true
+        },
+        {
+          "qid": "57300e2604bcaa1900d770ba",
+          "answerable": true,
+          "pred": "2006",
+          "cite_doc": "Islamism",
+          "cite_para": 18,
+          "entail_prob": 0.9987871050834656,
+          "supported": true
+        },
+        {
+          "qid": "5727de862ca10214002d9860",
+          "answerable": true,
+          "pred": "Duke Kent-Brown.",
+          "cite_doc": "Harvard_University",
+          "cite_para": 0,
+          "entail_prob": 0.9991717338562012,
+          "supported": true
+        },
+        {
+          "qid": "572648d1708984140094c15d",
+          "answerable": true,
+          "pred": "Very high-speed Backbone Network Service",
+          "cite_doc": "Packet_switching",
+          "cite_para": 22,
+          "entail_prob": 0.9978829026222229,
+          "supported": true
+        },
+        {
+          "qid": "5ad24e50d7d075001a428c3a",
+          "answerable": false,
+          "pred": "organized labor.",
+          "cite_doc": "Economic_inequality",
+          "cite_para": 11,
+          "entail_prob": 0.9991223216056824,
+          "supported": true
+        },
+        {
+          "qid": "5ad3ae4f604f3c001a3fec49",
+          "answerable": false,
+          "pred": "Warraghiggey.",
+          "cite_doc": "French_and_Indian_War",
+          "cite_para": 19,
+          "entail_prob": 0.9977859258651733,
+          "supported": true
+        },
+        {
+          "qid": "5a8257efe60761001a2eb1cf",
+          "answerable": false,
+          "pred": "Alyssa A. Goodman.",
+          "cite_doc": "Intergovernmental_Panel_on_Climate_Change",
+          "cite_para": 23,
+          "entail_prob": 0.999154806137085,
+          "supported": true
+        },
+        {
+          "qid": "5a25fa34c93d92001a40036f",
+          "answerable": false,
+          "pred": "Construction",
+          "cite_doc": "Construction",
+          "cite_para": 21,
+          "entail_prob": 0.9996034502983093,
+          "supported": true
+        },
+        {
+          "qid": "5ad53e615b96ef001a10abda",
+          "answerable": false,
+          "pred": "A function problem.",
+          "cite_doc": "Computational_complexity_theory",
+          "cite_para": 8,
+          "entail_prob": 0.5170434713363647,
+          "supported": true
+        },
+        {
+          "qid": "5a57fb62770dc0001aeeff12",
+          "answerable": false,
+          "pred": "unanswerable",
+          "cite_doc": "Geology",
+          "cite_para": 10,
+          "entail_prob": 0.9435961842536926,
+          "supported": true
+        },
+        {
+          "qid": "5a89150d3b2508001a72a4ac",
+          "answerable": false,
+          "pred": "prime elements and prime ideals.",
+          "cite_doc": "Prime_number",
+          "cite_para": 3,
+          "entail_prob": 0.9989728927612305,
+          "supported": true
+        },
+        {
+          "qid": "5ad0206677cf76001a686afb",
+          "answerable": false,
+          "pred": "The motion picture, television, and music industry",
+          "cite_doc": "Southern_California",
+          "cite_para": 6,
+          "entail_prob": 0.9974566102027893,
+          "supported": true
+        },
+        {
+          "qid": "5ad02e3377cf76001a686d33",
+          "answerable": false,
+          "pred": "historians",
+          "cite_doc": "Imperialism",
+          "cite_para": 15,
+          "entail_prob": 0.1655283421278,
+          "supported": false
+        },
+        {
+          "qid": "5ad0415577cf76001a686f07",
+          "answerable": false,
+          "pred": "the Monarch",
+          "cite_doc": "Scottish_Parliament",
+          "cite_para": 30,
+          "entail_prob": 0.06665173172950745,
+          "supported": false
+        },
+        {
+          "qid": "5ad4f4d95b96ef001a10a793",
+          "answerable": false,
+          "pred": "60",
+          "cite_doc": "Warsaw",
+          "cite_para": 29,
+          "entail_prob": 0.9951122403144836,
+          "supported": true
+        },
+        {
+          "qid": "5acfe84677cf76001a686408",
+          "answerable": false,
+          "pred": "Wahhabist interpretation of Islam",
+          "cite_doc": "Islamism",
+          "cite_para": 7,
+          "entail_prob": 0.9986586570739746,
+          "supported": true
+        },
+        {
+          "qid": "5a8205d131013a001a3350fb",
+          "answerable": false,
+          "pred": "the dignity and worth of human nature, the right and ability of each person to perceive truth, and the indwelling God in each person.",
+          "cite_doc": "Harvard_University",
+          "cite_para": 7,
+          "entail_prob": 0.9993632435798645,
+          "supported": true
+        },
+        {
+          "qid": "5ad02de677cf76001a686d1f",
+          "answerable": false,
+          "pred": "mace",
+          "cite_doc": "Scottish_Parliament",
+          "cite_para": 11,
+          "entail_prob": 0.913019061088562,
+          "supported": true
+        },
+        {
+          "qid": "5a638b3668151a001a92235b",
+          "answerable": false,
+          "pred": "489",
+          "cite_doc": "Victoria_(Australia)",
+          "cite_para": 17,
+          "entail_prob": 0.9973592162132263,
+          "supported": true
+        },
+        {
+          "qid": "5a2c36c4bfd06b001a5aea67",
+          "answerable": false,
+          "pred": "monthly subscription",
+          "cite_doc": "Sky_(United_Kingdom)",
+          "cite_para": 14,
+          "entail_prob": 0.9982677698135376,
+          "supported": true
+        },
+        {
+          "qid": "5ad11288645df0001a2d0c30",
+          "answerable": false,
+          "pred": "The European Commission is the main executive body of the European Union.",
+          "cite_doc": "European_Union_law",
+          "cite_para": 6,
+          "entail_prob": 0.9963549375534058,
+          "supported": true
+        },
+        {
+          "qid": "5a58d33e3e1742001a15ce3e",
+          "answerable": false,
+          "pred": "unanswerable",
+          "cite_doc": "Geology",
+          "cite_para": 1,
+          "entail_prob": 0.9983057975769043,
+          "supported": true
+        },
+        {
+          "qid": "5a83894de60761001a2eb78d",
+          "answerable": false,
+          "pred": "\"zip\" the mouth shut",
+          "cite_doc": "Ctenophora",
+          "cite_para": 18,
+          "entail_prob": 0.998578667640686,
+          "supported": true
+        },
+        {
+          "qid": "5ad02cde77cf76001a686cc7",
+          "answerable": false,
+          "pred": "the Court of Justice's view is that if EU law conflicts with a provision of national law, then EU law has primacy.",
+          "cite_doc": "Southern_California",
+          "cite_para": 10,
+          "entail_prob": 0.9963917136192322,
+          "supported": true
+        },
+        {
+          "qid": "5ad28098d7d075001a4297ba",
+          "answerable": false,
+          "pred": "The Rhine Gorge between R\u00fcdesheim am Rhein and Koblenz",
+          "cite_doc": "Rhine",
+          "cite_para": 14,
+          "entail_prob": 0.04583817720413208,
+          "supported": false
+        },
+        {
+          "qid": "5a1c861fb4fb5d0018714657",
+          "answerable": false,
+          "pred": "Great Fire of 1901",
+          "cite_doc": "Jacksonville,_Florida",
+          "cite_para": 8,
+          "entail_prob": 0.9994569420814514,
+          "supported": true
+        },
+        {
+          "qid": "5a1c8bb4b4fb5d00187146aa",
+          "answerable": false,
+          "pred": "28 floor Riverplace Tower",
+          "cite_doc": "Jacksonville,_Florida",
+          "cite_para": 15,
+          "entail_prob": 0.9994864463806152,
+          "supported": true
+        },
+        {
+          "qid": "5a638d2768151a001a922371",
+          "answerable": false,
+          "pred": "90%",
+          "cite_doc": "Victoria_(Australia)",
+          "cite_para": 18,
+          "entail_prob": 0.9993109703063965,
+          "supported": true
+        },
+        {
+          "qid": "5ad261bad7d075001a429051",
+          "answerable": false,
+          "pred": "electronegativity",
+          "cite_doc": "Oxygen",
+          "cite_para": 35,
+          "entail_prob": 0.9986658096313477,
+          "supported": true
+        },
+        {
+          "qid": "5a3e3de4378766001a002517",
+          "answerable": false,
+          "pred": "Michael Oppenheimer.",
+          "cite_doc": "Force",
+          "cite_para": 0,
+          "entail_prob": 0.9986786246299744,
+          "supported": true
+        },
+        {
+          "qid": "5ad2a58bd7d075001a429dcc",
+          "answerable": false,
+          "pred": "11,700 years ago",
+          "cite_doc": "Rhine",
+          "cite_para": 32,
+          "entail_prob": 0.9982719421386719,
+          "supported": true
+        },
+        {
+          "qid": "5ad0285977cf76001a686c0e",
+          "answerable": false,
+          "pred": "General Assembly Hall",
+          "cite_doc": "Scottish_Parliament",
+          "cite_para": 6,
+          "entail_prob": 0.9909710884094238,
+          "supported": true
+        },
+        {
+          "qid": "5ad14573645df0001a2d14b3",
+          "answerable": false,
+          "pred": "Article 101(1), including price fixing.",
+          "cite_doc": "European_Union_law",
+          "cite_para": 19,
+          "entail_prob": 0.9962621331214905,
+          "supported": true
+        },
+        {
+          "qid": "5ad3ed37604f3c001a3ff7a5",
+          "answerable": false,
+          "pred": "the pistons worked in the same phase driving a common crosshead and crank, again set at 90\u00b0 as for a two-cylinder engine.",
+          "cite_doc": "Steam_engine",
+          "cite_para": 13,
+          "entail_prob": 0.9995299577713013,
+          "supported": true
+        },
+        {
+          "qid": "5a664447c2b11c001a425eef",
+          "answerable": false,
+          "pred": "Shelley's Masque of Anarchy.",
+          "cite_doc": "Civil_disobedience",
+          "cite_para": 2,
+          "entail_prob": 0.995537281036377,
+          "supported": true
+        },
+        {
+          "qid": "5a8241e631013a001a335362",
+          "answerable": false,
+          "pred": "channels that broadcast to the United Kingdom.",
+          "cite_doc": "Sky_(United_Kingdom)",
+          "cite_para": 11,
+          "entail_prob": 0.9988858103752136,
+          "supported": true
+        },
+        {
+          "qid": "5a38d6e6a4b263001a8c1955",
+          "answerable": false,
+          "pred": "Chrysler ended production of their full-sized luxury sedans at the end of the 1981 model year, moving instead to a full front-wheel drive lineup for",
+          "cite_doc": "1973_oil_crisis",
+          "cite_para": 22,
+          "entail_prob": 0.7862207293510437,
+          "supported": true
+        },
+        {
+          "qid": "5a582cfa770dc0001aef0014",
+          "answerable": false,
+          "pred": "not_included",
+          "cite_doc": "Geology",
+          "cite_para": 24,
+          "entail_prob": 0.9970646500587463,
+          "supported": true
+        },
+        {
+          "qid": "5ad03cd377cf76001a686ec4",
+          "answerable": false,
+          "pred": "unanswerable",
+          "cite_doc": "Scottish_Parliament",
+          "cite_para": 24,
+          "entail_prob": 0.9994786381721497,
+          "supported": true
+        },
+        {
+          "qid": "5ad40955604f3c001a3fff2f",
+          "answerable": false,
+          "pred": "Emperor Wenzong",
+          "cite_doc": "Yuan_dynasty",
+          "cite_para": 18,
+          "entail_prob": 0.994874894618988,
+          "supported": true
+        },
+        {
+          "qid": "5ad3bd30604f3c001a3fef13",
+          "answerable": false,
+          "pred": "between the river Epte and the Atlantic coast",
+          "cite_doc": "Normans",
+          "cite_para": 3,
+          "entail_prob": 0.9976619482040405,
+          "supported": true
+        },
+        {
+          "qid": "5ad543c05b96ef001a10ac00",
+          "answerable": false,
+          "pred": "Turing machines",
+          "cite_doc": "Computational_complexity_theory",
+          "cite_para": 12,
+          "entail_prob": 0.9777764081954956,
+          "supported": true
+        },
+        {
+          "qid": "5a669ee5f038b7001ab0c06c",
+          "answerable": false,
+          "pred": "the political circumstances surrounding the case and their reasons for breaking the law via civil disobedience",
+          "cite_doc": "Civil_disobedience",
+          "cite_para": 22,
+          "entail_prob": 0.998196542263031,
+          "supported": true
+        },
+        {
+          "qid": "5a1c539bb4fb5d00187145fa",
+          "answerable": false,
+          "pred": "Baldwin.",
+          "cite_doc": "Jacksonville,_Florida",
+          "cite_para": 19,
+          "entail_prob": 0.9910628795623779,
+          "supported": true
+        },
+        {
+          "qid": "5ad3b9cd604f3c001a3fee8b",
+          "answerable": false,
+          "pred": "Two",
+          "cite_doc": "French_and_Indian_War",
+          "cite_para": 37,
+          "entail_prob": 0.00792298186570406,
+          "supported": false
+        },
+        {
+          "qid": "5acfe84677cf76001a686405",
+          "answerable": false,
+          "pred": "hate them for their religion ... for Allah's sake",
+          "cite_doc": "Islamism",
+          "cite_para": 7,
+          "entail_prob": 0.9974838495254517,
+          "supported": true
+        },
+        {
+          "qid": "5a2c16e3bfd06b001a5ae9eb",
+          "answerable": false,
+          "pred": "Sky+ Box",
+          "cite_doc": "Sky_(United_Kingdom)",
+          "cite_para": 3,
+          "entail_prob": 0.9556107521057129,
+          "supported": true
+        },
+        {
+          "qid": "5ad26257d7d075001a42909e",
+          "answerable": false,
+          "pred": "the outside world that is at rest",
+          "cite_doc": "Force",
+          "cite_para": 5,
+          "entail_prob": 0.9969072937965393,
+          "supported": true
+        },
+        {
+          "qid": "5ad40d50604f3c001a4000cb",
+          "answerable": false,
+          "pred": "the Uighur King of Qocho",
+          "cite_doc": "Yuan_dynasty",
+          "cite_para": 45,
+          "entail_prob": 0.9970436692237854,
+          "supported": true
+        },
+        {
+          "qid": "5ad3c75a604f3c001a3ff047",
+          "answerable": false,
+          "pred": "half as much coal",
+          "cite_doc": "Steam_engine",
+          "cite_para": 37,
+          "entail_prob": 0.9960595369338989,
+          "supported": true
+        },
+        {
+          "qid": "5ad4f3a25b96ef001a10a75c",
+          "answerable": false,
+          "pred": "not_included",
+          "cite_doc": "Immune_system",
+          "cite_para": 45,
+          "entail_prob": 0.9994093179702759,
+          "supported": true
+        },
+        {
+          "qid": "5a7b402121c2de001afe9e0d",
+          "answerable": false,
+          "pred": "97,915 families.",
+          "cite_doc": "Fresno,_California",
+          "cite_para": 21,
+          "entail_prob": 0.9397270679473877,
+          "supported": true
+        },
+        {
+          "qid": "5a668d4ef038b7001ab0bfc1",
+          "answerable": false,
+          "pred": "The key point is that the spirit of protest should be maintained all the way, whether it is done by remaining in jail, or by evading it",
+          "cite_doc": "Civil_disobedience",
+          "cite_para": 19,
+          "entail_prob": 0.997552216053009,
+          "supported": true
+        },
+        {
+          "qid": "5a1c8c34b4fb5d00187146b7",
+          "answerable": false,
+          "pred": "coastal location",
+          "cite_doc": "Jacksonville,_Florida",
+          "cite_para": 16,
+          "entail_prob": 0.9994195699691772,
+          "supported": true
+        }
+      ]
+    },
+    "AutoRAG": {
+      "n_scored": 56,
+      "n_skipped_no_premise": 0,
+      "entail_prob_mean": 0.9228318490079671,
+      "entail_prob_ci95": [
+        0.8606166503254956,
+        0.9734092160109348
+      ],
+      "supported_rate_mean": 0.9285714285714286,
+      "supported_rate_ci95": [
+        0.8571428571428571,
+        0.9821428571428571
+      ],
+      "per_question": [
+        {
+          "qid": "5725b81b271a42140099d097",
+          "answerable": true,
+          "pred": "Amazonia or the Amazon Jungle",
+          "cite_doc": "Amazon_rainforest",
+          "cite_para": 0,
+          "entail_prob": 0.9992938041687012,
+          "supported": true
+        },
+        {
+          "qid": "56de1645cffd8e1900b4b5d2",
+          "answerable": true,
+          "pred": "Robert of Jumi\u00e8ges",
+          "cite_doc": "Normans",
+          "cite_para": 15,
+          "entail_prob": 0.998710036277771,
+          "supported": true
+        },
+        {
+          "qid": "5729d878af94a219006aa66b",
+          "answerable": true,
+          "pred": "the market",
+          "cite_doc": "Economic_inequality",
+          "cite_para": 4,
+          "entail_prob": 0.9977608919143677,
+          "supported": true
+        },
+        {
+          "qid": "572881d34b864d1900164a5b",
+          "answerable": true,
+          "pred": "Jesus the Interpreter",
+          "cite_doc": "Yuan_dynasty",
+          "cite_para": 37,
+          "entail_prob": 0.36039993166923523,
+          "supported": false
+        },
+        {
+          "qid": "570963a5200fba1400367f35",
+          "answerable": true,
+          "pred": "11 million customers.",
+          "cite_doc": "Sky_(United_Kingdom)",
+          "cite_para": 8,
+          "entail_prob": 0.9981094598770142,
+          "supported": true
+        },
+        {
+          "qid": "5728455bff5b5019007da078",
+          "answerable": true,
+          "pred": "NASA's CALIPSO satellite",
+          "cite_doc": "Amazon_rainforest",
+          "cite_para": 4,
+          "entail_prob": 0.9988484382629395,
+          "supported": true
+        },
+        {
+          "qid": "5726701add62a815002e84cb",
+          "answerable": true,
+          "pred": "\"synforms\"",
+          "cite_doc": "Geology",
+          "cite_para": 10,
+          "entail_prob": 0.9982946515083313,
+          "supported": true
+        },
+        {
+          "qid": "57107a3ea58dae1900cd69de",
+          "answerable": true,
+          "pred": "Charleston",
+          "cite_doc": "Huguenot",
+          "cite_para": 6,
+          "entail_prob": 0.15073645114898682,
+          "supported": false
+        },
+        {
+          "qid": "572758e0f1498d1400e8f6b0",
+          "answerable": true,
+          "pred": "Blaine Amendments.",
+          "cite_doc": "Private_school",
+          "cite_para": 23,
+          "entail_prob": 0.9968709349632263,
+          "supported": true
+        },
+        {
+          "qid": "57107c24a58dae1900cd69ea",
+          "answerable": true,
+          "pred": "William III of Orange",
+          "cite_doc": "Huguenot",
+          "cite_para": 7,
+          "entail_prob": 0.9937040209770203,
+          "supported": true
+        },
+        {
+          "qid": "572f64ccb2c2fd14005680b9",
+          "answerable": true,
+          "pred": "The rate of flow was increased and the ground water level fell significantly.",
+          "cite_doc": "Rhine",
+          "cite_para": 10,
+          "entail_prob": 0.9988541603088379,
+          "supported": true
+        },
+        {
+          "qid": "5727cebc2ca10214002d96f1",
+          "answerable": true,
+          "pred": "a minority of enrollments",
+          "cite_doc": "Harvard_University",
+          "cite_para": 16,
+          "entail_prob": 0.006680421996861696,
+          "supported": false
+        },
+        {
+          "qid": "57265e455951b619008f70bb",
+          "answerable": true,
+          "pred": "EU law",
+          "cite_doc": "European_Union_law",
+          "cite_para": 11,
+          "entail_prob": 0.9938255548477173,
+          "supported": true
+        },
+        {
+          "qid": "57265642f1498d1400e8dc68",
+          "answerable": true,
+          "pred": "40,000",
+          "cite_doc": "Black_Death",
+          "cite_para": 20,
+          "entail_prob": 0.9958018660545349,
+          "supported": true
+        },
+        {
+          "qid": "570d29c2b3d812140066d4c1",
+          "answerable": true,
+          "pred": "20%.",
+          "cite_doc": "Victoria_(Australia)",
+          "cite_para": 4,
+          "entail_prob": 0.9775531888008118,
+          "supported": true
+        },
+        {
+          "qid": "572754fff1498d1400e8f661",
+          "answerable": true,
+          "pred": "damage to the existing electrical, water, sewage, phone, and cable facilities",
+          "cite_doc": "Construction",
+          "cite_para": 18,
+          "entail_prob": 0.9995214939117432,
+          "supported": true
+        },
+        {
+          "qid": "572754fff1498d1400e8f663",
+          "answerable": true,
+          "pred": "municipal building inspector",
+          "cite_doc": "Construction",
+          "cite_para": 18,
+          "entail_prob": 0.9989854693412781,
+          "supported": true
+        },
+        {
+          "qid": "57264a74708984140094c18e",
+          "answerable": true,
+          "pred": "1823",
+          "cite_doc": "Black_Death",
+          "cite_para": 5,
+          "entail_prob": 0.996117353439331,
+          "supported": true
+        },
+        {
+          "qid": "570d2af0fed7b91900d45c95",
+          "answerable": true,
+          "pred": "second-most populous",
+          "cite_doc": "Victoria_(Australia)",
+          "cite_para": 5,
+          "entail_prob": 0.9965193271636963,
+          "supported": true
+        },
+        {
+          "qid": "56e1fc57e3433e1400423230",
+          "answerable": true,
+          "pred": "NP-complete problems.",
+          "cite_doc": "Computational_complexity_theory",
+          "cite_para": 41,
+          "entail_prob": 0.998347282409668,
+          "supported": true
+        },
+        {
+          "qid": "57264586f1498d1400e8dac6",
+          "answerable": true,
+          "pred": "the public switched data network operated by the Dutch PTT Telecom (now known as KPN).",
+          "cite_doc": "Packet_switching",
+          "cite_para": 18,
+          "entail_prob": 0.9991443157196045,
+          "supported": true
+        },
+        {
+          "qid": "57265642f1498d1400e8dc6c",
+          "answerable": true,
+          "pred": "1654",
+          "cite_doc": "Black_Death",
+          "cite_para": 20,
+          "entail_prob": 0.9980989098548889,
+          "supported": true
+        },
+        {
+          "qid": "57274f49f1498d1400e8f61e",
+          "answerable": true,
+          "pred": "Anglican.",
+          "cite_doc": "Private_school",
+          "cite_para": 15,
+          "entail_prob": 0.9992660880088806,
+          "supported": true
+        },
+        {
+          "qid": "571090abb654c5140001f996",
+          "answerable": true,
+          "pred": "The Weavers",
+          "cite_doc": "Huguenot",
+          "cite_para": 15,
+          "entail_prob": 0.8052669763565063,
+          "supported": true
+        },
+        {
+          "qid": "57267947f1498d1400e8e0ed",
+          "answerable": true,
+          "pred": "birefringence, pleochroism, twinning, and interference",
+          "cite_doc": "Geology",
+          "cite_para": 15,
+          "entail_prob": 0.9990779161453247,
+          "supported": true
+        },
+        {
+          "qid": "572970c11d04691400779463",
+          "answerable": true,
+          "pred": "infinitely many prime numbers.",
+          "cite_doc": "Prime_number",
+          "cite_para": 1,
+          "entail_prob": 0.9921942949295044,
+          "supported": true
+        },
+        {
+          "qid": "5730a0778ab72b1400f9c60e",
+          "answerable": true,
+          "pred": "orientalism and tropicality.",
+          "cite_doc": "Imperialism",
+          "cite_para": 20,
+          "entail_prob": 0.9756972789764404,
+          "supported": true
+        },
+        {
+          "qid": "57268b43dd62a815002e88f2",
+          "answerable": true,
+          "pred": "European Parliament and the Council of the European Union",
+          "cite_doc": "European_Union_law",
+          "cite_para": 0,
+          "entail_prob": 0.8594130873680115,
+          "supported": true
+        },
+        {
+          "qid": "572751b4708984140094dc1d",
+          "answerable": true,
+          "pred": "that a delay costs money.",
+          "cite_doc": "Construction",
+          "cite_para": 14,
+          "entail_prob": 0.9956222176551819,
+          "supported": true
+        },
+        {
+          "qid": "570614ff52bb89140068988d",
+          "answerable": true,
+          "pred": "Pac-12 Conference.",
+          "cite_doc": "Southern_California",
+          "cite_para": 37,
+          "entail_prob": 0.9984914064407349,
+          "supported": true
+        },
+        {
+          "qid": "57096505ed30961900e84083",
+          "answerable": true,
+          "pred": "Sky Q Silver set top boxes",
+          "cite_doc": "Sky_(United_Kingdom)",
+          "cite_para": 9,
+          "entail_prob": 0.9131684899330139,
+          "supported": true
+        },
+        {
+          "qid": "57269aa65951b619008f77ae",
+          "answerable": true,
+          "pred": "constitutional law",
+          "cite_doc": "European_Union_law",
+          "cite_para": 13,
+          "entail_prob": 0.9985114932060242,
+          "supported": true
+        },
+        {
+          "qid": "5725fb8138643c19005acf43",
+          "answerable": true,
+          "pred": "KGPE",
+          "cite_doc": "Fresno,_California",
+          "cite_para": 24,
+          "entail_prob": 0.9993892908096313,
+          "supported": true
+        },
+        {
+          "qid": "5725ff8238643c19005acf4c",
+          "answerable": true,
+          "pred": "San Joaquin Valley Railroad",
+          "cite_doc": "Fresno,_California",
+          "cite_para": 27,
+          "entail_prob": 0.9991631507873535,
+          "supported": true
+        },
+        {
+          "qid": "56e1ec83cd28a01900c67c0a",
+          "answerable": true,
+          "pred": "integer factorization problem",
+          "cite_doc": "Computational_complexity_theory",
+          "cite_para": 37,
+          "entail_prob": 0.9943915009498596,
+          "supported": true
+        },
+        {
+          "qid": "57332f81d058e614000b5777",
+          "answerable": true,
+          "pred": "prefabricated housing",
+          "cite_doc": "Warsaw",
+          "cite_para": 11,
+          "entail_prob": 0.9975060820579529,
+          "supported": true
+        },
+        {
+          "qid": "572faec7b2c2fd1400568333",
+          "answerable": true,
+          "pred": "Holyrood area of Edinburgh",
+          "cite_doc": "Scottish_Parliament",
+          "cite_para": 5,
+          "entail_prob": 0.9941419959068298,
+          "supported": true
+        },
+        {
+          "qid": "57300e2604bcaa1900d770ba",
+          "answerable": true,
+          "pred": "2006",
+          "cite_doc": "Islamism",
+          "cite_para": 18,
+          "entail_prob": 0.9924706220626831,
+          "supported": true
+        },
+        {
+          "qid": "572648d1708984140094c15d",
+          "answerable": true,
+          "pred": "Very high-speed Backbone Network Service",
+          "cite_doc": "Packet_switching",
+          "cite_para": 22,
+          "entail_prob": 0.9979033470153809,
+          "supported": true
+        },
+        {
+          "qid": "5ad53e615b96ef001a10abda",
+          "answerable": false,
+          "pred": "A function problem",
+          "cite_doc": "Computational_complexity_theory",
+          "cite_para": 8,
+          "entail_prob": 0.9897035956382751,
+          "supported": true
+        },
+        {
+          "qid": "5ad0206677cf76001a686afb",
+          "answerable": false,
+          "pred": "The motion picture, television, and music industry",
+          "cite_doc": "Southern_California",
+          "cite_para": 6,
+          "entail_prob": 0.9974566102027893,
+          "supported": true
+        },
+        {
+          "qid": "5ad4f4d95b96ef001a10a793",
+          "answerable": false,
+          "pred": "60",
+          "cite_doc": "Warsaw",
+          "cite_para": 29,
+          "entail_prob": 0.9951122403144836,
+          "supported": true
+        },
+        {
+          "qid": "5acfe84677cf76001a686408",
+          "answerable": false,
+          "pred": "Wahhabist interpretation of Islam",
+          "cite_doc": "Islamism",
+          "cite_para": 7,
+          "entail_prob": 0.9986586570739746,
+          "supported": true
+        },
+        {
+          "qid": "5ad02de677cf76001a686d1f",
+          "answerable": false,
+          "pred": "mace",
+          "cite_doc": "Scottish_Parliament",
+          "cite_para": 11,
+          "entail_prob": 0.9123137593269348,
+          "supported": true
+        },
+        {
+          "qid": "5ad25f82d7d075001a428f85",
+          "answerable": false,
+          "pred": "not_included",
+          "cite_doc": "Force",
+          "cite_para": 1,
+          "entail_prob": 0.9053097367286682,
+          "supported": true
+        },
+        {
+          "qid": "5a83894de60761001a2eb78d",
+          "answerable": false,
+          "pred": "\"zip\" the mouth shut",
+          "cite_doc": "Ctenophora",
+          "cite_para": 18,
+          "entail_prob": 0.9980675578117371,
+          "supported": true
+        },
+        {
+          "qid": "5a1c861fb4fb5d0018714657",
+          "answerable": false,
+          "pred": "Great Fire of 1901",
+          "cite_doc": "Jacksonville,_Florida",
+          "cite_para": 8,
+          "entail_prob": 0.9887881875038147,
+          "supported": true
+        },
+        {
+          "qid": "5ad261bad7d075001a429051",
+          "answerable": false,
+          "pred": "electronegativity",
+          "cite_doc": "Oxygen",
+          "cite_para": 35,
+          "entail_prob": 0.9992976188659668,
+          "supported": true
+        },
+        {
+          "qid": "5ad0285977cf76001a686c0e",
+          "answerable": false,
+          "pred": "Assembly Hall",
+          "cite_doc": "Scottish_Parliament",
+          "cite_para": 6,
+          "entail_prob": 0.9971923232078552,
+          "supported": true
+        },
+        {
+          "qid": "5ad14573645df0001a2d14b3",
+          "answerable": false,
+          "pred": "Article 101(1), including price fixing.",
+          "cite_doc": "European_Union_law",
+          "cite_para": 19,
+          "entail_prob": 0.9978273510932922,
+          "supported": true
+        },
+        {
+          "qid": "5ad0316177cf76001a686ddc",
+          "answerable": false,
+          "pred": "The Portuguese.",
+          "cite_doc": "Imperialism",
+          "cite_para": 22,
+          "entail_prob": 0.9771305322647095,
+          "supported": true
+        },
+        {
+          "qid": "5a582cfa770dc0001aef0014",
+          "answerable": false,
+          "pred": "not_included",
+          "cite_doc": "Geology",
+          "cite_para": 24,
+          "entail_prob": 0.9886041879653931,
+          "supported": true
+        },
+        {
+          "qid": "5ad543c05b96ef001a10ac00",
+          "answerable": false,
+          "pred": "Turing machines",
+          "cite_doc": "Computational_complexity_theory",
+          "cite_para": 12,
+          "entail_prob": 0.9755520224571228,
+          "supported": true
+        },
+        {
+          "qid": "5a2c16e3bfd06b001a5ae9eb",
+          "answerable": false,
+          "pred": "Sky+",
+          "cite_doc": "Sky_(United_Kingdom)",
+          "cite_para": 3,
+          "entail_prob": 0.003459651255980134,
+          "supported": false
+        },
+        {
+          "qid": "5ad26257d7d075001a42909e",
+          "answerable": false,
+          "pred": "the outside world that is at rest",
+          "cite_doc": "Force",
+          "cite_para": 5,
+          "entail_prob": 0.9974777102470398,
+          "supported": true
+        },
+        {
+          "qid": "5ad40d50604f3c001a4000cb",
+          "answerable": false,
+          "pred": "the Uighur King of Qocho",
+          "cite_doc": "Yuan_dynasty",
+          "cite_para": 45,
+          "entail_prob": 0.9927785992622375,
+          "supported": true
+        }
+      ]
+    }
+  }
+}

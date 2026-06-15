@@ -1,0 +1,266 @@
+{
+  "squad": {
+    "dataset": "squad",
+    "kind": "chunking",
+    "variants": {
+      "paragraph": {
+        "n_chunks": 1204,
+        "index_time_s": 16.47267620000639,
+        "recall@1": 0.9065420560747663,
+        "recall@5": 0.9813084112149533,
+        "recall@10": 0.9906542056074766,
+        "mrr@10": 0.9356178608515058,
+        "ndcg@5": 0.9463003960454314,
+        "f1": 0.1382343916529597,
+        "citation": 0.7289719626168224,
+        "faithfulness": 1.0,
+        "refusal_correct_unans": 0.47572815533980584,
+        "hallucination_unans": 0.5242718446601942,
+        "latency_mean_ms": 401.04950285652495,
+        "latency_p95_ms": 580.8220400038407,
+        "calibration": {
+          "balanced_accuracy": 0.6609477124183006,
+          "tau_score": 3.5,
+          "tau_margin": 0.0
+        }
+      },
+      "fixed_120": {
+        "n_chunks": 1815,
+        "index_time_s": 13.419872500002384,
+        "recall@1": 0.9252336448598131,
+        "recall@5": 0.9906542056074766,
+        "recall@10": 0.9906542056074766,
+        "mrr@10": 0.9509345794392523,
+        "ndcg@5": 0.9609669702690444,
+        "f1": 0.1565423647760486,
+        "citation": 0.7663551401869159,
+        "faithfulness": 1.0,
+        "refusal_correct_unans": 0.4174757281553398,
+        "hallucination_unans": 0.5825242718446602,
+        "latency_mean_ms": 229.7448742852014,
+        "latency_p95_ms": 280.60029499320075,
+        "calibration": {
+          "balanced_accuracy": 0.6470588235294117,
+          "tau_score": 3.5,
+          "tau_margin": 0.0
+        }
+      },
+      "fixed_300": {
+        "n_chunks": 1223,
+        "index_time_s": 11.15674459998263,
+        "recall@1": 0.9065420560747663,
+        "recall@5": 0.9813084112149533,
+        "recall@10": 0.9906542056074766,
+        "mrr@10": 0.9356178608515058,
+        "ndcg@5": 0.9463003960454314,
+        "f1": 0.1382343916529597,
+        "citation": 0.7289719626168224,
+        "faithfulness": 1.0,
+        "refusal_correct_unans": 0.47572815533980584,
+        "hallucination_unans": 0.5242718446601942,
+        "latency_mean_ms": 374.7148980953387,
+        "latency_p95_ms": 476.34044500446174,
+        "calibration": {
+          "balanced_accuracy": 0.6609477124183006,
+          "tau_score": 3.5,
+          "tau_margin": 0.0
+        }
+      },
+      "fixed_500": {
+        "n_chunks": 1207,
+        "index_time_s": 10.81725500000175,
+        "recall@1": 0.9065420560747663,
+        "recall@5": 0.9813084112149533,
+        "recall@10": 0.9906542056074766,
+        "mrr@10": 0.9356178608515058,
+        "ndcg@5": 0.9463003960454314,
+        "f1": 0.1382343916529597,
+        "citation": 0.7289719626168224,
+        "faithfulness": 1.0,
+        "refusal_correct_unans": 0.47572815533980584,
+        "hallucination_unans": 0.5242718446601942,
+        "latency_mean_ms": 383.84901190611777,
+        "latency_p95_ms": 548.4349550155456,
+        "calibration": {
+          "balanced_accuracy": 0.6609477124183006,
+          "tau_score": 3.5,
+          "tau_margin": 0.0
+        }
+      },
+      "semantic": {
+        "n_chunks": 1809,
+        "index_time_s": 12.785032699990552,
+        "recall@1": 0.9439252336448598,
+        "recall@5": 0.9906542056074766,
+        "recall@10": 0.9906542056074766,
+        "mrr@10": 0.9602803738317757,
+        "ndcg@5": 0.9678654795480828,
+        "f1": 0.15467320589754394,
+        "citation": 0.7757009345794392,
+        "faithfulness": 1.0,
+        "refusal_correct_unans": 0.3883495145631068,
+        "hallucination_unans": 0.6116504854368932,
+        "latency_mean_ms": 141.022035238261,
+        "latency_p95_ms": 225.46944499772502,
+        "calibration": {
+          "balanced_accuracy": 0.6609477124183006,
+          "tau_score": 3.5,
+          "tau_margin": 0.0
+        }
+      },
+      "adaptive": {
+        "n_chunks": 1804,
+        "index_time_s": 7.930236599990167,
+        "recall@1": 0.9439252336448598,
+        "recall@5": 0.9906542056074766,
+        "recall@10": 0.9906542056074766,
+        "mrr@10": 0.9602803738317757,
+        "ndcg@5": 0.9678654795480828,
+        "f1": 0.15467320589754394,
+        "citation": 0.7757009345794392,
+        "faithfulness": 1.0,
+        "refusal_correct_unans": 0.3883495145631068,
+        "hallucination_unans": 0.6116504854368932,
+        "latency_mean_ms": 117.9171280943722,
+        "latency_p95_ms": 148.3674749993952,
+        "calibration": {
+          "balanced_accuracy": 0.6609477124183006,
+          "tau_score": 3.5,
+          "tau_margin": 0.0
+        }
+      }
+    }
+  },
+  "enterprise": {
+    "dataset": "enterprise",
+    "kind": "chunking",
+    "variants": {
+      "paragraph": {
+        "n_chunks": 128,
+        "index_time_s": 0.21209829999133945,
+        "recall@1": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr@10": 1.0,
+        "ndcg@5": 1.0,
+        "f1": 0.3529934582809332,
+        "citation": 0.95,
+        "faithfulness": 1.0,
+        "refusal_correct_unans": 0.875,
+        "hallucination_unans": 0.125,
+        "latency_mean_ms": 48.86390000020209,
+        "latency_p95_ms": 56.46718498028349,
+        "calibration": {
+          "balanced_accuracy": 0.95,
+          "tau_score": 0.0,
+          "tau_margin": 0.0
+        }
+      },
+      "fixed_120": {
+        "n_chunks": 128,
+        "index_time_s": 0.185823400010122,
+        "recall@1": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr@10": 1.0,
+        "ndcg@5": 1.0,
+        "f1": 0.3529934582809332,
+        "citation": 0.95,
+        "faithfulness": 1.0,
+        "refusal_correct_unans": 0.875,
+        "hallucination_unans": 0.125,
+        "latency_mean_ms": 48.58752941072453,
+        "latency_p95_ms": 53.79761500080349,
+        "calibration": {
+          "balanced_accuracy": 0.95,
+          "tau_score": 0.0,
+          "tau_margin": 0.0
+        }
+      },
+      "fixed_300": {
+        "n_chunks": 128,
+        "index_time_s": 0.18678069999441504,
+        "recall@1": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr@10": 1.0,
+        "ndcg@5": 1.0,
+        "f1": 0.3529934582809332,
+        "citation": 0.95,
+        "faithfulness": 1.0,
+        "refusal_correct_unans": 0.875,
+        "hallucination_unans": 0.125,
+        "latency_mean_ms": 48.68282058904536,
+        "latency_p95_ms": 54.06196999538224,
+        "calibration": {
+          "balanced_accuracy": 0.95,
+          "tau_score": 0.0,
+          "tau_margin": 0.0
+        }
+      },
+      "fixed_500": {
+        "n_chunks": 128,
+        "index_time_s": 0.1904866000113543,
+        "recall@1": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr@10": 1.0,
+        "ndcg@5": 1.0,
+        "f1": 0.3529934582809332,
+        "citation": 0.95,
+        "faithfulness": 1.0,
+        "refusal_correct_unans": 0.875,
+        "hallucination_unans": 0.125,
+        "latency_mean_ms": 50.94190146765494,
+        "latency_p95_ms": 57.51976999163162,
+        "calibration": {
+          "balanced_accuracy": 0.95,
+          "tau_score": 0.0,
+          "tau_margin": 0.0
+        }
+      },
+      "semantic": {
+        "n_chunks": 128,
+        "index_time_s": 0.22979460001806729,
+        "recall@1": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr@10": 1.0,
+        "ndcg@5": 1.0,
+        "f1": 0.3529934582809332,
+        "citation": 0.95,
+        "faithfulness": 1.0,
+        "refusal_correct_unans": 0.875,
+        "hallucination_unans": 0.125,
+        "latency_mean_ms": 49.41834853054709,
+        "latency_p95_ms": 61.555180003051646,
+        "calibration": {
+          "balanced_accuracy": 0.95,
+          "tau_score": 0.0,
+          "tau_margin": 0.0
+        }
+      },
+      "adaptive": {
+        "n_chunks": 128,
+        "index_time_s": 0.1941233999968972,
+        "recall@1": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr@10": 1.0,
+        "ndcg@5": 1.0,
+        "f1": 0.3529934582809332,
+        "citation": 0.95,
+        "faithfulness": 1.0,
+        "refusal_correct_unans": 0.875,
+        "hallucination_unans": 0.125,
+        "latency_mean_ms": 49.629627940114865,
+        "latency_p95_ms": 55.337599986523855,
+        "calibration": {
+          "balanced_accuracy": 0.95,
+          "tau_score": 0.0,
+          "tau_margin": 0.0
+        }
+      }
+    }
+  }
+}

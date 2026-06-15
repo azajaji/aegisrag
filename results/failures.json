@@ -1,0 +1,278 @@
+{
+  "n_autorag_misses": 22,
+  "by_mode": {
+    "fragmentation": 2,
+    "lexical_mismatch": 14,
+    "reranker_only": 5,
+    "near_duplicate": 1
+  },
+  "n_fixed_by_autorag_vs": {
+    "BM25": 33,
+    "NaiveRAG": 50,
+    "RAG+Rerank": 9
+  },
+  "examples_per_mode": {
+    "fragmentation": [
+      {
+        "qid": "572659ea5951b619008f7052",
+        "question": "Where are the rows of combs located?",
+        "gold_doc": "Ctenophora",
+        "gold_para_idx": 15,
+        "failure_mode": "fragmentation",
+        "BM25_R1": 1.0,
+        "NaiveRAG_R1": 1.0,
+        "RAGRerank_R1": 1.0,
+        "AutoRAG_top_cite_doc": "Ctenophora",
+        "AutoRAG_top_cite_para": 10,
+        "AutoRAG_prediction": "although spacing patterns vary by species and in most species the comb rows extend only part of the distance from the aboral pole towards the mouth.",
+        "gold_paragraph_excerpt": "There are eight rows of combs that run from near the mouth to the opposite end, and are spaced evenly round the body. The \"combs\" beat in a metachronal rhythm r..."
+      },
+      {
+        "qid": "57335fcad058e614000b5972",
+        "question": "When did Warsaw start to rebuild?",
+        "gold_doc": "Warsaw",
+        "gold_para_idx": 16,
+        "failure_mode": "fragmentation",
+        "BM25_R1": 0.0,
+        "NaiveRAG_R1": 1.0,
+        "RAGRerank_R1": 1.0,
+        "AutoRAG_top_cite_doc": "Warsaw",
+        "AutoRAG_top_cite_para": 2,
+        "AutoRAG_prediction": "the city was awarded Poland's highest military decoration for heroism",
+        "gold_paragraph_excerpt": "Warsaw's mixture of architectural styles reflects the turbulent history of the city and country. During the Second World War, Warsaw was razed to the ground by ..."
+      }
+    ],
+    "lexical_mismatch": [
+      {
+        "qid": "5728e5224b864d1900165032",
+        "question": "What type of actions are taken sometimes in civil disobedience?",
+        "gold_doc": "Civil_disobedience",
+        "gold_para_idx": 12,
+        "failure_mode": "lexical_mismatch",
+        "BM25_R1": 0.0,
+        "NaiveRAG_R1": 0.0,
+        "RAGRerank_R1": 0.0,
+        "AutoRAG_top_cite_doc": null,
+        "AutoRAG_top_cite_para": null,
+        "AutoRAG_prediction": "",
+        "gold_paragraph_excerpt": "Civil disobedients have chosen a variety of different illegal acts. Bedau writes, \"There is a whole class of acts, undertaken in the name of civil disobedience,..."
+      },
+      {
+        "qid": "57293ca73f37b3190047815f",
+        "question": "What rules does the IPCC have to follow?",
+        "gold_doc": "Intergovernmental_Panel_on_Climate_Change",
+        "gold_para_idx": 3,
+        "failure_mode": "lexical_mismatch",
+        "BM25_R1": 0.0,
+        "NaiveRAG_R1": 0.0,
+        "RAGRerank_R1": 0.0,
+        "AutoRAG_top_cite_doc": null,
+        "AutoRAG_top_cite_para": null,
+        "AutoRAG_prediction": "",
+        "gold_paragraph_excerpt": "The IPCC receives funding through the IPCC Trust Fund, established in 1989 by the United Nations Environment Programme (UNEP) and the World Meteorological Organ..."
+      },
+      {
+        "qid": "572fc78d04bcaa1900d76d0b",
+        "question": "What session is the Scottish Parliament in?",
+        "gold_doc": "Scottish_Parliament",
+        "gold_para_idx": 19,
+        "failure_mode": "lexical_mismatch",
+        "BM25_R1": 0.0,
+        "NaiveRAG_R1": 0.0,
+        "RAGRerank_R1": 0.0,
+        "AutoRAG_top_cite_doc": null,
+        "AutoRAG_top_cite_para": null,
+        "AutoRAG_prediction": "",
+        "gold_paragraph_excerpt": "Committees comprise a small number of MSPs, with membership reflecting the balance of parties across Parliament. There are different committees with their funct..."
+      }
+    ],
+    "reranker_only": [
+      {
+        "qid": "572fb42904bcaa1900d76c18",
+        "question": "How many MSPs are there?",
+        "gold_doc": "Scottish_Parliament",
+        "gold_para_idx": 8,
+        "failure_mode": "reranker_only",
+        "BM25_R1": 1.0,
+        "NaiveRAG_R1": 0.0,
+        "RAGRerank_R1": 0.0,
+        "AutoRAG_top_cite_doc": null,
+        "AutoRAG_top_cite_para": null,
+        "AutoRAG_prediction": "",
+        "gold_paragraph_excerpt": "After each election to the Scottish Parliament, at the beginning of each parliamentary session, Parliament elects one MSP to serve as Presiding Officer, the equ..."
+      },
+      {
+        "qid": "572f5533a23a5019007fc55e",
+        "question": "What river is larger than the Rhine?",
+        "gold_doc": "Rhine",
+        "gold_para_idx": 0,
+        "failure_mode": "reranker_only",
+        "BM25_R1": 0.0,
+        "NaiveRAG_R1": 1.0,
+        "RAGRerank_R1": 0.0,
+        "AutoRAG_top_cite_doc": null,
+        "AutoRAG_top_cite_para": null,
+        "AutoRAG_prediction": "",
+        "gold_paragraph_excerpt": "The Rhine (Romansh: Rein, German: Rhein, French: le Rhin, Dutch: Rijn) is a European river that begins in the Swiss canton of Graubünden in the southeastern Swi..."
+      },
+      {
+        "qid": "57274971708984140094dbbb",
+        "question": "Along with the Anglican Church and Uniting Church, what religious denomination operates private schools in Australia?",
+        "gold_doc": "Private_school",
+        "gold_para_idx": 5,
+        "failure_mode": "reranker_only",
+        "BM25_R1": 1.0,
+        "NaiveRAG_R1": 0.0,
+        "RAGRerank_R1": 0.0,
+        "AutoRAG_top_cite_doc": null,
+        "AutoRAG_top_cite_para": null,
+        "AutoRAG_prediction": "",
+        "gold_paragraph_excerpt": "Although most are non-aligned, some of the best known independent schools also belong to the large, long-established religious foundations, such as the Anglican..."
+      }
+    ],
+    "near_duplicate": [
+      {
+        "qid": "57340d124776f419006617bf",
+        "question": "What did the loss mean to France?",
+        "gold_doc": "French_and_Indian_War",
+        "gold_para_idx": 45,
+        "failure_mode": "near_duplicate",
+        "BM25_R1": 0.0,
+        "NaiveRAG_R1": 0.0,
+        "RAGRerank_R1": 0.0,
+        "AutoRAG_top_cite_doc": null,
+        "AutoRAG_top_cite_para": null,
+        "AutoRAG_prediction": "",
+        "gold_paragraph_excerpt": "For many native populations, the elimination of French power in North America meant the disappearance of a strong ally and counterweight to British expansion, l..."
+      }
+    ]
+  },
+  "examples_fixed_by_autorag": [
+    {
+      "fixed_vs": "BM25",
+      "qid": "56e19724cd28a01900c679fa",
+      "question": "Is the output of a functional problem typically characterized by a simple or complex answer?",
+      "gold_doc": "Computational_complexity_theory",
+      "gold_para_idx": 8,
+      "gold_paragraph_excerpt": "A function problem is a computational problem where a single output (of a total function) is expected for every input, but the output is more complex than that ...",
+      "autorag_prediction": "it isn't just yes or no."
+    },
+    {
+      "fixed_vs": "BM25",
+      "qid": "573403394776f419006616e0",
+      "question": "What impact did this loss have on Abercrombie?",
+      "gold_doc": "French_and_Indian_War",
+      "gold_para_idx": 38,
+      "gold_paragraph_excerpt": "The third invasion was stopped with the improbable French victory in the Battle of Carillon, in which 3,600 Frenchmen famously and decisively defeated Abercromb...",
+      "autorag_prediction": ""
+    },
+    {
+      "fixed_vs": "BM25",
+      "qid": "57340111d058e614000b677d",
+      "question": "What was causing New France to have issues with resupplying?",
+      "gold_doc": "French_and_Indian_War",
+      "gold_para_idx": 36,
+      "gold_paragraph_excerpt": "Vaudreuil and Montcalm were minimally resupplied in 1758, as the British blockade of the French coastline limited French shipping. The situation in New France w...",
+      "autorag_prediction": ""
+    },
+    {
+      "fixed_vs": "BM25",
+      "qid": "5727478cf1498d1400e8f59b",
+      "question": "What is another term used for year 13?",
+      "gold_doc": "Private_school",
+      "gold_para_idx": 2,
+      "gold_paragraph_excerpt": "The secondary level includes schools offering years 7 through 12 (year twelve is known as lower sixth) and year 13 (upper sixth). This category includes univers...",
+      "autorag_prediction": ""
+    },
+    {
+      "fixed_vs": "BM25",
+      "qid": "57264cfa708984140094c1c6",
+      "question": "What direction do ctenophore swim?",
+      "gold_doc": "Ctenophora",
+      "gold_para_idx": 10,
+      "gold_paragraph_excerpt": "The outer surface bears usually eight comb rows, called swimming-plates, which are used for swimming. The rows are oriented to run from near the mouth (the \"ora...",
+      "autorag_prediction": "Hence ctenophores usually swim in the direction in which the mouth is pointing"
+    },
+    {
+      "fixed_vs": "NaiveRAG",
+      "qid": "572f609ca23a5019007fc5b0",
+      "question": "What is the major tributary of the Rhine?",
+      "gold_doc": "Rhine",
+      "gold_para_idx": 8,
+      "gold_paragraph_excerpt": "The Rhine emerges from Lake Constance, flows generally westward, as the Hochrhein, passes the Rhine Falls, and is joined by its major tributary, the river Aare....",
+      "autorag_prediction": "flows generally westward"
+    },
+    {
+      "fixed_vs": "NaiveRAG",
+      "qid": "56e1d9fee3433e14004231cb",
+      "question": "The hardest problems in NP can be analogously written as what class of problems?",
+      "gold_doc": "Computational_complexity_theory",
+      "gold_para_idx": 32,
+      "gold_paragraph_excerpt": "If a problem X is in C and hard for C, then X is said to be complete for C. This means that X is the hardest problem in C. (Since many problems could be equally...",
+      "autorag_prediction": "in the sense that they are the ones most likely not to be in P."
+    },
+    {
+      "fixed_vs": "NaiveRAG",
+      "qid": "5726e3c4dd62a815002e9405",
+      "question": "What is the origin of clinical pharmacy?",
+      "gold_doc": "Pharmacy",
+      "gold_para_idx": 10,
+      "gold_paragraph_excerpt": "Pharmacists provide direct patient care services that optimizes the use of medication and promotes health, wellness, and disease prevention. Clinical pharmacist...",
+      "autorag_prediction": ""
+    },
+    {
+      "fixed_vs": "NaiveRAG",
+      "qid": "56e20a27cd28a01900c67c24",
+      "question": "What is the concrete choice typically assumed by most complexity-theoretic theorems?",
+      "gold_doc": "Computational_complexity_theory",
+      "gold_para_idx": 46,
+      "gold_paragraph_excerpt": "Even though some proofs of complexity-theoretic theorems regularly assume some concrete choice of input encoding, one tries to keep the discussion abstract enou...",
+      "autorag_prediction": "one tries to keep the discussion abstract enough to be independent of the choice of encoding."
+    },
+    {
+      "fixed_vs": "NaiveRAG",
+      "qid": "571c3a685efbb31900334db4",
+      "question": "What type of compounds does oxygen most commonly form?",
+      "gold_doc": "Oxygen",
+      "gold_para_idx": 0,
+      "gold_paragraph_excerpt": "Oxygen is a chemical element with symbol O and atomic number 8. It is a member of the chalcogen group on the periodic table and is a highly reactive nonmetal an...",
+      "autorag_prediction": ""
+    },
+    {
+      "fixed_vs": "RAG+Rerank",
+      "qid": "572658435951b619008f7028",
+      "question": "Under which courts is most EU law applied?",
+      "gold_doc": "European_Union_law",
+      "gold_para_idx": 10,
+      "gold_paragraph_excerpt": "The judicial branch of the EU has played an important role in the development of EU law, by assuming the task of interpreting the treaties, and accelerating eco...",
+      "autorag_prediction": "but they can refer questions to the EU court for a preliminary ruling."
+    },
+    {
+      "fixed_vs": "RAG+Rerank",
+      "qid": "57107a3ea58dae1900cd69de",
+      "question": "What southern city did the Huguenots settle near?",
+      "gold_doc": "Huguenot",
+      "gold_para_idx": 6,
+      "gold_paragraph_excerpt": "In the early years, many Huguenots also settled in the area of present-day Charleston, South Carolina. In 1685, Rev. Elie Prioleau from the town of Pons in Fran...",
+      "autorag_prediction": "He became pastor of the first Huguenot church in North America in that city."
+    },
+    {
+      "fixed_vs": "RAG+Rerank",
+      "qid": "5728d9403acd2414000e001c",
+      "question": "What does not constitute as civil disobedience?",
+      "gold_doc": "Civil_disobedience",
+      "gold_para_idx": 5,
+      "gold_paragraph_excerpt": "Civil disobedience is usually defined as pertaining to a citizen's relation to the state and its laws, as distinguished from a constitutional impasse in which t...",
+      "autorag_prediction": "since the head of government would be acting in her or his capacity as public official rather than private citizen."
+    },
+    {
+      "fixed_vs": "RAG+Rerank",
+      "qid": "57265642f1498d1400e8dc6c",
+      "question": "When was the last plague outbreak?",
+      "gold_doc": "Black_Death",
+      "gold_para_idx": 20,
+      "gold_paragraph_excerpt": "In 1466, perhaps 40,000 people died of the plague in Paris. During the 16th and 17th centuries, the plague was present in Paris around 30 per cent of the time. ...",
+      "autorag_prediction": "The last plague outbreak ravaged Oslo in 1654."
+    }
+  ]
+}

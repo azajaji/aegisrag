@@ -1,0 +1,9 @@
+The 'UnivWiFi-Secure' network uses WPA2-Enterprise with PEAP authentication. Select this network for the best performance and security on personal devices.
+
+The 'UnivWiFi-Guest' network is open but rate-limited to 5 Mbps per device and requires daily reauthentication through the captive portal.
+
+Eduroam is supported across all campus locations. Connect using your full university email address and your standard university password.
+
+Wi-Fi coverage map and known dead zones are listed in the IT knowledge base article 'WIFI-COV-23' which is updated quarterly.
+
+Reporting persistent connection issues requires the MAC address of the affected device. This can be found in the network settings of the device under 'Wi-Fi Address' or 'Physical Address'.

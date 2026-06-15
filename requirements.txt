@@ -1,0 +1,13 @@
+# Core pipeline (no API keys required)
+numpy
+scipy
+torch
+transformers
+sentence-transformers
+rank-bm25
+matplotlib
+
+# Optional: frontier-model drop-in runner (code/run_llm_frontier.py)
+# Only needed for provider-grade reruns / LLM-as-judge.
+anthropic
+openai

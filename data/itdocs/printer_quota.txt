@@ -1,0 +1,7 @@
+Each undergraduate student receives a printing quota of 500 pages per semester. Graduate students receive 1,000 pages per semester. Quotas reset on the first day of each semester.
+
+Color printing counts as three pages against the quota for each color page printed. Duplex printing counts as one page per side.
+
+Additional pages may be purchased through the cashier office in 100-page increments. The price is 5 SAR per 100 pages for monochrome printing.
+
+Print jobs are held in the print queue for two hours before being deleted unreleased. Releasing a job requires tapping the campus ID card on the printer reader.

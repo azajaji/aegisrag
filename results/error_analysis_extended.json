@@ -1,0 +1,83 @@
+{
+  "squad": {
+    "false_refusals_n": 84,
+    "nonrefusals_unans_n": 60,
+    "wrong_citations_n": 5,
+    "autorag_fixes_n": 9,
+    "autorag_regressions_n": 2,
+    "example_qids": {
+      "false_refusals": [
+        "57060cc352bb89140068980e",
+        "5726e3c4dd62a815002e9405",
+        "573403394776f419006616e0",
+        "5730131c947a6a140053d055",
+        "571c3a685efbb31900334db4",
+        "57340111d058e614000b677d",
+        "5705edcd52bb8914006896ce",
+        "5728e5224b864d1900165032",
+        "572fb42904bcaa1900d76c18",
+        "5737a4511c456719005744e1"
+      ],
+      "nonrefusals_unans": [
+        "5a5915cd3e1742001a15cf77",
+        "5ad4f4d95b96ef001a10a793",
+        "5a837038e60761001a2eb6f4",
+        "5a7b093b21c2de001afe9d0a",
+        "5a0c807ff5590b0018dab452",
+        "5a67a2c7f038b7001ab0c3a2",
+        "5ad15059645df0001a2d1725",
+        "5a6ced7d4eec6b001a80a6e2",
+        "5ad3f187604f3c001a3ff870",
+        "5a7b34fa21c2de001afe9dc6"
+      ],
+      "wrong_citations": [
+        "572659ea5951b619008f7052",
+        "5727ec062ca10214002d99ba",
+        "57335fcad058e614000b5972",
+        "5727cebc2ca10214002d96f1",
+        "572970c11d04691400779463"
+      ],
+      "fixes_vs_rag_rerank": [
+        "572658435951b619008f7028",
+        "57264cfa708984140094c1c6",
+        "57107a3ea58dae1900cd69de",
+        "5728d9403acd2414000e001c",
+        "57265642f1498d1400e8dc6c",
+        "57269bb8708984140094cb96",
+        "5725c337271a42140099d167",
+        "572944e03f37b319004781e2",
+        "57281edd3acd2414000df4ed"
+      ],
+      "regressions_vs_rag_rerank": [
+        "572659ea5951b619008f7052",
+        "57335fcad058e614000b5972"
+      ]
+    }
+  },
+  "enterprise": {
+    "false_refusals_n": 5,
+    "nonrefusals_unans_n": 1,
+    "wrong_citations_n": 3,
+    "autorag_fixes_n": 0,
+    "autorag_regressions_n": 0,
+    "example_qids": {
+      "false_refusals": [
+        "ent-9",
+        "ent-10",
+        "ent-149",
+        "ent-261",
+        "ent-292"
+      ],
+      "nonrefusals_unans": [
+        "ent-296"
+      ],
+      "wrong_citations": [
+        "ent-36",
+        "ent-279",
+        "ent-286"
+      ],
+      "fixes_vs_rag_rerank": [],
+      "regressions_vs_rag_rerank": []
+    }
+  }
+}

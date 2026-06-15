@@ -1,0 +1,2687 @@
+[
+  {
+    "qid": 1,
+    "domain": "policy",
+    "question": "What is the sanction for a first plagiarism offence?",
+    "gold_answer": "a written warning and mandatory completion of the Academic Integrity Workshop within 30 days",
+    "answerable": true,
+    "gold_doc": "academic_integrity.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 2,
+    "domain": "policy",
+    "question": "How does the university handle a second plagiarism offence in the same academic year?",
+    "gold_answer": "failure of the course and a notation on the student's academic record that remains visible for two years",
+    "answerable": true,
+    "gold_doc": "academic_integrity.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 3,
+    "domain": "policy",
+    "question": "What happens to students caught cheating on an examination with an unauthorized device?",
+    "gold_answer": "automatic course failure and academic probation for one semester",
+    "answerable": true,
+    "gold_doc": "academic_integrity.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 4,
+    "domain": "policy",
+    "question": "How long does academic probation last after exam cheating?",
+    "gold_answer": "one semester",
+    "answerable": true,
+    "gold_doc": "academic_integrity.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 5,
+    "domain": "policy",
+    "question": "What sanction applies for falsification of research data?",
+    "gold_answer": "expulsion regardless of prior offences",
+    "answerable": true,
+    "gold_doc": "academic_integrity.txt",
+    "gold_para_idx": 5
+  },
+  {
+    "qid": 6,
+    "domain": "policy",
+    "question": "Within how many days must an appeal of an academic integrity decision be filed?",
+    "gold_answer": "14 calendar days",
+    "answerable": true,
+    "gold_doc": "academic_integrity.txt",
+    "gold_para_idx": 6
+  },
+  {
+    "qid": 7,
+    "domain": "policy",
+    "question": "How long do faculty have to report a suspected academic integrity violation?",
+    "gold_answer": "five business days",
+    "answerable": true,
+    "gold_doc": "academic_integrity.txt",
+    "gold_para_idx": 7
+  },
+  {
+    "qid": 8,
+    "domain": "policy",
+    "question": "Where do faculty file academic integrity reports?",
+    "gold_answer": "the registrar portal",
+    "answerable": true,
+    "gold_doc": "academic_integrity.txt",
+    "gold_para_idx": 7
+  },
+  {
+    "qid": 9,
+    "domain": "policy",
+    "question": "What is the minimum percentage for an A grade?",
+    "gold_answer": "90",
+    "answerable": true,
+    "gold_doc": "grading_policy.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 10,
+    "domain": "policy",
+    "question": "What is the percentage range for a B grade?",
+    "gold_answer": "80-89",
+    "answerable": true,
+    "gold_doc": "grading_policy.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 11,
+    "domain": "policy",
+    "question": "What is the percentage range for a C grade?",
+    "gold_answer": "70-79",
+    "answerable": true,
+    "gold_doc": "grading_policy.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 12,
+    "domain": "policy",
+    "question": "What is the percentage cutoff below which the grade is F?",
+    "gold_answer": "below 60",
+    "answerable": true,
+    "gold_doc": "grading_policy.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 13,
+    "domain": "policy",
+    "question": "When does a withdrawal still result in a W grade?",
+    "gold_answer": "before the end of the tenth week of the semester",
+    "answerable": true,
+    "gold_doc": "grading_policy.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 14,
+    "domain": "policy",
+    "question": "What grade replaces W after the deadline?",
+    "gold_answer": "F",
+    "answerable": true,
+    "gold_doc": "grading_policy.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 15,
+    "domain": "policy",
+    "question": "Under what conditions is an Incomplete (I) grade assigned?",
+    "gold_answer": "the student has completed at least 70 percent of coursework but cannot finish due to documented medical or family emergency",
+    "answerable": true,
+    "gold_doc": "grading_policy.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 16,
+    "domain": "policy",
+    "question": "What is the deadline for completing the work of an Incomplete grade?",
+    "gold_answer": "within six weeks of the start of the following semester",
+    "answerable": true,
+    "gold_doc": "grading_policy.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 17,
+    "domain": "policy",
+    "question": "Within how many business days must a grade appeal be initiated with the instructor?",
+    "gold_answer": "ten business days",
+    "answerable": true,
+    "gold_doc": "grading_policy.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 18,
+    "domain": "policy",
+    "question": "Who is the second-level escalation for grade appeals?",
+    "gold_answer": "the department chair",
+    "answerable": true,
+    "gold_doc": "grading_policy.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 19,
+    "domain": "policy",
+    "question": "When a course is retaken, which grade counts toward GPA?",
+    "gold_answer": "only the highest grade contributes to GPA, but all attempts remain on the transcript",
+    "answerable": true,
+    "gold_doc": "grading_policy.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 20,
+    "domain": "policy",
+    "question": "What is the minimum GPA to remain in good academic standing?",
+    "gold_answer": "2.0",
+    "answerable": true,
+    "gold_doc": "grading_policy.txt",
+    "gold_para_idx": 5
+  },
+  {
+    "qid": 21,
+    "domain": "policy",
+    "question": "What credit-hour limit applies to students on probation?",
+    "gold_answer": "may not enroll in more than 12 credit hours",
+    "answerable": true,
+    "gold_doc": "grading_policy.txt",
+    "gold_para_idx": 6
+  },
+  {
+    "qid": 22,
+    "domain": "policy",
+    "question": "Within how many weeks of probation must a student meet their advisor?",
+    "gold_answer": "within the first two weeks",
+    "answerable": true,
+    "gold_doc": "grading_policy.txt",
+    "gold_para_idx": 6
+  },
+  {
+    "qid": 23,
+    "domain": "policy",
+    "question": "When does the main library close on weekdays during the semester?",
+    "gold_answer": "11:00 PM",
+    "answerable": true,
+    "gold_doc": "library_use.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 24,
+    "domain": "policy",
+    "question": "What are the main library's weekend hours during the semester?",
+    "gold_answer": "9:00 AM to 6:00 PM",
+    "answerable": true,
+    "gold_doc": "library_use.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 25,
+    "domain": "policy",
+    "question": "How many books may an undergraduate borrow at once?",
+    "gold_answer": "ten",
+    "answerable": true,
+    "gold_doc": "library_use.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 26,
+    "domain": "policy",
+    "question": "How long is the graduate loan period?",
+    "gold_answer": "60 days",
+    "answerable": true,
+    "gold_doc": "library_use.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 27,
+    "domain": "policy",
+    "question": "How long is the undergraduate loan period?",
+    "gold_answer": "21 days",
+    "answerable": true,
+    "gold_doc": "library_use.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 28,
+    "domain": "policy",
+    "question": "How many books may a graduate student borrow at once?",
+    "gold_answer": "twenty",
+    "answerable": true,
+    "gold_doc": "library_use.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 29,
+    "domain": "policy",
+    "question": "How many times can a book be renewed online?",
+    "gold_answer": "twice",
+    "answerable": true,
+    "gold_doc": "library_use.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 30,
+    "domain": "policy",
+    "question": "What is the per-day overdue fine?",
+    "gold_answer": "0.50 SAR",
+    "answerable": true,
+    "gold_doc": "library_use.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 31,
+    "domain": "policy",
+    "question": "What is the per-item fine cap?",
+    "gold_answer": "50 SAR per item",
+    "answerable": true,
+    "gold_doc": "library_use.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 32,
+    "domain": "policy",
+    "question": "At what unpaid fine total are borrowing privileges suspended?",
+    "gold_answer": "exceeding 100 SAR",
+    "answerable": true,
+    "gold_doc": "library_use.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 33,
+    "domain": "policy",
+    "question": "How many days in advance can a study room be reserved?",
+    "gold_answer": "up to seven days",
+    "answerable": true,
+    "gold_doc": "library_use.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 34,
+    "domain": "policy",
+    "question": "What is the maximum daily reservation duration for a group study room?",
+    "gold_answer": "three hours",
+    "answerable": true,
+    "gold_doc": "library_use.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 35,
+    "domain": "policy",
+    "question": "How long do interlibrary loans typically take?",
+    "gold_answer": "five to ten business days",
+    "answerable": true,
+    "gold_doc": "library_use.txt",
+    "gold_para_idx": 6
+  },
+  {
+    "qid": 36,
+    "domain": "policy",
+    "question": "What refund percentage applies in the first week of classes?",
+    "gold_answer": "100 percent",
+    "answerable": true,
+    "gold_doc": "tuition_refund.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 37,
+    "domain": "policy",
+    "question": "What refund percentage applies during the second week?",
+    "gold_answer": "75 percent",
+    "answerable": true,
+    "gold_doc": "tuition_refund.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 38,
+    "domain": "policy",
+    "question": "What refund percentage applies in weeks three to four?",
+    "gold_answer": "50 percent",
+    "answerable": true,
+    "gold_doc": "tuition_refund.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 39,
+    "domain": "policy",
+    "question": "What refund applies after the fourth week?",
+    "gold_answer": "no tuition refund",
+    "answerable": true,
+    "gold_doc": "tuition_refund.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 40,
+    "domain": "policy",
+    "question": "How long does the refund take to be credited?",
+    "gold_answer": "within fifteen business days",
+    "answerable": true,
+    "gold_doc": "tuition_refund.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 41,
+    "domain": "policy",
+    "question": "Which fees are non-refundable after the first week?",
+    "gold_answer": "Course fees, technology fees, and laboratory fees",
+    "answerable": true,
+    "gold_doc": "tuition_refund.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 42,
+    "domain": "policy",
+    "question": "Who must international students contact before withdrawing?",
+    "gold_answer": "the International Student Office",
+    "answerable": true,
+    "gold_doc": "tuition_refund.txt",
+    "gold_para_idx": 5
+  },
+  {
+    "qid": 43,
+    "domain": "policy",
+    "question": "How far in advance must an IRB application be submitted?",
+    "gold_answer": "at least six weeks before the planned start date",
+    "answerable": true,
+    "gold_doc": "research_ethics.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 44,
+    "domain": "policy",
+    "question": "How long does expedited IRB review typically take?",
+    "gold_answer": "two weeks",
+    "answerable": true,
+    "gold_doc": "research_ethics.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 45,
+    "domain": "policy",
+    "question": "How long must human-subject research data be retained?",
+    "gold_answer": "minimum of five years after publication",
+    "answerable": true,
+    "gold_doc": "research_ethics.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 46,
+    "domain": "policy",
+    "question": "By what date must annual conflict of interest reports be filed?",
+    "gold_answer": "January 31",
+    "answerable": true,
+    "gold_doc": "research_ethics.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 47,
+    "domain": "policy",
+    "question": "What is the conflict of interest disclosure threshold?",
+    "gold_answer": "exceeding 10,000 SAR",
+    "answerable": true,
+    "gold_doc": "research_ethics.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 48,
+    "domain": "policy",
+    "question": "What GPA is required for the Merit Excellence Scholarship?",
+    "gold_answer": "3.75 or higher",
+    "answerable": true,
+    "gold_doc": "scholarships.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 49,
+    "domain": "policy",
+    "question": "How much does the Need-Based Aid Program provide per semester?",
+    "gold_answer": "up to 25,000 SAR per semester",
+    "answerable": true,
+    "gold_doc": "scholarships.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 50,
+    "domain": "policy",
+    "question": "What is the application deadline for need-based aid?",
+    "gold_answer": "April 15",
+    "answerable": true,
+    "gold_doc": "scholarships.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 51,
+    "domain": "policy",
+    "question": "What monthly stipend does a Graduate Research Assistantship pay?",
+    "gold_answer": "4,500 SAR",
+    "answerable": true,
+    "gold_doc": "scholarships.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 52,
+    "domain": "policy",
+    "question": "How many research hours per week does a GRA require?",
+    "gold_answer": "twenty hours",
+    "answerable": true,
+    "gold_doc": "scholarships.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 53,
+    "domain": "policy",
+    "question": "What is the maximum amount of the Faculty Sponsored Travel Award?",
+    "gold_answer": "8,000 SAR",
+    "answerable": true,
+    "gold_doc": "scholarships.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 54,
+    "domain": "policy",
+    "question": "How far in advance must a travel award be applied for?",
+    "gold_answer": "at least sixty days before the conference",
+    "answerable": true,
+    "gold_doc": "scholarships.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 55,
+    "domain": "policy",
+    "question": "How many International Student Scholarships are awarded per year?",
+    "gold_answer": "twenty",
+    "answerable": true,
+    "gold_doc": "scholarships.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 56,
+    "domain": "policy",
+    "question": "What GPA is needed to renew an international student scholarship?",
+    "gold_answer": "3.5",
+    "answerable": true,
+    "gold_doc": "scholarships.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 57,
+    "domain": "policy",
+    "question": "How many committee members are required for a master's thesis defense?",
+    "gold_answer": "three",
+    "answerable": true,
+    "gold_doc": "thesis_defense.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 58,
+    "domain": "policy",
+    "question": "How far in advance must a master's defense be scheduled?",
+    "gold_answer": "at least three weeks",
+    "answerable": true,
+    "gold_doc": "thesis_defense.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 59,
+    "domain": "policy",
+    "question": "How many committee members are required for a doctoral defense?",
+    "gold_answer": "five",
+    "answerable": true,
+    "gold_doc": "thesis_defense.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 60,
+    "domain": "policy",
+    "question": "How far in advance must a doctoral defense be scheduled?",
+    "gold_answer": "at least six weeks",
+    "answerable": true,
+    "gold_doc": "thesis_defense.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 61,
+    "domain": "policy",
+    "question": "How many external examiners are required at a doctoral defense?",
+    "gold_answer": "two",
+    "answerable": true,
+    "gold_doc": "thesis_defense.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 62,
+    "domain": "policy",
+    "question": "How long is the master's defense presentation?",
+    "gold_answer": "30 minutes",
+    "answerable": true,
+    "gold_doc": "thesis_defense.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 63,
+    "domain": "policy",
+    "question": "How long is the doctoral defense presentation?",
+    "gold_answer": "45 minutes",
+    "answerable": true,
+    "gold_doc": "thesis_defense.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 64,
+    "domain": "policy",
+    "question": "Within how many days must minor revisions be completed?",
+    "gold_answer": "within 30 days",
+    "answerable": true,
+    "gold_doc": "thesis_defense.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 65,
+    "domain": "policy",
+    "question": "Within how many days must major revisions be resubmitted?",
+    "gold_answer": "within 90 days",
+    "answerable": true,
+    "gold_doc": "thesis_defense.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 66,
+    "domain": "policy",
+    "question": "Who decides the outcome in case of a tie vote?",
+    "gold_answer": "the external examiner",
+    "answerable": true,
+    "gold_doc": "thesis_defense.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 67,
+    "domain": "policy",
+    "question": "When does fall course registration open?",
+    "gold_answer": "June 15",
+    "answerable": true,
+    "gold_doc": "course_registration.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 68,
+    "domain": "policy",
+    "question": "When does spring course registration open?",
+    "gold_answer": "November 15",
+    "answerable": true,
+    "gold_doc": "course_registration.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 69,
+    "domain": "policy",
+    "question": "How long is the add/drop period?",
+    "gold_answer": "through the second week of classes",
+    "answerable": true,
+    "gold_doc": "course_registration.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 70,
+    "domain": "policy",
+    "question": "What is the undergraduate maximum credit-hour load?",
+    "gold_answer": "18 credit hours",
+    "answerable": true,
+    "gold_doc": "course_registration.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 71,
+    "domain": "policy",
+    "question": "What is the graduate maximum credit-hour load?",
+    "gold_answer": "12 credit hours",
+    "answerable": true,
+    "gold_doc": "course_registration.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 72,
+    "domain": "policy",
+    "question": "How are course waitlists handled?",
+    "gold_answer": "students are promoted to the roster in waitlist order",
+    "answerable": true,
+    "gold_doc": "course_registration.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 73,
+    "domain": "policy",
+    "question": "How far before the deadline must prerequisite overrides be submitted?",
+    "gold_answer": "at least three business days before the add/drop deadline",
+    "answerable": true,
+    "gold_doc": "course_registration.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 74,
+    "domain": "policy",
+    "question": "How many credit hours are required for an undergraduate degree?",
+    "gold_answer": "at least 120 credit hours",
+    "answerable": true,
+    "gold_doc": "graduation_requirements.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 75,
+    "domain": "policy",
+    "question": "What is the residency minimum for an undergraduate degree?",
+    "gold_answer": "a minimum of 30 credit hours in residence",
+    "answerable": true,
+    "gold_doc": "graduation_requirements.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 76,
+    "domain": "policy",
+    "question": "What is the minimum graduate coursework for a master's degree?",
+    "gold_answer": "a minimum of 30 credit hours",
+    "answerable": true,
+    "gold_doc": "graduation_requirements.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 77,
+    "domain": "policy",
+    "question": "What examinations are required for a PhD?",
+    "gold_answer": "a qualifying examination, a dissertation proposal defense, and a final dissertation defense",
+    "answerable": true,
+    "gold_doc": "graduation_requirements.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 78,
+    "domain": "policy",
+    "question": "What is the late graduation application fee?",
+    "gold_answer": "250 SAR",
+    "answerable": true,
+    "gold_doc": "graduation_requirements.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 79,
+    "domain": "policy",
+    "question": "What GPA earns the summa cum laude designation?",
+    "gold_answer": "3.90",
+    "answerable": true,
+    "gold_doc": "graduation_requirements.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 80,
+    "domain": "policy",
+    "question": "What GPA earns the magna cum laude designation?",
+    "gold_answer": "3.70",
+    "answerable": true,
+    "gold_doc": "graduation_requirements.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 81,
+    "domain": "policy",
+    "question": "How long is a maximum leave of absence?",
+    "gold_answer": "up to two consecutive semesters",
+    "answerable": true,
+    "gold_doc": "leave_of_absence.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 82,
+    "domain": "policy",
+    "question": "How early before return must a returning student contact the registrar?",
+    "gold_answer": "at least 60 days before the start of the semester",
+    "answerable": true,
+    "gold_doc": "leave_of_absence.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 83,
+    "domain": "policy",
+    "question": "What happens after two semesters of leave?",
+    "gold_answer": "readmission, which is treated as a new application",
+    "answerable": true,
+    "gold_doc": "leave_of_absence.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 84,
+    "domain": "policy",
+    "question": "What minimum grade is needed to transfer a course?",
+    "gold_answer": "C or higher",
+    "answerable": true,
+    "gold_doc": "transfer_credits.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 85,
+    "domain": "policy",
+    "question": "What is the maximum undergraduate transfer credit?",
+    "gold_answer": "60 credit hours",
+    "answerable": true,
+    "gold_doc": "transfer_credits.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 86,
+    "domain": "policy",
+    "question": "What is the maximum graduate transfer credit?",
+    "gold_answer": "12 credit hours",
+    "answerable": true,
+    "gold_doc": "transfer_credits.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 87,
+    "domain": "policy",
+    "question": "Do transfer credits affect cumulative GPA?",
+    "gold_answer": "Transfer credits do not contribute to the cumulative GPA",
+    "answerable": true,
+    "gold_doc": "transfer_credits.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 88,
+    "domain": "policy",
+    "question": "How are international transcripts evaluated?",
+    "gold_answer": "a course-by-course evaluation from an approved credential evaluation service",
+    "answerable": true,
+    "gold_doc": "transfer_credits.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 89,
+    "domain": "policy",
+    "question": "What honor designation requires a 3.50 GPA?",
+    "gold_answer": "cum laude",
+    "answerable": true,
+    "gold_doc": "graduation_requirements.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 90,
+    "domain": "policy",
+    "question": "How many credit hours may be transferred from another institution?",
+    "gold_answer": "Up to 60 credit hours",
+    "answerable": true,
+    "gold_doc": "transfer_credits.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 91,
+    "domain": "policy",
+    "question": "How are CLEP and AP scores transferred?",
+    "gold_answer": "only for scores above the published thresholds",
+    "answerable": true,
+    "gold_doc": "transfer_credits.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 92,
+    "domain": "policy",
+    "question": "Does time on leave count toward the maximum time to complete a degree?",
+    "gold_answer": "Time on leave does not count",
+    "answerable": true,
+    "gold_doc": "leave_of_absence.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 93,
+    "domain": "policy",
+    "question": "Is audit registration cost lower than credit registration?",
+    "gold_answer": "the standard tuition cost",
+    "answerable": true,
+    "gold_doc": "course_registration.txt",
+    "gold_para_idx": 5
+  },
+  {
+    "qid": 94,
+    "domain": "policy",
+    "question": "Can audit status be switched to credit after the first week?",
+    "gold_answer": "audit status cannot be changed to credit after the first week",
+    "answerable": true,
+    "gold_doc": "course_registration.txt",
+    "gold_para_idx": 5
+  },
+  {
+    "qid": 95,
+    "domain": "policy",
+    "question": "When are course adds requiring instructor consent allowed?",
+    "gold_answer": "after the first week require instructor consent",
+    "answerable": true,
+    "gold_doc": "course_registration.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 96,
+    "domain": "policy",
+    "question": "What examinations are required for a master's degree?",
+    "gold_answer": "either a thesis or a comprehensive examination",
+    "answerable": true,
+    "gold_doc": "graduation_requirements.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 97,
+    "domain": "policy",
+    "question": "Within how long before the graduation date must application be filed?",
+    "gold_answer": "at least one semester before the expected graduation date",
+    "answerable": true,
+    "gold_doc": "graduation_requirements.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 98,
+    "domain": "policy",
+    "question": "How is leave time treated relative to degree time limits?",
+    "gold_answer": "Time on leave does not count toward the maximum time",
+    "answerable": true,
+    "gold_doc": "leave_of_absence.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 99,
+    "domain": "policy",
+    "question": "How are anonymous misconduct reports submitted by students?",
+    "gold_answer": "through the online reporting form",
+    "answerable": true,
+    "gold_doc": "code_of_conduct.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 100,
+    "domain": "policy",
+    "question": "Where are student disciplinary sanctions recorded?",
+    "gold_answer": "the student's conduct file maintained by the Office of Student Affairs",
+    "answerable": true,
+    "gold_doc": "code_of_conduct.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 101,
+    "domain": "policy",
+    "question": "Are off-campus violations handled like on-campus violations?",
+    "gold_answer": "follow the same procedures as on-campus violations",
+    "answerable": true,
+    "gold_doc": "code_of_conduct.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 102,
+    "domain": "policy",
+    "question": "What approves cloud storage of human-subject data outside the kingdom?",
+    "gold_answer": "explicit IRB authorization",
+    "answerable": true,
+    "gold_doc": "research_ethics.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 103,
+    "domain": "policy",
+    "question": "Does provision of funding qualify a person for authorship?",
+    "gold_answer": "mere provision of funding or facilities does not qualify for authorship",
+    "answerable": true,
+    "gold_doc": "research_ethics.txt",
+    "gold_para_idx": 5
+  },
+  {
+    "qid": 104,
+    "domain": "policy",
+    "question": "Is interlibrary loan free for students?",
+    "gold_answer": "no fee for interlibrary loans for currently enrolled students or active faculty",
+    "answerable": true,
+    "gold_doc": "library_use.txt",
+    "gold_para_idx": 6
+  },
+  {
+    "qid": 105,
+    "domain": "policy",
+    "question": "Are beverages permitted in special collections?",
+    "gold_answer": "covered beverages are permitted in designated study areas but not in the special collections reading room",
+    "answerable": true,
+    "gold_doc": "library_use.txt",
+    "gold_para_idx": 5
+  },
+  {
+    "qid": 106,
+    "domain": "policy",
+    "question": "What is the maximum laptop subsidy for undergraduate students?",
+    "gold_answer": null,
+    "answerable": false
+  },
+  {
+    "qid": 107,
+    "domain": "policy",
+    "question": "Which national scholarship covers travel to international Olympiads?",
+    "gold_answer": null,
+    "answerable": false
+  },
+  {
+    "qid": 108,
+    "domain": "policy",
+    "question": "What is the deadline for submitting the alumni mentorship application?",
+    "gold_answer": null,
+    "answerable": false
+  },
+  {
+    "qid": 109,
+    "domain": "policy",
+    "question": "How many parking permits are issued per semester to commuter students?",
+    "gold_answer": null,
+    "answerable": false
+  },
+  {
+    "qid": 110,
+    "domain": "policy",
+    "question": "What is the policy on emotional support animals in dormitories?",
+    "gold_answer": null,
+    "answerable": false
+  },
+  {
+    "qid": 111,
+    "domain": "policy",
+    "question": "How is graduation regalia rental priced for international students?",
+    "gold_answer": null,
+    "answerable": false
+  },
+  {
+    "qid": 112,
+    "domain": "policy",
+    "question": "What rebate is offered to students who use solar power on campus?",
+    "gold_answer": null,
+    "answerable": false
+  },
+  {
+    "qid": 113,
+    "domain": "policy",
+    "question": "Which university body approves new honors societies?",
+    "gold_answer": null,
+    "answerable": false
+  },
+  {
+    "qid": 114,
+    "domain": "policy",
+    "question": "What is the curfew for residential undergraduate students?",
+    "gold_answer": null,
+    "answerable": false
+  },
+  {
+    "qid": 115,
+    "domain": "policy",
+    "question": "How many study-abroad partner universities are in Asia?",
+    "gold_answer": null,
+    "answerable": false
+  },
+  {
+    "qid": 116,
+    "domain": "itdocs",
+    "question": "Who is eligible for VPN access?",
+    "gold_answer": "All faculty, staff, and currently enrolled students",
+    "answerable": true,
+    "gold_doc": "vpn_setup.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 117,
+    "domain": "itdocs",
+    "question": "How long does VPN account provisioning take?",
+    "gold_answer": "one business day",
+    "answerable": true,
+    "gold_doc": "vpn_setup.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 118,
+    "domain": "itdocs",
+    "question": "What VPN portal address is used on Windows?",
+    "gold_answer": "vpn.university.edu",
+    "answerable": true,
+    "gold_doc": "vpn_setup.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 119,
+    "domain": "itdocs",
+    "question": "What permission must be granted on macOS for the VPN?",
+    "gold_answer": "the system extension permission in System Settings under Privacy and Security",
+    "answerable": true,
+    "gold_doc": "vpn_setup.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 120,
+    "domain": "itdocs",
+    "question": "What is the default VPN second factor?",
+    "gold_answer": "a push notification through the university Authenticator app",
+    "answerable": true,
+    "gold_doc": "vpn_setup.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 121,
+    "domain": "itdocs",
+    "question": "What is the VPN inactivity timeout?",
+    "gold_answer": "two hours of inactivity",
+    "answerable": true,
+    "gold_doc": "vpn_setup.txt",
+    "gold_para_idx": 5
+  },
+  {
+    "qid": 122,
+    "domain": "itdocs",
+    "question": "What is the VPN activity session limit?",
+    "gold_answer": "eight hours of activity",
+    "answerable": true,
+    "gold_doc": "vpn_setup.txt",
+    "gold_para_idx": 5
+  },
+  {
+    "qid": 123,
+    "domain": "itdocs",
+    "question": "Is split tunneling enabled by default for the VPN?",
+    "gold_answer": "Yes; only traffic destined for university subnets is routed through the VPN",
+    "answerable": true,
+    "gold_doc": "vpn_setup.txt",
+    "gold_para_idx": 6
+  },
+  {
+    "qid": 124,
+    "domain": "itdocs",
+    "question": "How is full-tunnel mode activated?",
+    "gold_answer": "by selecting 'Force All Traffic' in the client settings",
+    "answerable": true,
+    "gold_doc": "vpn_setup.txt",
+    "gold_para_idx": 6
+  },
+  {
+    "qid": 125,
+    "domain": "itdocs",
+    "question": "What is the default mailbox quota?",
+    "gold_answer": "50 GB",
+    "answerable": true,
+    "gold_doc": "email_quota.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 126,
+    "domain": "itdocs",
+    "question": "At what mailbox fill percentage is a warning sent?",
+    "gold_answer": "90 percent",
+    "answerable": true,
+    "gold_doc": "email_quota.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 127,
+    "domain": "itdocs",
+    "question": "At what threshold does the system stop accepting new mail?",
+    "gold_answer": "100 percent",
+    "answerable": true,
+    "gold_doc": "email_quota.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 128,
+    "domain": "itdocs",
+    "question": "How long does mailbox quota-increase approval typically take?",
+    "gold_answer": "two business days",
+    "answerable": true,
+    "gold_doc": "email_quota.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 129,
+    "domain": "itdocs",
+    "question": "How large a mailbox can faculty researchers usually receive?",
+    "gold_answer": "up to 200 GB",
+    "answerable": true,
+    "gold_doc": "email_quota.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 130,
+    "domain": "itdocs",
+    "question": "What is the maximum allowed email attachment size?",
+    "gold_answer": "25 MB",
+    "answerable": true,
+    "gold_doc": "email_quota.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 131,
+    "domain": "itdocs",
+    "question": "How long are deleted items kept in the Trash folder?",
+    "gold_answer": "30 days",
+    "answerable": true,
+    "gold_doc": "email_quota.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 132,
+    "domain": "itdocs",
+    "question": "How long are Recoverable Items retained?",
+    "gold_answer": "an additional 14 days",
+    "answerable": true,
+    "gold_doc": "email_quota.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 133,
+    "domain": "itdocs",
+    "question": "Which authentication protocol is used by UnivWiFi-Secure?",
+    "gold_answer": "WPA2-Enterprise with PEAP",
+    "answerable": true,
+    "gold_doc": "wifi.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 134,
+    "domain": "itdocs",
+    "question": "What is the rate limit on the UnivWiFi-Guest network?",
+    "gold_answer": "5 Mbps per device",
+    "answerable": true,
+    "gold_doc": "wifi.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 135,
+    "domain": "itdocs",
+    "question": "Which credentials are used for eduroam?",
+    "gold_answer": "full university email address and your standard university password",
+    "answerable": true,
+    "gold_doc": "wifi.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 136,
+    "domain": "itdocs",
+    "question": "How often is the Wi-Fi coverage KB article updated?",
+    "gold_answer": "quarterly",
+    "answerable": true,
+    "gold_doc": "wifi.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 137,
+    "domain": "itdocs",
+    "question": "Where is a device MAC address typically labeled in the OS?",
+    "gold_answer": "Wi-Fi Address or Physical Address",
+    "answerable": true,
+    "gold_doc": "wifi.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 138,
+    "domain": "itdocs",
+    "question": "What is the minimum password length?",
+    "gold_answer": "12 characters",
+    "answerable": true,
+    "gold_doc": "password_policy.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 139,
+    "domain": "itdocs",
+    "question": "How often do passwords expire?",
+    "gold_answer": "every 180 days",
+    "answerable": true,
+    "gold_doc": "password_policy.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 140,
+    "domain": "itdocs",
+    "question": "How many past passwords are blocked from reuse?",
+    "gold_answer": "the past 12 passwords",
+    "answerable": true,
+    "gold_doc": "password_policy.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 141,
+    "domain": "itdocs",
+    "question": "After how many failed attempts is an account locked out?",
+    "gold_answer": "five",
+    "answerable": true,
+    "gold_doc": "password_policy.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 142,
+    "domain": "itdocs",
+    "question": "How long does an automatic lockout last?",
+    "gold_answer": "30 minutes",
+    "answerable": true,
+    "gold_doc": "password_policy.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 143,
+    "domain": "itdocs",
+    "question": "How long is a self-service reset one-time code valid?",
+    "gold_answer": "10 minutes",
+    "answerable": true,
+    "gold_doc": "password_policy.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 144,
+    "domain": "itdocs",
+    "question": "Within how long must a suspected incident be reported?",
+    "gold_answer": "one hour",
+    "answerable": true,
+    "gold_doc": "incident_response.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 145,
+    "domain": "itdocs",
+    "question": "What is the Sev-3 description?",
+    "gold_answer": "suspicious activity requiring investigation",
+    "answerable": true,
+    "gold_doc": "incident_response.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 146,
+    "domain": "itdocs",
+    "question": "What is the Sev-1 description?",
+    "gold_answer": "active breach",
+    "answerable": true,
+    "gold_doc": "incident_response.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 147,
+    "domain": "itdocs",
+    "question": "Who must be notified within two hours for a Sev-1 incident?",
+    "gold_answer": "the CIO",
+    "answerable": true,
+    "gold_doc": "incident_response.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 148,
+    "domain": "itdocs",
+    "question": "Within how long must the Sev-1 post-incident review be completed?",
+    "gold_answer": "within ten business days",
+    "answerable": true,
+    "gold_doc": "incident_response.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 149,
+    "domain": "itdocs",
+    "question": "How should affected machines be handled in an incident?",
+    "gold_answer": "isolated from the network so memory forensics can be performed",
+    "answerable": true,
+    "gold_doc": "incident_response.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 150,
+    "domain": "itdocs",
+    "question": "What is the retention window for hourly database backups?",
+    "gold_answer": "30 days",
+    "answerable": true,
+    "gold_doc": "backup_policy.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 151,
+    "domain": "itdocs",
+    "question": "What is the retention window for daily database backups?",
+    "gold_answer": "90 days",
+    "answerable": true,
+    "gold_doc": "backup_policy.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 152,
+    "domain": "itdocs",
+    "question": "What is the retention window for monthly database backups?",
+    "gold_answer": "1 year",
+    "answerable": true,
+    "gold_doc": "backup_policy.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 153,
+    "domain": "itdocs",
+    "question": "What is the restore time objective for critical systems?",
+    "gold_answer": "four hours",
+    "answerable": true,
+    "gold_doc": "backup_policy.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 154,
+    "domain": "itdocs",
+    "question": "What is the restore time objective for standard systems?",
+    "gold_answer": "24 hours",
+    "answerable": true,
+    "gold_doc": "backup_policy.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 155,
+    "domain": "itdocs",
+    "question": "Does the university provide personal device backups?",
+    "gold_answer": "No; users are encouraged to use the university OneDrive sync client",
+    "answerable": true,
+    "gold_doc": "backup_policy.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 156,
+    "domain": "itdocs",
+    "question": "How often are test restores performed?",
+    "gold_answer": "quarterly",
+    "answerable": true,
+    "gold_doc": "backup_policy.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 157,
+    "domain": "itdocs",
+    "question": "What is the semester printing quota for undergraduates?",
+    "gold_answer": "500 pages",
+    "answerable": true,
+    "gold_doc": "printer_quota.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 158,
+    "domain": "itdocs",
+    "question": "What is the semester printing quota for graduates?",
+    "gold_answer": "1,000 pages",
+    "answerable": true,
+    "gold_doc": "printer_quota.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 159,
+    "domain": "itdocs",
+    "question": "How does color printing count against the quota?",
+    "gold_answer": "as three pages for each color page printed",
+    "answerable": true,
+    "gold_doc": "printer_quota.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 160,
+    "domain": "itdocs",
+    "question": "How much does 100 additional pages of monochrome printing cost?",
+    "gold_answer": "5 SAR",
+    "answerable": true,
+    "gold_doc": "printer_quota.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 161,
+    "domain": "itdocs",
+    "question": "How long are unreleased print jobs held in the queue?",
+    "gold_answer": "two hours",
+    "answerable": true,
+    "gold_doc": "printer_quota.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 162,
+    "domain": "itdocs",
+    "question": "Which software is licensed campus-wide?",
+    "gold_answer": "Microsoft Office, Adobe Creative Cloud, and MATLAB",
+    "answerable": true,
+    "gold_doc": "software_licensing.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 163,
+    "domain": "itdocs",
+    "question": "How often does the Software Procurement Committee meet?",
+    "gold_answer": "twice per month",
+    "answerable": true,
+    "gold_doc": "software_licensing.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 164,
+    "domain": "itdocs",
+    "question": "How long does an open-source security review usually take?",
+    "gold_answer": "two business days",
+    "answerable": true,
+    "gold_doc": "software_licensing.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 165,
+    "domain": "itdocs",
+    "question": "How often are software license audits conducted?",
+    "gold_answer": "annually",
+    "answerable": true,
+    "gold_doc": "software_licensing.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 166,
+    "domain": "itdocs",
+    "question": "How is the Remote Workstation Gateway accessed?",
+    "gold_answer": "only from on the VPN",
+    "answerable": true,
+    "gold_doc": "remote_desktop.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 167,
+    "domain": "itdocs",
+    "question": "What is the concurrent user limit per remote workstation?",
+    "gold_answer": "four concurrent users",
+    "answerable": true,
+    "gold_doc": "remote_desktop.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 168,
+    "domain": "itdocs",
+    "question": "After how long of idle time is a remote session terminated?",
+    "gold_answer": "one hour of idle time",
+    "answerable": true,
+    "gold_doc": "remote_desktop.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 169,
+    "domain": "itdocs",
+    "question": "Is file transfer enabled on the remote workstation by default?",
+    "gold_answer": "blocked by default",
+    "answerable": true,
+    "gold_doc": "remote_desktop.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 170,
+    "domain": "itdocs",
+    "question": "Are remote sessions recorded?",
+    "gold_answer": "for compliance audits in research-data-classified environments",
+    "answerable": true,
+    "gold_doc": "remote_desktop.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 171,
+    "domain": "itdocs",
+    "question": "How many data classification tiers does the university use?",
+    "gold_answer": "four",
+    "answerable": true,
+    "gold_doc": "data_classification.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 172,
+    "domain": "itdocs",
+    "question": "What are examples of Public data?",
+    "gold_answer": "published research, course catalogs, and press releases",
+    "answerable": true,
+    "gold_doc": "data_classification.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 173,
+    "domain": "itdocs",
+    "question": "What are examples of Internal data?",
+    "gold_answer": "policies, internal directories, and meeting minutes",
+    "answerable": true,
+    "gold_doc": "data_classification.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 174,
+    "domain": "itdocs",
+    "question": "What technical requirement applies to Confidential data?",
+    "gold_answer": "encryption at rest and in transit",
+    "answerable": true,
+    "gold_doc": "data_classification.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 175,
+    "domain": "itdocs",
+    "question": "Is storage of Restricted data outside university systems allowed?",
+    "gold_answer": "storage outside university-managed systems is prohibited",
+    "answerable": true,
+    "gold_doc": "data_classification.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 176,
+    "domain": "itdocs",
+    "question": "How far in advance can a loaner laptop be reserved?",
+    "gold_answer": "up to 14 days in advance",
+    "answerable": true,
+    "gold_doc": "device_loaner.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 177,
+    "domain": "itdocs",
+    "question": "How long is a standard loaner duration?",
+    "gold_answer": "seven calendar days",
+    "answerable": true,
+    "gold_doc": "device_loaner.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 178,
+    "domain": "itdocs",
+    "question": "What is the daily late-return fee for a loaner?",
+    "gold_answer": "25 SAR per day",
+    "answerable": true,
+    "gold_doc": "device_loaner.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 179,
+    "domain": "itdocs",
+    "question": "When can a loaner be reported lost?",
+    "gold_answer": "more than ten days overdue",
+    "answerable": true,
+    "gold_doc": "device_loaner.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 180,
+    "domain": "itdocs",
+    "question": "What approval is required for international travel with a loaner?",
+    "gold_answer": "written approval from the IT director",
+    "answerable": true,
+    "gold_doc": "device_loaner.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 181,
+    "domain": "itdocs",
+    "question": "Does duplex printing affect quota differently?",
+    "gold_answer": "as one page per side",
+    "answerable": true,
+    "gold_doc": "printer_quota.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 182,
+    "domain": "itdocs",
+    "question": "Where are loaner reservations made?",
+    "gold_answer": "via the IT portal",
+    "answerable": true,
+    "gold_doc": "device_loaner.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 183,
+    "domain": "itdocs",
+    "question": "How often is loaner extension granted?",
+    "gold_answer": "only once per loan",
+    "answerable": true,
+    "gold_doc": "device_loaner.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 184,
+    "domain": "itdocs",
+    "question": "Is loaner user data preserved between loans?",
+    "gold_answer": "wiped and reimaged between loans; any user data left on the device is erased and not recoverable",
+    "answerable": true,
+    "gold_doc": "device_loaner.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 185,
+    "domain": "itdocs",
+    "question": "How can SMS fallback for VPN MFA be characterised?",
+    "gold_answer": "available but discouraged",
+    "answerable": true,
+    "gold_doc": "vpn_setup.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 186,
+    "domain": "itdocs",
+    "question": "Which channel is used for incident communications when email may be compromised?",
+    "gold_answer": "the dedicated out-of-band channel",
+    "answerable": true,
+    "gold_doc": "incident_response.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 187,
+    "domain": "itdocs",
+    "question": "How is the OneDrive sync client capacity advertised?",
+    "gold_answer": "1 TB of synchronized storage per user",
+    "answerable": true,
+    "gold_doc": "backup_policy.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 188,
+    "domain": "itdocs",
+    "question": "Where are software-acquisition requests submitted?",
+    "gold_answer": "the 'Software Acquisition' workflow in the IT portal",
+    "answerable": true,
+    "gold_doc": "software_licensing.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 189,
+    "domain": "itdocs",
+    "question": "Within how many days must unlicensed software be remediated?",
+    "gold_answer": "within ten business days",
+    "answerable": true,
+    "gold_doc": "software_licensing.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 190,
+    "domain": "itdocs",
+    "question": "What is the password reminder schedule before expiration?",
+    "gold_answer": "14, 7, and 1 day before expiration",
+    "answerable": true,
+    "gold_doc": "password_policy.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 191,
+    "domain": "itdocs",
+    "question": "What identifiers may be used for self-service password reset?",
+    "gold_answer": "an enrolled phone number or a backup email",
+    "answerable": true,
+    "gold_doc": "password_policy.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 192,
+    "domain": "itdocs",
+    "question": "Where can mailbox usage be checked?",
+    "gold_answer": "under Settings > Storage in the webmail interface",
+    "answerable": true,
+    "gold_doc": "email_quota.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 193,
+    "domain": "itdocs",
+    "question": "Where is the Wi-Fi captive portal used?",
+    "gold_answer": "the UnivWiFi-Guest network",
+    "answerable": true,
+    "gold_doc": "wifi.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 194,
+    "domain": "itdocs",
+    "question": "Which IT KB article documents Wi-Fi coverage?",
+    "gold_answer": "WIFI-COV-23",
+    "answerable": true,
+    "gold_doc": "wifi.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 195,
+    "domain": "itdocs",
+    "question": "Where is the audio default on remote workstations?",
+    "gold_answer": "disabled on remote workstations by default",
+    "answerable": true,
+    "gold_doc": "remote_desktop.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 196,
+    "domain": "itdocs",
+    "question": "What is the campus DNS over HTTPS provider?",
+    "gold_answer": null,
+    "answerable": false
+  },
+  {
+    "qid": 197,
+    "domain": "itdocs",
+    "question": "Which VLAN is assigned to building B7 administrative offices?",
+    "gold_answer": null,
+    "answerable": false
+  },
+  {
+    "qid": 198,
+    "domain": "itdocs",
+    "question": "How do I request a static IP for a Linux research server?",
+    "gold_answer": null,
+    "answerable": false
+  },
+  {
+    "qid": 199,
+    "domain": "itdocs",
+    "question": "What is the procedure for retiring a university-issued mobile phone?",
+    "gold_answer": null,
+    "answerable": false
+  },
+  {
+    "qid": 200,
+    "domain": "itdocs",
+    "question": "How is the building HVAC monitoring data integrated with the IT SIEM?",
+    "gold_answer": null,
+    "answerable": false
+  },
+  {
+    "qid": 201,
+    "domain": "itdocs",
+    "question": "Which port is reserved for the lab equipment broadcast subnet?",
+    "gold_answer": null,
+    "answerable": false
+  },
+  {
+    "qid": 202,
+    "domain": "itdocs",
+    "question": "What is the backup schedule for the registrar transcript microfilm archive?",
+    "gold_answer": null,
+    "answerable": false
+  },
+  {
+    "qid": 203,
+    "domain": "itdocs",
+    "question": "How are quantum-resistant signing keys distributed to research labs?",
+    "gold_answer": null,
+    "answerable": false
+  },
+  {
+    "qid": 204,
+    "domain": "itdocs",
+    "question": "Which campus building hosts the secondary fibre uplink to the regional ISP?",
+    "gold_answer": null,
+    "answerable": false
+  },
+  {
+    "qid": 205,
+    "domain": "itdocs",
+    "question": "What is the throughput cap on the campus IoT VLAN?",
+    "gold_answer": null,
+    "answerable": false
+  },
+  {
+    "qid": 206,
+    "domain": "hr",
+    "question": "How many annual leave days do full-time staff receive?",
+    "gold_answer": "30 working days",
+    "answerable": true,
+    "gold_doc": "annual_leave.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 207,
+    "domain": "hr",
+    "question": "How many annual leave days do twelve-month-contract faculty receive?",
+    "gold_answer": "25 working days",
+    "answerable": true,
+    "gold_doc": "annual_leave.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 208,
+    "domain": "hr",
+    "question": "Do academic-year-contract faculty accrue annual leave?",
+    "gold_answer": "do not accrue annual leave",
+    "answerable": true,
+    "gold_doc": "annual_leave.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 209,
+    "domain": "hr",
+    "question": "At what rate is annual leave accrued for staff?",
+    "gold_answer": "2.5 days per month",
+    "answerable": true,
+    "gold_doc": "annual_leave.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 210,
+    "domain": "hr",
+    "question": "How long must a new staff member wait before using leave?",
+    "gold_answer": "three months of continuous employment",
+    "answerable": true,
+    "gold_doc": "annual_leave.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 211,
+    "domain": "hr",
+    "question": "How far in advance must leave be requested?",
+    "gold_answer": "at least ten business days in advance",
+    "answerable": true,
+    "gold_doc": "annual_leave.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 212,
+    "domain": "hr",
+    "question": "How many days of annual leave may be carried over?",
+    "gold_answer": "Up to ten",
+    "answerable": true,
+    "gold_doc": "annual_leave.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 213,
+    "domain": "hr",
+    "question": "How many days of unused leave are paid out on termination?",
+    "gold_answer": "up to a maximum of forty days",
+    "answerable": true,
+    "gold_doc": "annual_leave.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 214,
+    "domain": "hr",
+    "question": "How much paid sick leave is granted per year?",
+    "gold_answer": "30 days",
+    "answerable": true,
+    "gold_doc": "sick_leave.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 215,
+    "domain": "hr",
+    "question": "Does sick leave roll over between years?",
+    "gold_answer": "does not roll over between years",
+    "answerable": true,
+    "gold_doc": "sick_leave.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 216,
+    "domain": "hr",
+    "question": "When is a medical certificate required for sick leave?",
+    "gold_answer": "more than three consecutive days",
+    "answerable": true,
+    "gold_doc": "sick_leave.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 217,
+    "domain": "hr",
+    "question": "Within how many days must a sick-leave certificate be uploaded?",
+    "gold_answer": "within five business days of the return date",
+    "answerable": true,
+    "gold_doc": "sick_leave.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 218,
+    "domain": "hr",
+    "question": "What additional sick leave is available for chronic illness?",
+    "gold_answer": "60 days of half-pay sick leave",
+    "answerable": true,
+    "gold_doc": "sick_leave.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 219,
+    "domain": "hr",
+    "question": "How is position retention handled during extended medical leave?",
+    "gold_answer": "Position is held only for the first six months",
+    "answerable": true,
+    "gold_doc": "sick_leave.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 220,
+    "domain": "hr",
+    "question": "How long is an extended medical leave of absence?",
+    "gold_answer": "up to one year",
+    "answerable": true,
+    "gold_doc": "sick_leave.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 221,
+    "domain": "hr",
+    "question": "When does the annual performance review usually occur?",
+    "gold_answer": "between March and May",
+    "answerable": true,
+    "gold_doc": "performance_review.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 222,
+    "domain": "hr",
+    "question": "What rating is described as 'meets expectations'?",
+    "gold_answer": "3",
+    "answerable": true,
+    "gold_doc": "performance_review.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 223,
+    "domain": "hr",
+    "question": "What rating triggers a Performance Improvement Plan?",
+    "gold_answer": "1 or 2",
+    "answerable": true,
+    "gold_doc": "performance_review.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 224,
+    "domain": "hr",
+    "question": "How long is the PIP review window?",
+    "gold_answer": "90 days",
+    "answerable": true,
+    "gold_doc": "performance_review.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 225,
+    "domain": "hr",
+    "question": "What rating makes an employee eligible for the merit increase?",
+    "gold_answer": "4 or 5",
+    "answerable": true,
+    "gold_doc": "performance_review.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 226,
+    "domain": "hr",
+    "question": "When are annual merit increases applied to paychecks?",
+    "gold_answer": "July",
+    "answerable": true,
+    "gold_doc": "performance_review.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 227,
+    "domain": "hr",
+    "question": "How long do employees have to respond in writing to a review?",
+    "gold_answer": "within ten business days",
+    "answerable": true,
+    "gold_doc": "performance_review.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 228,
+    "domain": "hr",
+    "question": "How much fully paid maternity leave is provided?",
+    "gold_answer": "ten weeks",
+    "answerable": true,
+    "gold_doc": "maternity_leave.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 229,
+    "domain": "hr",
+    "question": "How early can maternity leave begin?",
+    "gold_answer": "up to four weeks before the expected due date",
+    "answerable": true,
+    "gold_doc": "maternity_leave.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 230,
+    "domain": "hr",
+    "question": "How much additional unpaid maternity leave is available?",
+    "gold_answer": "four weeks of unpaid maternity leave",
+    "answerable": true,
+    "gold_doc": "maternity_leave.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 231,
+    "domain": "hr",
+    "question": "How long may a phased return be?",
+    "gold_answer": "up to eight weeks",
+    "answerable": true,
+    "gold_doc": "maternity_leave.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 232,
+    "domain": "hr",
+    "question": "How long is paid paternity leave?",
+    "gold_answer": "five working days",
+    "answerable": true,
+    "gold_doc": "maternity_leave.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 233,
+    "domain": "hr",
+    "question": "Within how many days of birth must paternity leave be taken?",
+    "gold_answer": "within thirty days of the birth",
+    "answerable": true,
+    "gold_doc": "maternity_leave.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 234,
+    "domain": "hr",
+    "question": "Does adoption qualify for paid leave?",
+    "gold_answer": "Yes; same paid leave entitlements as biological parenthood",
+    "answerable": true,
+    "gold_doc": "maternity_leave.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 235,
+    "domain": "hr",
+    "question": "How long must positions be posted on the careers portal?",
+    "gold_answer": "at least fifteen business days",
+    "answerable": true,
+    "gold_doc": "recruitment.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 236,
+    "domain": "hr",
+    "question": "How early must internal applications be received?",
+    "gold_answer": "within the first five days of the posting",
+    "answerable": true,
+    "gold_doc": "recruitment.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 237,
+    "domain": "hr",
+    "question": "Who performs faculty credential verification?",
+    "gold_answer": "an external agency",
+    "answerable": true,
+    "gold_doc": "recruitment.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 238,
+    "domain": "hr",
+    "question": "How many references are required for a hire?",
+    "gold_answer": "at least two",
+    "answerable": true,
+    "gold_doc": "recruitment.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 239,
+    "domain": "hr",
+    "question": "How long is a signed offer letter valid?",
+    "gold_answer": "ten business days",
+    "answerable": true,
+    "gold_doc": "recruitment.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 240,
+    "domain": "hr",
+    "question": "What is the cash gift policy from vendors?",
+    "gold_answer": "Cash gifts of any amount are prohibited",
+    "answerable": true,
+    "gold_doc": "code_of_conduct_hr.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 241,
+    "domain": "hr",
+    "question": "What is the disclosure threshold for vendor gifts?",
+    "gold_answer": "500 SAR",
+    "answerable": true,
+    "gold_doc": "code_of_conduct_hr.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 242,
+    "domain": "hr",
+    "question": "What is the disclosure rule for outside employment?",
+    "gold_answer": "outside employment exceeding eight hours per week",
+    "answerable": true,
+    "gold_doc": "code_of_conduct_hr.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 243,
+    "domain": "hr",
+    "question": "On what day of the month are salaries paid?",
+    "gold_answer": "the 27th",
+    "answerable": true,
+    "gold_doc": "compensation.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 244,
+    "domain": "hr",
+    "question": "When are weekend salary payments made?",
+    "gold_answer": "on the preceding business day",
+    "answerable": true,
+    "gold_doc": "compensation.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 245,
+    "domain": "hr",
+    "question": "What is the overtime multiplier?",
+    "gold_answer": "1.5 times",
+    "answerable": true,
+    "gold_doc": "compensation.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 246,
+    "domain": "hr",
+    "question": "What threshold of hours per week triggers overtime?",
+    "gold_answer": "48",
+    "answerable": true,
+    "gold_doc": "compensation.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 247,
+    "domain": "hr",
+    "question": "When are annual bonuses typically paid?",
+    "gold_answer": "December",
+    "answerable": true,
+    "gold_doc": "compensation.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 248,
+    "domain": "hr",
+    "question": "Who reviews cost-of-living adjustments?",
+    "gold_answer": "the Board of Trustees",
+    "answerable": true,
+    "gold_doc": "compensation.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 249,
+    "domain": "hr",
+    "question": "How much salary advance may an employee request?",
+    "gold_answer": "up to two months of base pay",
+    "answerable": true,
+    "gold_doc": "compensation.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 250,
+    "domain": "hr",
+    "question": "Over how many months are salary advances repaid?",
+    "gold_answer": "the following six months",
+    "answerable": true,
+    "gold_doc": "compensation.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 251,
+    "domain": "hr",
+    "question": "How long do new hires have to complete orientation?",
+    "gold_answer": "within their first four weeks",
+    "answerable": true,
+    "gold_doc": "training.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 252,
+    "domain": "hr",
+    "question": "How many professional development hours per year are granted?",
+    "gold_answer": "up to forty hours",
+    "answerable": true,
+    "gold_doc": "training.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 253,
+    "domain": "hr",
+    "question": "What is the annual tuition reimbursement cap?",
+    "gold_answer": "30,000 SAR",
+    "answerable": true,
+    "gold_doc": "training.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 254,
+    "domain": "hr",
+    "question": "What minimum grade is required for tuition reimbursement?",
+    "gold_answer": "B",
+    "answerable": true,
+    "gold_doc": "training.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 255,
+    "domain": "hr",
+    "question": "Which mandatory courses must be taken annually?",
+    "gold_answer": "data protection, anti-harassment, and information security",
+    "answerable": true,
+    "gold_doc": "training.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 256,
+    "domain": "hr",
+    "question": "Which dependents are covered on the medical plan?",
+    "gold_answer": "spouse, and dependent children up to age 26",
+    "answerable": true,
+    "gold_doc": "benefits.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 257,
+    "domain": "hr",
+    "question": "What is the employer retirement contribution?",
+    "gold_answer": "9 percent of base salary",
+    "answerable": true,
+    "gold_doc": "benefits.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 258,
+    "domain": "hr",
+    "question": "What is the employee retirement match?",
+    "gold_answer": "5 percent",
+    "answerable": true,
+    "gold_doc": "benefits.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 259,
+    "domain": "hr",
+    "question": "How long must staff serve for dependent tuition remission?",
+    "gold_answer": "five or more years",
+    "answerable": true,
+    "gold_doc": "benefits.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 260,
+    "domain": "hr",
+    "question": "How much tuition remission is provided for dependents?",
+    "gold_answer": "50 percent tuition remission",
+    "answerable": true,
+    "gold_doc": "benefits.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 261,
+    "domain": "hr",
+    "question": "What is the default life insurance benefit?",
+    "gold_answer": "two times annual base salary",
+    "answerable": true,
+    "gold_doc": "benefits.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 262,
+    "domain": "hr",
+    "question": "How long is Hajj leave?",
+    "gold_answer": "up to fifteen days",
+    "answerable": true,
+    "gold_doc": "benefits.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 263,
+    "domain": "hr",
+    "question": "How much service is needed before Hajj leave?",
+    "gold_answer": "six months of prior service",
+    "answerable": true,
+    "gold_doc": "benefits.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 264,
+    "domain": "hr",
+    "question": "What is the staff notice period for resignation?",
+    "gold_answer": "30 days",
+    "answerable": true,
+    "gold_doc": "termination.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 265,
+    "domain": "hr",
+    "question": "What is the faculty notice period for resignation?",
+    "gold_answer": "one full semester",
+    "answerable": true,
+    "gold_doc": "termination.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 266,
+    "domain": "hr",
+    "question": "How is end-of-service indemnity calculated for the first five years?",
+    "gold_answer": "one-half month's salary per year of service",
+    "answerable": true,
+    "gold_doc": "termination.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 267,
+    "domain": "hr",
+    "question": "How is end-of-service indemnity calculated after the fifth year?",
+    "gold_answer": "one month per year of service",
+    "answerable": true,
+    "gold_doc": "termination.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 268,
+    "domain": "hr",
+    "question": "When is the final paycheck issued?",
+    "gold_answer": "no later than 30 calendar days after the last day of employment",
+    "answerable": true,
+    "gold_doc": "termination.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 269,
+    "domain": "hr",
+    "question": "Does termination for cause include end-of-service indemnity?",
+    "gold_answer": "does not entitle the employee to end-of-service indemnity",
+    "answerable": true,
+    "gold_doc": "termination.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 270,
+    "domain": "hr",
+    "question": "How many remote work days per week may be requested?",
+    "gold_answer": "up to two days per week",
+    "answerable": true,
+    "gold_doc": "remote_work.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 271,
+    "domain": "hr",
+    "question": "How often are remote work agreements renewed?",
+    "gold_answer": "every six months",
+    "answerable": true,
+    "gold_doc": "remote_work.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 272,
+    "domain": "hr",
+    "question": "What home-office allowance is provided for remote work?",
+    "gold_answer": "one-time 1,500 SAR home-office allowance",
+    "answerable": true,
+    "gold_doc": "remote_work.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 273,
+    "domain": "hr",
+    "question": "Within how many days must a grievance be filed?",
+    "gold_answer": "within thirty days of the triggering event",
+    "answerable": true,
+    "gold_doc": "grievance.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 274,
+    "domain": "hr",
+    "question": "How many stages does the grievance review have?",
+    "gold_answer": "three",
+    "answerable": true,
+    "gold_doc": "grievance.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 275,
+    "domain": "hr",
+    "question": "How many members are on the grievance committee?",
+    "gold_answer": "five members",
+    "answerable": true,
+    "gold_doc": "grievance.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 276,
+    "domain": "hr",
+    "question": "Who chairs the grievance committee external review?",
+    "gold_answer": "one external arbitrator",
+    "answerable": true,
+    "gold_doc": "grievance.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 277,
+    "domain": "hr",
+    "question": "Are grievance committee decisions binding?",
+    "gold_answer": "binding on the university",
+    "answerable": true,
+    "gold_doc": "grievance.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 278,
+    "domain": "hr",
+    "question": "How many years of service are credited for tuition remission eligibility?",
+    "gold_answer": "five or more years of continuous service",
+    "answerable": true,
+    "gold_doc": "benefits.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 279,
+    "domain": "hr",
+    "question": "How are international remote work agreements handled?",
+    "gold_answer": "requires written approval and may have tax or compliance implications",
+    "answerable": true,
+    "gold_doc": "remote_work.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 280,
+    "domain": "hr",
+    "question": "How much notice can revoke a remote work agreement?",
+    "gold_answer": "two weeks' notice",
+    "answerable": true,
+    "gold_doc": "remote_work.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 281,
+    "domain": "hr",
+    "question": "Are exit interviews mandatory?",
+    "gold_answer": "voluntary but encouraged",
+    "answerable": true,
+    "gold_doc": "termination.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 282,
+    "domain": "hr",
+    "question": "What governs Hajj leave eligibility?",
+    "gold_answer": "contingent on six months of prior service",
+    "answerable": true,
+    "gold_doc": "benefits.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 283,
+    "domain": "hr",
+    "question": "Where are grievances initially filed?",
+    "gold_answer": "with HR",
+    "answerable": true,
+    "gold_doc": "grievance.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 284,
+    "domain": "hr",
+    "question": "Does the university retaliate against grievance filers?",
+    "gold_answer": "does not retaliate against employees who file grievances in good faith",
+    "answerable": true,
+    "gold_doc": "grievance.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 285,
+    "domain": "hr",
+    "question": "How many merit-eligible rating values are there?",
+    "gold_answer": "4 or 5",
+    "answerable": true,
+    "gold_doc": "performance_review.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 286,
+    "domain": "hr",
+    "question": "Are anonymous misconduct reports investigated?",
+    "gold_answer": "investigated to the extent possible given the limited information",
+    "answerable": true,
+    "gold_doc": "code_of_conduct_hr.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 287,
+    "domain": "hr",
+    "question": "Where are weekend salary payments made when the 27th is on a weekend?",
+    "gold_answer": "on the preceding business day",
+    "answerable": true,
+    "gold_doc": "compensation.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 288,
+    "domain": "hr",
+    "question": "Within how many business days of recruitment can internal candidates apply?",
+    "gold_answer": "within the first five days of the posting",
+    "answerable": true,
+    "gold_doc": "recruitment.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 289,
+    "domain": "hr",
+    "question": "When are mandatory training non-completion impacts reflected?",
+    "gold_answer": "in the next performance review",
+    "answerable": true,
+    "gold_doc": "training.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 290,
+    "domain": "hr",
+    "question": "How is incidental personal use of office equipment treated?",
+    "gold_answer": "Incidental personal use of office equipment for non-commercial purposes is permitted",
+    "answerable": true,
+    "gold_doc": "code_of_conduct_hr.txt",
+    "gold_para_idx": 3
+  },
+  {
+    "qid": 291,
+    "domain": "hr",
+    "question": "What is the equipment provision for remote work?",
+    "gold_answer": "a university-managed laptop",
+    "answerable": true,
+    "gold_doc": "remote_work.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 292,
+    "domain": "hr",
+    "question": "What is the maternity-leave extension type?",
+    "gold_answer": "unpaid maternity leave",
+    "answerable": true,
+    "gold_doc": "maternity_leave.txt",
+    "gold_para_idx": 1
+  },
+  {
+    "qid": 293,
+    "domain": "hr",
+    "question": "How is sick leave abuse identified?",
+    "gold_answer": "patterns of single-day absences adjacent to weekends",
+    "answerable": true,
+    "gold_doc": "sick_leave.txt",
+    "gold_para_idx": 4
+  },
+  {
+    "qid": 294,
+    "domain": "hr",
+    "question": "Is performance review timing fixed within the same window each year?",
+    "gold_answer": "once per fiscal year, typically between March and May",
+    "answerable": true,
+    "gold_doc": "performance_review.txt",
+    "gold_para_idx": 0
+  },
+  {
+    "qid": 295,
+    "domain": "hr",
+    "question": "What does pay phase-down apply to in a maternity phased return?",
+    "gold_answer": "proportional reduction in pay during the phased period",
+    "answerable": true,
+    "gold_doc": "maternity_leave.txt",
+    "gold_para_idx": 2
+  },
+  {
+    "qid": 296,
+    "domain": "hr",
+    "question": "What is the policy on telework eligibility for new hires in the first month?",
+    "gold_answer": null,
+    "answerable": false
+  },
+  {
+    "qid": 297,
+    "domain": "hr",
+    "question": "How does the university handle relocation reimbursement for international hires?",
+    "gold_answer": null,
+    "answerable": false
+  },
+  {
+    "qid": 298,
+    "domain": "hr",
+    "question": "What is the dress code on Fridays?",
+    "gold_answer": null,
+    "answerable": false
+  },
+  {
+    "qid": 299,
+    "domain": "hr",
+    "question": "How many vacation days are converted to sabbatical credits per year?",
+    "gold_answer": null,
+    "answerable": false
+  },
+  {
+    "qid": 300,
+    "domain": "hr",
+    "question": "What is the spouse-of-faculty employment policy?",
+    "gold_answer": null,
+    "answerable": false
+  },
+  {
+    "qid": 301,
+    "domain": "hr",
+    "question": "How does the staff carpool subsidy work?",
+    "gold_answer": null,
+    "answerable": false
+  },
+  {
+    "qid": 302,
+    "domain": "hr",
+    "question": "What is the elder-care leave entitlement?",
+    "gold_answer": null,
+    "answerable": false
+  },
+  {
+    "qid": 303,
+    "domain": "hr",
+    "question": "How are mid-year hiring bonuses calculated?",
+    "gold_answer": null,
+    "answerable": false
+  },
+  {
+    "qid": 304,
+    "domain": "hr",
+    "question": "What is the policy on emergency dependent care?",
+    "gold_answer": null,
+    "answerable": false
+  },
+  {
+    "qid": 305,
+    "domain": "hr",
+    "question": "How many continuing-education credits are required of HR staff?",
+    "gold_answer": null,
+    "answerable": false
+  }
+]

@@ -1,0 +1,9 @@
+All data managed by the university is classified into four tiers: Public, Internal, Confidential, and Restricted, with handling requirements escalating at each tier.
+
+Public data may be shared without restriction. Examples include published research, course catalogs, and press releases.
+
+Internal data is intended for university members and is not for public release; examples include policies, internal directories, and meeting minutes.
+
+Confidential data requires encryption at rest and in transit and is restricted to authorized users. Examples include student records, salary information, and unpublished research.
+
+Restricted data is the most sensitive class and includes regulated personal data, medical records, and certain classified research projects; storage outside university-managed systems is prohibited.

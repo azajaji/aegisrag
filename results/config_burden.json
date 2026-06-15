@@ -1,0 +1,435 @@
+{
+  "note": "Counts are derived from each framework's canonical quickstart documentation. We count only user-facing decisions required to deploy an indexed retrieve-rerank-generate-cite pipeline. Hidden defaults are NOT counted unless the user must explicitly set or inspect them. Each decision is recorded with its source for audit.",
+  "frameworks": {
+    "LangChain (RetrievalQA + Chroma + Cohere rerank)": {
+      "n_decisions": 18,
+      "n_parameters": 27,
+      "code_lines": 42,
+      "user_writes_python": true,
+      "decisions_list": [
+        "loader class",
+        "text splitter class",
+        "chunk_size",
+        "chunk_overlap",
+        "embedding model",
+        "embedding dim",
+        "vector store class",
+        "persist path",
+        "distance metric",
+        "k for retrieval",
+        "reranker model",
+        "rerank top_n",
+        "prompt template",
+        "system prompt",
+        "citation format",
+        "refusal heuristic",
+        "QA chain type",
+        "callback / logging"
+      ],
+      "source_documentation": "python.langchain.com docs (RetrievalQA + Chroma + Cohere reranker quickstarts, accessed May 2026)"
+    },
+    "LlamaIndex (VectorStoreIndex + node post-processors)": {
+      "n_decisions": 15,
+      "n_parameters": 23,
+      "code_lines": 38,
+      "user_writes_python": true,
+      "decisions_list": [
+        "SimpleDirectoryReader options",
+        "SentenceSplitter",
+        "chunk_size",
+        "chunk_overlap",
+        "embed_model",
+        "vector_store class",
+        "storage_context",
+        "similarity_top_k",
+        "node post-processor",
+        "rerank top_n",
+        "response_mode",
+        "prompt template",
+        "service context",
+        "citation node post-processor",
+        "refusal post-processor"
+      ],
+      "source_documentation": "docs.llamaindex.ai (VectorStoreIndex + SentenceSplitter + node post-processor quickstarts, accessed May 2026)"
+    },
+    "AWS Bedrock Knowledge Bases (CreateKB + Retrieve API)": {
+      "n_decisions": 12,
+      "n_parameters": 18,
+      "code_lines": 35,
+      "user_writes_python": true,
+      "decisions_list": [
+        "data source S3 URI",
+        "embedding model id",
+        "chunking strategy",
+        "max tokens",
+        "overlap percentage",
+        "vector store backend (OpenSearch/Postgres)",
+        "index name",
+        "IAM role",
+        "retrieval numberOfResults",
+        "model id for generation",
+        "prompt template (RetrieveAndGenerate API)",
+        "session config"
+      ],
+      "source_documentation": "docs.aws.amazon.com/bedrock (CreateKnowledgeBase, StartIngestionJob, Retrieve / RetrieveAndGenerate API references, accessed May 2026)"
+    },
+    "AutoRAG (questionnaire-driven)": {
+      "n_decisions": 4,
+      "n_parameters": 4,
+      "code_lines": 0,
+      "user_writes_python": false,
+      "decisions_list": [
+        "document language (English / Arabic / mixed)",
+        "document length class (short FAQ / mid-length policy / long manual)",
+        "safety sensitivity (answer everything / never ungrounded)",
+        "cost budget (low / mid / high)"
+      ],
+      "source_documentation": "this paper, Section 3.1 (the four-question onboarding form)"
+    }
+  },
+  "decision_records": [
+    {
+      "framework": "LangChain (RetrievalQA + Chroma + Cohere rerank)",
+      "decision": "loader class",
+      "source_documentation": "python.langchain.com docs (RetrievalQA + Chroma + Cohere reranker quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "LangChain (RetrievalQA + Chroma + Cohere rerank)",
+      "decision": "text splitter class",
+      "source_documentation": "python.langchain.com docs (RetrievalQA + Chroma + Cohere reranker quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "LangChain (RetrievalQA + Chroma + Cohere rerank)",
+      "decision": "chunk_size",
+      "source_documentation": "python.langchain.com docs (RetrievalQA + Chroma + Cohere reranker quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "LangChain (RetrievalQA + Chroma + Cohere rerank)",
+      "decision": "chunk_overlap",
+      "source_documentation": "python.langchain.com docs (RetrievalQA + Chroma + Cohere reranker quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "LangChain (RetrievalQA + Chroma + Cohere rerank)",
+      "decision": "embedding model",
+      "source_documentation": "python.langchain.com docs (RetrievalQA + Chroma + Cohere reranker quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "LangChain (RetrievalQA + Chroma + Cohere rerank)",
+      "decision": "embedding dim",
+      "source_documentation": "python.langchain.com docs (RetrievalQA + Chroma + Cohere reranker quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "LangChain (RetrievalQA + Chroma + Cohere rerank)",
+      "decision": "vector store class",
+      "source_documentation": "python.langchain.com docs (RetrievalQA + Chroma + Cohere reranker quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "LangChain (RetrievalQA + Chroma + Cohere rerank)",
+      "decision": "persist path",
+      "source_documentation": "python.langchain.com docs (RetrievalQA + Chroma + Cohere reranker quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "LangChain (RetrievalQA + Chroma + Cohere rerank)",
+      "decision": "distance metric",
+      "source_documentation": "python.langchain.com docs (RetrievalQA + Chroma + Cohere reranker quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "LangChain (RetrievalQA + Chroma + Cohere rerank)",
+      "decision": "k for retrieval",
+      "source_documentation": "python.langchain.com docs (RetrievalQA + Chroma + Cohere reranker quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "LangChain (RetrievalQA + Chroma + Cohere rerank)",
+      "decision": "reranker model",
+      "source_documentation": "python.langchain.com docs (RetrievalQA + Chroma + Cohere reranker quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "LangChain (RetrievalQA + Chroma + Cohere rerank)",
+      "decision": "rerank top_n",
+      "source_documentation": "python.langchain.com docs (RetrievalQA + Chroma + Cohere reranker quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "LangChain (RetrievalQA + Chroma + Cohere rerank)",
+      "decision": "prompt template",
+      "source_documentation": "python.langchain.com docs (RetrievalQA + Chroma + Cohere reranker quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "LangChain (RetrievalQA + Chroma + Cohere rerank)",
+      "decision": "system prompt",
+      "source_documentation": "python.langchain.com docs (RetrievalQA + Chroma + Cohere reranker quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "LangChain (RetrievalQA + Chroma + Cohere rerank)",
+      "decision": "citation format",
+      "source_documentation": "python.langchain.com docs (RetrievalQA + Chroma + Cohere reranker quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "LangChain (RetrievalQA + Chroma + Cohere rerank)",
+      "decision": "refusal heuristic",
+      "source_documentation": "python.langchain.com docs (RetrievalQA + Chroma + Cohere reranker quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "LangChain (RetrievalQA + Chroma + Cohere rerank)",
+      "decision": "QA chain type",
+      "source_documentation": "python.langchain.com docs (RetrievalQA + Chroma + Cohere reranker quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "LangChain (RetrievalQA + Chroma + Cohere rerank)",
+      "decision": "callback / logging",
+      "source_documentation": "python.langchain.com docs (RetrievalQA + Chroma + Cohere reranker quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "LlamaIndex (VectorStoreIndex + node post-processors)",
+      "decision": "SimpleDirectoryReader options",
+      "source_documentation": "docs.llamaindex.ai (VectorStoreIndex + SentenceSplitter + node post-processor quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "LlamaIndex (VectorStoreIndex + node post-processors)",
+      "decision": "SentenceSplitter",
+      "source_documentation": "docs.llamaindex.ai (VectorStoreIndex + SentenceSplitter + node post-processor quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "LlamaIndex (VectorStoreIndex + node post-processors)",
+      "decision": "chunk_size",
+      "source_documentation": "docs.llamaindex.ai (VectorStoreIndex + SentenceSplitter + node post-processor quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "LlamaIndex (VectorStoreIndex + node post-processors)",
+      "decision": "chunk_overlap",
+      "source_documentation": "docs.llamaindex.ai (VectorStoreIndex + SentenceSplitter + node post-processor quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "LlamaIndex (VectorStoreIndex + node post-processors)",
+      "decision": "embed_model",
+      "source_documentation": "docs.llamaindex.ai (VectorStoreIndex + SentenceSplitter + node post-processor quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "LlamaIndex (VectorStoreIndex + node post-processors)",
+      "decision": "vector_store class",
+      "source_documentation": "docs.llamaindex.ai (VectorStoreIndex + SentenceSplitter + node post-processor quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "LlamaIndex (VectorStoreIndex + node post-processors)",
+      "decision": "storage_context",
+      "source_documentation": "docs.llamaindex.ai (VectorStoreIndex + SentenceSplitter + node post-processor quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "LlamaIndex (VectorStoreIndex + node post-processors)",
+      "decision": "similarity_top_k",
+      "source_documentation": "docs.llamaindex.ai (VectorStoreIndex + SentenceSplitter + node post-processor quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "LlamaIndex (VectorStoreIndex + node post-processors)",
+      "decision": "node post-processor",
+      "source_documentation": "docs.llamaindex.ai (VectorStoreIndex + SentenceSplitter + node post-processor quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "LlamaIndex (VectorStoreIndex + node post-processors)",
+      "decision": "rerank top_n",
+      "source_documentation": "docs.llamaindex.ai (VectorStoreIndex + SentenceSplitter + node post-processor quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "LlamaIndex (VectorStoreIndex + node post-processors)",
+      "decision": "response_mode",
+      "source_documentation": "docs.llamaindex.ai (VectorStoreIndex + SentenceSplitter + node post-processor quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "LlamaIndex (VectorStoreIndex + node post-processors)",
+      "decision": "prompt template",
+      "source_documentation": "docs.llamaindex.ai (VectorStoreIndex + SentenceSplitter + node post-processor quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "LlamaIndex (VectorStoreIndex + node post-processors)",
+      "decision": "service context",
+      "source_documentation": "docs.llamaindex.ai (VectorStoreIndex + SentenceSplitter + node post-processor quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "LlamaIndex (VectorStoreIndex + node post-processors)",
+      "decision": "citation node post-processor",
+      "source_documentation": "docs.llamaindex.ai (VectorStoreIndex + SentenceSplitter + node post-processor quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "LlamaIndex (VectorStoreIndex + node post-processors)",
+      "decision": "refusal post-processor",
+      "source_documentation": "docs.llamaindex.ai (VectorStoreIndex + SentenceSplitter + node post-processor quickstarts, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "AWS Bedrock Knowledge Bases (CreateKB + Retrieve API)",
+      "decision": "data source S3 URI",
+      "source_documentation": "docs.aws.amazon.com/bedrock (CreateKnowledgeBase, StartIngestionJob, Retrieve / RetrieveAndGenerate API references, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "AWS Bedrock Knowledge Bases (CreateKB + Retrieve API)",
+      "decision": "embedding model id",
+      "source_documentation": "docs.aws.amazon.com/bedrock (CreateKnowledgeBase, StartIngestionJob, Retrieve / RetrieveAndGenerate API references, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "AWS Bedrock Knowledge Bases (CreateKB + Retrieve API)",
+      "decision": "chunking strategy",
+      "source_documentation": "docs.aws.amazon.com/bedrock (CreateKnowledgeBase, StartIngestionJob, Retrieve / RetrieveAndGenerate API references, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "AWS Bedrock Knowledge Bases (CreateKB + Retrieve API)",
+      "decision": "max tokens",
+      "source_documentation": "docs.aws.amazon.com/bedrock (CreateKnowledgeBase, StartIngestionJob, Retrieve / RetrieveAndGenerate API references, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "AWS Bedrock Knowledge Bases (CreateKB + Retrieve API)",
+      "decision": "overlap percentage",
+      "source_documentation": "docs.aws.amazon.com/bedrock (CreateKnowledgeBase, StartIngestionJob, Retrieve / RetrieveAndGenerate API references, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "AWS Bedrock Knowledge Bases (CreateKB + Retrieve API)",
+      "decision": "vector store backend (OpenSearch/Postgres)",
+      "source_documentation": "docs.aws.amazon.com/bedrock (CreateKnowledgeBase, StartIngestionJob, Retrieve / RetrieveAndGenerate API references, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "AWS Bedrock Knowledge Bases (CreateKB + Retrieve API)",
+      "decision": "index name",
+      "source_documentation": "docs.aws.amazon.com/bedrock (CreateKnowledgeBase, StartIngestionJob, Retrieve / RetrieveAndGenerate API references, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "AWS Bedrock Knowledge Bases (CreateKB + Retrieve API)",
+      "decision": "IAM role",
+      "source_documentation": "docs.aws.amazon.com/bedrock (CreateKnowledgeBase, StartIngestionJob, Retrieve / RetrieveAndGenerate API references, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "AWS Bedrock Knowledge Bases (CreateKB + Retrieve API)",
+      "decision": "retrieval numberOfResults",
+      "source_documentation": "docs.aws.amazon.com/bedrock (CreateKnowledgeBase, StartIngestionJob, Retrieve / RetrieveAndGenerate API references, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "AWS Bedrock Knowledge Bases (CreateKB + Retrieve API)",
+      "decision": "model id for generation",
+      "source_documentation": "docs.aws.amazon.com/bedrock (CreateKnowledgeBase, StartIngestionJob, Retrieve / RetrieveAndGenerate API references, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "AWS Bedrock Knowledge Bases (CreateKB + Retrieve API)",
+      "decision": "prompt template (RetrieveAndGenerate API)",
+      "source_documentation": "docs.aws.amazon.com/bedrock (CreateKnowledgeBase, StartIngestionJob, Retrieve / RetrieveAndGenerate API references, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "AWS Bedrock Knowledge Bases (CreateKB + Retrieve API)",
+      "decision": "session config",
+      "source_documentation": "docs.aws.amazon.com/bedrock (CreateKnowledgeBase, StartIngestionJob, Retrieve / RetrieveAndGenerate API references, accessed May 2026)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "AutoRAG (questionnaire-driven)",
+      "decision": "document language (English / Arabic / mixed)",
+      "source_documentation": "this paper, Section 3.1 (the four-question onboarding form)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "AutoRAG (questionnaire-driven)",
+      "decision": "document length class (short FAQ / mid-length policy / long manual)",
+      "source_documentation": "this paper, Section 3.1 (the four-question onboarding form)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "AutoRAG (questionnaire-driven)",
+      "decision": "safety sensitivity (answer everything / never ungrounded)",
+      "source_documentation": "this paper, Section 3.1 (the four-question onboarding form)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    },
+    {
+      "framework": "AutoRAG (questionnaire-driven)",
+      "decision": "cost budget (low / mid / high)",
+      "source_documentation": "this paper, Section 3.1 (the four-question onboarding form)",
+      "counted": true,
+      "reason": "user must select this value in the canonical quickstart; not a hidden internal default"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+dataset,qid,domain,top_score,margin,prediction,cite_doc,cite_para
+squad,5a5915cd3e1742001a15cf77,science,8.131187438964844,7.798298005014658,investigate past and current life and biogeochemical pathways,Geology,14
+squad,5ad4f4d95b96ef001a10a793,geography,6.703429698944092,13.425763845443726,Legislative power in Warsaw is vested in a unicameral Warsaw City Council,Warsaw,29
+squad,5a837038e60761001a2eb6f4,biology,6.39986515045166,13.656498074531555,the rosettes may pump water out of the mesoglea to reduce its volume and increase its density.,Ctenophora,11
+squad,5a7b093b21c2de001afe9d0a,geography,6.307931900024414,9.98775190114975,the San Joaquin Light & Power Building,"Fresno,_California",6
+squad,5a0c807ff5590b0018dab452,geography,5.898054122924805,15.190550088882446,and areas cleared of forest are visible to the naked eye from outer space.,Amazon_rainforest,11
+squad,5a67a2c7f038b7001ab0c3a2,education,7.352185249328613,7.554286181926727,000 students or 3.7% of the entire student population.,Private_school,14
+squad,5ad15059645df0001a2d1725,law,6.267141342163086,9.577804923057556,but that otherwise public enterprises must adhere to the same competition principles as companies.,European_Union_law,28
+squad,5a6ced7d4eec6b001a80a6e2,medicine,6.797216415405273,12.465869665145874,The law requires that the GP practice be located in a designated rural area and that there is also a specified,Pharmacy,21
+squad,5ad3f187604f3c001a3ff870,history,6.096291542053223,7.977353662252426,This relationship eventually produced closer ties of blood through the marriage of Emma,Normans,14
+squad,5a7b34fa21c2de001afe9dc6,geography,6.492159843444824,9.726018905639648,In the north eastern part of Fresno,"Fresno,_California",17
+squad,5ad5719f5b96ef001a10aeec,computing,7.71316385269165,11.843642592430115,Earlier papers studying problems solvable by Turing machines with specific bounded resources include  John Myhill's definition of linear bounded automata,Computational_complexity_theory,45
+squad,5a582cfa770dc0001aef0014,science,6.578466415405273,13.039013266563416,Sir Charles Lyell first published his famous book,Geology,24
+squad,5a38d2f9a4b263001a8c193f,history,7.124155521392822,11.670603513717651,Mitsubishi and Isuzu had joint partnerships with Ford,1973_oil_crisis,20
+squad,5ad158c0645df0001a2d1828,law,8.257198333740234,8.403473071753979,and has accordingly increased the number of social services that people can access wherever they move.,European_Union_law,35
+squad,5ad56bcd5b96ef001a10ae65,computing,5.5648603439331055,6.950051724910736,it is possible that all these complexity classes collapse to one class.,Computational_complexity_theory,38
+squad,5ad5489b5b96ef001a10ac2c,computing,6.915210723876953,12.75468385219574,so that non-deterministic time is a very important resource in analyzing computational problems.,Computational_complexity_theory,16
+squad,5ad3b08b604f3c001a3fecb5,history,6.513097763061523,7.92983615398407,One of Tanaghrisson's men told Contrecoeur that Jumonville had been killed by British musket fire.,French_and_Indian_War,23
+squad,5ad26382d7d075001a42911b,science,7.649679183959961,7.086041063070297,Newton's Second Law asserts the direct proportionality of acceleration to force and the inverse proportionality of acceleration to mass.,Force,7
+squad,5ad25cced7d075001a428ec7,economics,6.629824638366699,12.109636187553406,Shiller said that rising inequality in the United States and elsewhere is the most important problem.,Economic_inequality,20
+squad,5ad53e615b96ef001a10abda,computing,8.577298164367676,9.578441441059113,but the output is more complex than that of a decision problem,Computational_complexity_theory,8
+squad,5ad278c3d7d075001a42957e,science,7.361043453216553,11.807834292761981,a momentum conservation results in recoil of particle A making impression of repulsion or attraction between particles A A' exchanging by B.,Force,20
+squad,5ad3f8d2604f3c001a3ffa8e,history,5.8801374435424805,10.76901489496231,was instrumental in introducing Normans and Norman culture to Scotland,Normans,20
+squad,5ad0391f77cf76001a686e48,history,7.642113208770752,11.576076805591583,The Soviet Union and the People’s Republic of China supported post–World War II communist movements in foreign nations and colonies to advance their own interests,Imperialism,30
+squad,5a669b3df038b7001ab0c04e,computing,8.284613609313965,11.17704826593399,Internet2 officially retired Abilene and now refers to its new,Packet_switching,20
+squad,5a3e4a34378766001a00254f,science,7.635536193847656,11.083801329135895,applied to the possible scenarios outlined by the Intergovernmental Panel on Climate Change,Intergovernmental_Panel_on_Climate_Change,18
+squad,5ad537a15b96ef001a10ab9c,computing,5.565718650817871,9.40963514894247,Is there a route of at most 2000 kilometres passing through all of Germany's 15 largest cities?,Computational_complexity_theory,4
+squad,5ad04b2377cf76001a686f93,geography,8.537221908569336,10.275040686130524,though the city is filled with business districts.,Southern_California,30
+squad,5ad259fdd7d075001a428e27,economics,7.075472831726074,3.8228819966316223,Kuznets saw middle-income developing economies level of inequality bulging out to form what is now known as the Kuznets curve.,Economic_inequality,16
+squad,5ad4ca235b96ef001a10a0b9,other,7.093421936035156,9.912008985877037,which subsequently fuses with another vesicle called a lysosome to form a phagolysosome.,Immune_system,10
+squad,5a664314c2b11c001a425edc,history,5.781380653381348,16.055715560913086,who is trying to stop her from giving her brother Polynices a proper burial.,Civil_disobedience,1
+squad,5ad4f7235b96ef001a10a7de,geography,5.601987838745117,7.258448421955109,Warsaw's first stock exchange was established in 1817 and continued trading until World War II.,Warsaw,32
+squad,5ad0206677cf76001a686afb,geography,5.937155723571777,9.292017385363579,and music industry is centered on the Los Angeles in southern California.,Southern_California,6
+squad,5ad40d50604f3c001a4000cb,history,6.626071929931641,13.663887858390808,When the Mongols placed the Uighurs of the Kingdom of Qocho over the Koreans at the court the Korean King objected,Yuan_dynasty,45
+squad,5ad1556e645df0001a2d17dd,law,6.514822959899902,10.06048247218132,and misleading commercials for skin care products.,European_Union_law,32
+squad,5a2c382dbfd06b001a5aea74,media,5.868617057800293,10.505861043930054,BSkyB's standard definition broadcasts are in DVB-compliant MPEG-2,Sky_(United_Kingdom),10
+squad,5acfa23577cf76001a68562e,education,9.167266845703125,18.157890558242798,Goldman Sachs and MF Global CEO as well as former Governor of New Jersey Jon Corzine,University_of_Chicago,27
+squad,5a66938ff038b7001ab0bffc,history,7.2023396492004395,17.398381233215332,the judge increased her sentence from 40 to 60 days.,Civil_disobedience,21
+squad,5a3e5697378766001a002596,science,6.433414459228516,6.499035194516182,a study was published suggesting that temperatures and sea levels have been rising at or above the maximum rates proposed during the last IPCC report in 2001.,Intergovernmental_Panel_on_Climate_Change,17
+squad,5a67986af038b7001ab0c313,education,6.7192583084106445,0.8321182727813721,Private fee-paying schools include parish schools run by the Roman Catholic Church and independent schools similar to British public schools.,Victoria_(Australia),10
+squad,5ad25f82d7d075001a428f85,science,5.780027389526367,7.334138423204422,With modern insights into quantum mechanics and technology that can accelerate particles close to the speed of light,Force,1

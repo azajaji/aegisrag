@@ -1,0 +1,7 @@
+Production databases are backed up incrementally every hour and fully every night. The retention window is 30 days for hourly backups, 90 days for daily backups, and 1 year for monthly backups.
+
+Restores from backup must be requested via a 'Restore Request' ticket and approved by a service owner. Restore time objective is four hours for critical systems and 24 hours for standard systems.
+
+Personal device backups are not provided by IT. Users are encouraged to use the university OneDrive sync client for documents, which provides 1 TB of synchronized storage per user.
+
+Test restores are performed quarterly for at least one critical system to validate backup integrity. The test results are documented in the backup operations log.

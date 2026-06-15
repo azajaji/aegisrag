@@ -1,0 +1,9 @@
+Every active user receives a 50 GB mailbox by default. Mailbox usage can be checked under Settings > Storage in the webmail interface.
+
+When a mailbox reaches 90 percent of its quota a warning email is sent. At 100 percent the mailbox stops accepting new incoming messages.
+
+Quota increases may be requested by submitting a 'Mailbox Quota Increase' ticket with a justification. Approval typically takes two business days; faculty researchers are often granted up to 200 GB.
+
+Attachments larger than 25 MB are rejected by the mail server. Use the university OneDrive share link feature for larger files.
+
+Deleted items are kept in the Trash folder for 30 days, after which they are permanently removed. Items in the Recoverable Items folder are kept for an additional 14 days and can be restored by the user or by IT support.

@@ -1,0 +1,104 @@
+{
+  "results": [
+    {
+      "encoder": "sentence-transformers/all-mpnet-base-v2",
+      "dataset": "squad",
+      "calibration": {
+        "balanced_accuracy": 0.6383141762452107,
+        "tau_score": 7.0,
+        "tau_margin": 0.0
+      },
+      "aggregate": {
+        "recall@1": 0.9121951219512195,
+        "recall@5": 0.9853658536585366,
+        "recall@10": 0.9853658536585366,
+        "mrr@10": 0.9395934959349593,
+        "ndcg@5": 0.9510461512335779,
+        "coverage_all": 0.23333333333333334,
+        "false_refusal_answerable": 0.6682926829268293,
+        "refusal_unanswerable": 0.8604651162790697,
+        "hallucination_unanswerable": 0.13953488372093023,
+        "f1_answered_only": 0.19724880142066323,
+        "citation_when_answered": 0.9852941176470589,
+        "latency_mean_ms": 146.17453428554222,
+        "latency_p95_ms": 160.21875000060373
+      },
+      "encoder_short": "MPNet-base"
+    },
+    {
+      "encoder": "BAAI/bge-base-en-v1.5",
+      "dataset": "squad",
+      "calibration": {
+        "balanced_accuracy": 0.6372924648786717,
+        "tau_score": 5.5,
+        "tau_margin": 1.0
+      },
+      "aggregate": {
+        "recall@1": 0.9073170731707317,
+        "recall@5": 0.9804878048780488,
+        "recall@10": 0.9804878048780488,
+        "mrr@10": 0.9347154471544716,
+        "ndcg@5": 0.9461681024530901,
+        "coverage_all": 0.430952380952381,
+        "false_refusal_answerable": 0.43414634146341463,
+        "refusal_unanswerable": 0.6976744186046512,
+        "hallucination_unanswerable": 0.3023255813953488,
+        "f1_answered_only": 0.20140325619642785,
+        "citation_when_answered": 0.9827586206896551,
+        "latency_mean_ms": 130.74375380946594,
+        "latency_p95_ms": 156.8871699999363
+      },
+      "encoder_short": "BGE-base-en-v1.5"
+    },
+    {
+      "encoder": "sentence-transformers/all-mpnet-base-v2",
+      "dataset": "enterprise",
+      "calibration": {
+        "balanced_accuracy": 0.9862385321100917,
+        "tau_score": 0.0,
+        "tau_margin": 0.0
+      },
+      "aggregate": {
+        "recall@1": 0.9819277108433735,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr@10": 0.9876506024096385,
+        "ndcg@5": 0.9906533681860203,
+        "coverage_all": 0.8688524590163934,
+        "false_refusal_answerable": 0.04819277108433735,
+        "refusal_unanswerable": 0.9411764705882353,
+        "hallucination_unanswerable": 0.058823529411764705,
+        "f1_answered_only": 0.34363812178960695,
+        "citation_when_answered": 0.9936708860759493,
+        "latency_mean_ms": 64.17685464489568,
+        "latency_p95_ms": 73.55505999839806
+      },
+      "encoder_short": "MPNet-base"
+    },
+    {
+      "encoder": "BAAI/bge-base-en-v1.5",
+      "dataset": "enterprise",
+      "calibration": {
+        "balanced_accuracy": 0.9862385321100917,
+        "tau_score": 0.0,
+        "tau_margin": 0.0
+      },
+      "aggregate": {
+        "recall@1": 0.9819277108433735,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr@10": 0.9876506024096385,
+        "ndcg@5": 0.9906533681860203,
+        "coverage_all": 0.8688524590163934,
+        "false_refusal_answerable": 0.04819277108433735,
+        "refusal_unanswerable": 0.9411764705882353,
+        "hallucination_unanswerable": 0.058823529411764705,
+        "f1_answered_only": 0.34363812178960695,
+        "citation_when_answered": 0.9936708860759493,
+        "latency_mean_ms": 62.48880163931843,
+        "latency_p95_ms": 70.71942999828025
+      },
+      "encoder_short": "BGE-base-en-v1.5"
+    }
+  ]
+}

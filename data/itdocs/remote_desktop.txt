@@ -1,0 +1,9 @@
+Remote Desktop access to university workstations is provided through the Remote Workstation Gateway, accessible only from on the VPN.
+
+Sessions are limited to four concurrent users per workstation and are terminated after one hour of idle time without keyboard or mouse activity.
+
+File transfer between the remote workstation and the local device is blocked by default; exceptions can be requested for specific projects via the IT portal.
+
+Audio is disabled on remote workstations by default. Re-enabling audio requires user-level configuration but is not supported by the IT helpdesk.
+
+Recording of remote sessions is performed for compliance audits in research-data-classified environments; users are notified at the time of login.

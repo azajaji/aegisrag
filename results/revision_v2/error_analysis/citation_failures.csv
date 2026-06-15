@@ -1,0 +1,9 @@
+dataset,qid,domain,f1,prediction,cite_doc,cite_para
+squad,572659ea5951b619008f7052,biology,0.14285714285714288,although spacing patterns vary by species and in most species the comb rows extend only part of the distance from the aboral pole towards the mouth.,Ctenophora,10
+squad,5727ec062ca10214002d99ba,economics,0.0,Within labor income distribution is due to differences in value added by different classifications of workers.,Economic_inequality,2
+squad,57335fcad058e614000b5972,geography,0.0,the city was awarded Poland's highest military decoration for heroism,Warsaw,2
+squad,5727cebc2ca10214002d96f1,education,0.0,Undergraduate admission to Harvard is characterized by the Carnegie Foundation as,Harvard_University,16
+squad,572970c11d04691400779463,math,0.0,the largest known prime number has 22,Prime_number,1
+enterprise,ent-36,policy,0.15384615384615385,Withdrawal during the second week qualifies for a 75 percent refund of tuition.,policy/tuition_refund.txt,1
+enterprise,ent-279,hr,0.18749999999999997,Remote work agreements are renewed every six months and may be revoked with two weeks' notice if performance or operational needs change.,hr/remote_work.txt,1
+enterprise,ent-286,hr,0.7777777777777778,Anonymous reports are investigated to the extent possible given the limited information available.,policy/code_of_conduct.txt,3

@@ -1,0 +1,9 @@
+Suspected security incidents must be reported to security@university.edu or the on-call number within one hour of discovery.
+
+The incident response team operates on a four-tier severity scale: Sev-1 (active breach), Sev-2 (confirmed compromise without active exfiltration), Sev-3 (suspicious activity requiring investigation), and Sev-4 (informational).
+
+For Sev-1 incidents, an initial situation report must be communicated to the CIO within two hours. A full post-incident review is required within ten business days.
+
+Affected systems must not be powered off; instead they must be isolated from the network so memory forensics can be performed. Users should not attempt to clean the system themselves.
+
+All incident communications use the dedicated out-of-band channel; using the primary email or chat system is forbidden when those systems may be compromised.

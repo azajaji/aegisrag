@@ -1,0 +1,162 @@
+{
+  "enterprise": {
+    "dataset": "enterprise",
+    "rep_prompt_input_tokens": 284,
+    "per_system": {
+      "BM25": {
+        "n_queries": 305,
+        "n_llm_called": 305,
+        "n_llm_skipped_by_abstain": 0,
+        "abstain_rate": 0.0,
+        "mean_output_tokens_when_called": 6.918032786885246,
+        "median_output_tokens_when_called": 4.0,
+        "p95_output_tokens_when_called": 18.80000000000001,
+        "llm_generate_time_s": 45.4546343999973,
+        "retrieval_time_s": 0.05385529997874983
+      },
+      "NaiveRAG": {
+        "n_queries": 305,
+        "n_llm_called": 305,
+        "n_llm_skipped_by_abstain": 0,
+        "abstain_rate": 0.0,
+        "mean_output_tokens_when_called": 6.855737704918033,
+        "median_output_tokens_when_called": 4.0,
+        "p95_output_tokens_when_called": 18.0,
+        "llm_generate_time_s": 42.668439800007036,
+        "retrieval_time_s": 2.893511500034947
+      },
+      "RAG+Rerank": {
+        "n_queries": 305,
+        "n_llm_called": 305,
+        "n_llm_skipped_by_abstain": 0,
+        "abstain_rate": 0.0,
+        "mean_output_tokens_when_called": 6.862295081967213,
+        "median_output_tokens_when_called": 4.0,
+        "p95_output_tokens_when_called": 18.80000000000001,
+        "llm_generate_time_s": 54.09368049999466,
+        "retrieval_time_s": 23.747397499595536
+      },
+      "AutoRAG": {
+        "n_queries": 305,
+        "n_llm_called": 265,
+        "n_llm_skipped_by_abstain": 40,
+        "abstain_rate": 0.13114754098360656,
+        "mean_output_tokens_when_called": 6.645283018867924,
+        "median_output_tokens_when_called": 4.0,
+        "p95_output_tokens_when_called": 18.0,
+        "llm_generate_time_s": 41.787266900006216,
+        "retrieval_time_s": 17.730422700202325
+      }
+    },
+    "cost_per_1k_queries": {
+      "BM25": {
+        "Claude Haiku 4.5": 0.254872131147541,
+        "Claude Sonnet 4.6": 0.9557704918032787,
+        "GPT-4o-mini": 0.04675081967213115,
+        "GPT-4o": 0.7791803278688524,
+        "FLAN-T5-Base (self-hosted)": 0.0
+      },
+      "NaiveRAG": {
+        "Claude Haiku 4.5": 0.2546229508196721,
+        "Claude Sonnet 4.6": 0.9548360655737704,
+        "GPT-4o-mini": 0.04671344262295082,
+        "GPT-4o": 0.7785573770491803,
+        "FLAN-T5-Base (self-hosted)": 0.0
+      },
+      "RAG+Rerank": {
+        "Claude Haiku 4.5": 0.2546491803278689,
+        "Claude Sonnet 4.6": 0.9549344262295082,
+        "GPT-4o-mini": 0.046717377049180324,
+        "GPT-4o": 0.7786229508196721,
+        "FLAN-T5-Base (self-hosted)": 0.0
+      },
+      "AutoRAG": {
+        "Claude Haiku 4.5": 0.22049836065573772,
+        "Claude Sonnet 4.6": 0.8268688524590163,
+        "GPT-4o-mini": 0.04047737704918032,
+        "GPT-4o": 0.6746229508196719,
+        "FLAN-T5-Base (self-hosted)": 0.0
+      }
+    }
+  },
+  "squad": {
+    "dataset": "squad",
+    "rep_prompt_input_tokens": 284,
+    "per_system": {
+      "BM25": {
+        "n_queries": 200,
+        "n_llm_called": 200,
+        "n_llm_skipped_by_abstain": 0,
+        "abstain_rate": 0.0,
+        "mean_output_tokens_when_called": 7.5,
+        "median_output_tokens_when_called": 5.5,
+        "p95_output_tokens_when_called": 21.249999999999915,
+        "llm_generate_time_s": 95.2631287999975,
+        "retrieval_time_s": 0.30366200022399426
+      },
+      "NaiveRAG": {
+        "n_queries": 200,
+        "n_llm_called": 200,
+        "n_llm_skipped_by_abstain": 0,
+        "abstain_rate": 0.0,
+        "mean_output_tokens_when_called": 8.04,
+        "median_output_tokens_when_called": 6.0,
+        "p95_output_tokens_when_called": 26.0,
+        "llm_generate_time_s": 91.04151999999885,
+        "retrieval_time_s": 1.9963874002860393
+      },
+      "RAG+Rerank": {
+        "n_queries": 200,
+        "n_llm_called": 200,
+        "n_llm_skipped_by_abstain": 0,
+        "abstain_rate": 0.0,
+        "mean_output_tokens_when_called": 7.85,
+        "median_output_tokens_when_called": 6.0,
+        "p95_output_tokens_when_called": 26.14999999999995,
+        "llm_generate_time_s": 91.34438360002241,
+        "retrieval_time_s": 47.396730000094976
+      },
+      "AutoRAG": {
+        "n_queries": 200,
+        "n_llm_called": 92,
+        "n_llm_skipped_by_abstain": 108,
+        "abstain_rate": 0.54,
+        "mean_output_tokens_when_called": 7.173913043478261,
+        "median_output_tokens_when_called": 5.0,
+        "p95_output_tokens_when_called": 17.900000000000006,
+        "llm_generate_time_s": 64.69499109999742,
+        "retrieval_time_s": 27.201858699845616
+      }
+    },
+    "cost_per_1k_queries": {
+      "BM25": {
+        "Claude Haiku 4.5": 0.2572,
+        "Claude Sonnet 4.6": 0.9644999999999999,
+        "GPT-4o-mini": 0.047099999999999996,
+        "GPT-4o": 0.7849999999999999,
+        "FLAN-T5-Base (self-hosted)": 0.0
+      },
+      "NaiveRAG": {
+        "Claude Haiku 4.5": 0.25936000000000003,
+        "Claude Sonnet 4.6": 0.9725999999999999,
+        "GPT-4o-mini": 0.047424,
+        "GPT-4o": 0.7904,
+        "FLAN-T5-Base (self-hosted)": 0.0
+      },
+      "RAG+Rerank": {
+        "Claude Haiku 4.5": 0.2586,
+        "Claude Sonnet 4.6": 0.96975,
+        "GPT-4o-mini": 0.04731,
+        "GPT-4o": 0.7885,
+        "FLAN-T5-Base (self-hosted)": 0.0
+      },
+      "AutoRAG": {
+        "Claude Haiku 4.5": 0.11771200000000002,
+        "Claude Sonnet 4.6": 0.44142,
+        "GPT-4o-mini": 0.021575999999999998,
+        "GPT-4o": 0.3596,
+        "FLAN-T5-Base (self-hosted)": 0.0
+      }
+    }
+  }
+}

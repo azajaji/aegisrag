@@ -1,0 +1,7 @@
+Microsoft Office, Adobe Creative Cloud, and MATLAB are licensed campus-wide for all active students, faculty, and staff. Activation uses the standard university single sign-on.
+
+Software not included in the campus license can be requested via the 'Software Acquisition' workflow in the IT portal. Requests are reviewed by the Software Procurement Committee, which meets twice per month.
+
+Open-source software does not require a procurement request but is reviewed by the Security team before installation on university-managed devices. The review typically takes two business days.
+
+License audits are conducted annually. Devices found running unlicensed commercial software are flagged for remediation within ten business days.

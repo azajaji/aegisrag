@@ -1,0 +1,70 @@
+{
+  "squad": {
+    "questionnaire_selected": {
+      "config": "adaptive (questionnaire route)",
+      "recall@1": 0.9439252336448598,
+      "f1": 0.15467320589754394,
+      "citation": 0.7757009345794392,
+      "refusal_correct_unans": 0.3883495145631068,
+      "latency_mean_ms": 117.9171280943722
+    },
+    "oracle": {
+      "config": "oracle over chunking (semantic)",
+      "recall@1": 0.9439252336448598,
+      "f1": 0.15467320589754394,
+      "citation": 0.7757009345794392,
+      "refusal_correct_unans": 0.3883495145631068,
+      "latency_mean_ms": 141.022035238261
+    },
+    "fixed_default": {
+      "config": "paragraph + dense + no rerank + no abstain",
+      "recall@1": 0.8130841121495327,
+      "f1": 0.16031791470977497,
+      "citation": 0.8130841121495327,
+      "refusal_correct_unans": 0.0,
+      "latency_mean_ms": 13.768808570707085
+    },
+    "random_valid": {
+      "config": "random non-adaptive chunking (5-seed mean)",
+      "recall@1": 0.9252336448598131,
+      "f1": 0.14847151197541117,
+      "citation": 0.7551401869158878,
+      "refusal_correct_unans": 0.4291262135922331,
+      "latency_mean_ms": 252.24374819048018
+    }
+  },
+  "enterprise": {
+    "questionnaire_selected": {
+      "config": "adaptive (questionnaire route)",
+      "recall@1": 1.0,
+      "f1": 0.3529934582809332,
+      "citation": 0.95,
+      "refusal_correct_unans": 0.875,
+      "latency_mean_ms": 49.629627940114865
+    },
+    "oracle": {
+      "config": "oracle over chunking (paragraph)",
+      "recall@1": 1.0,
+      "f1": 0.3529934582809332,
+      "citation": 0.95,
+      "refusal_correct_unans": 0.875,
+      "latency_mean_ms": 48.86390000020209
+    },
+    "fixed_default": {
+      "config": "paragraph + dense + no rerank + no abstain",
+      "recall@1": 0.9833333333333333,
+      "f1": 0.3429934582809332,
+      "citation": 0.9833333333333333,
+      "refusal_correct_unans": 0.0,
+      "latency_mean_ms": 9.349686763444504
+    },
+    "random_valid": {
+      "config": "random non-adaptive chunking (5-seed mean)",
+      "recall@1": 1.0,
+      "f1": 0.3529934582809332,
+      "citation": 0.95,
+      "refusal_correct_unans": 0.875,
+      "latency_mean_ms": 48.957973529981885
+    }
+  }
+}

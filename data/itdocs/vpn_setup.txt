@@ -1,0 +1,13 @@
+The university VPN allows authorized users to access internal resources from off-campus networks. All faculty, staff, and currently enrolled students are eligible for VPN access.
+
+To request a VPN account, log in to the IT self-service portal and submit a 'VPN Access' ticket. Account provisioning typically takes one business day.
+
+On Windows, install the GlobalProtect client from the IT downloads page and use 'vpn.university.edu' as the portal address. Authentication uses your standard university single sign-on credentials.
+
+On macOS, install the GlobalProtect package and grant the system extension permission in System Settings under Privacy and Security; failure to grant this permission prevents the tunnel from establishing.
+
+Multi-factor authentication is required for all VPN connections. The default second factor is a push notification through the university Authenticator app; SMS fallback is available but discouraged.
+
+VPN sessions automatically time out after eight hours of activity or two hours of inactivity. Users should disconnect manually when leaving sensitive sessions.
+
+Split tunneling is enabled by default, meaning only traffic destined for university subnets is routed through the VPN. Full-tunnel mode can be activated by selecting 'Force All Traffic' in the client settings.
